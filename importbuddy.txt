@@ -1,0 +1,1762 @@
+[Feb 20, 2015, 10:48AM-all] Initiating step #1.
+[Feb 20, 2015, 10:48AM-all] Completed step #1.
+[Feb 20, 2015, 10:48AM-all] Initiating step #2.
+[Feb 20, 2015, 10:48AM-all] Completed step #2.
+[Feb 20, 2015, 10:48AM-all] Initiating step #3.
+[Feb 20, 2015, 10:48AM-all] STARTING extracting Zip File "C:\wamp\www\sus/backup-localhost_sus-2015_02_20-40kfuvkh31.zip" into "C:\wamp\www\sus".
+[Feb 20, 2015, 10:48AM-all] Starting to unzip.
+[Feb 20, 2015, 10:48AM-all] Starting highspeed extraction.
+[Feb 20, 2015, 10:48AM-error] High speed extraction FAILED! Falling back to slower method.
+[Feb 20, 2015, 10:48AM-all] Starting mediumspeed extraction.
+[Feb 20, 2015, 10:48AM-all] ZipArchive class exists.
+[Feb 20, 2015, 10:49AM-all] ZipArchive extraction success.
+[Feb 20, 2015, 10:49AM-all] Mediumspeed ZipArchive class unzip success!
+[Feb 20, 2015, 10:49AM-all] SUCCESS extracting Zip File "C:\wamp\www\sus/backup-localhost_sus-2015_02_20-40kfuvkh31.zip" into "C:\wamp\www\sus".
+[Feb 20, 2015, 10:49AM-all] Completed step #3.
+[Feb 20, 2015, 10:49AM-all] Initiating step #4.
+[Feb 20, 2015, 10:49AM-all] STARTING Loading backup dat file....
+[Feb 20, 2015, 10:49AM-all] DONE Loading backup dat file.
+[Feb 20, 2015, 10:49AM-all] VERSION of BackupBuddy used to create backup ZIP: 2.0.2.
+[Feb 20, 2015, 10:49AM-all] VERSION of importbuddy running now: 2.0.2.
+[Feb 20, 2015, 10:49AM-all] Completed step #4.
+[Feb 20, 2015, 10:49AM-all] Initiating step #5.
+[Feb 20, 2015, 10:49AM-all] STARTING Loading backup dat file....
+[Feb 20, 2015, 10:49AM-all] DONE Loading backup dat file.
+[Feb 20, 2015, 10:49AM-all] Migrating htaccess file.
+[Feb 20, 2015, 10:49AM-all] htaccess file did not need changed.
+[Feb 20, 2015, 10:49AM-all] Beginning database restoration.
+[Feb 20, 2015, 10:49AM-all] Trying to create database.
+[Feb 20, 2015, 10:49AM-all] Beginning importing of DB dump.
+[Feb 20, 2015, 10:49AM-all] Finished importing of DB dump.
+[Feb 20, 2015, 10:49AM-all] Beginning migration of DB.
+[Feb 20, 2015, 10:49AM-all] _options[] value: a:19:{s:8:"password";s:10:"#PASSWORD#";s:4:"file";s:46:"backup-localhost_sus-2015_02_20-40kfuvkh31.zip";s:6:"zip_id";s:10:"40kfuvkh31";s:4:"type";s:7:"migrate";s:10:"skip_files";b:0;s:13:"skip_database";b:0;s:13:"wipe_database";b:0;s:13:"skip_htaccess";b:0;s:26:"force_compatibility_medium";b:0;s:24:"force_compatibility_slow";b:0;s:17:"show_php_warnings";b:0;s:23:"replace_existing_tables";b:0;s:9:"log_level";s:1:"1";s:9:"db_server";s:9:"localhost";s:7:"db_user";s:4:"root";s:11:"db_password";s:0:"";s:7:"db_name";s:3:"sus";s:9:"db_prefix";s:3:"wp_";s:7:"siteurl";s:21:"http://localhost/sus/";}
+[Feb 20, 2015, 10:49AM-all] ABSPATH change for database ... Old Path: C:\wamp\www\sus, New Path: C:\wamp\www\sus.
+[Feb 20, 2015, 10:49AM-all] URL change for database ... Old URL: http://localhost/sus, New URL: http://localhost/sus.
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: Mr WordPress
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: Mr WordPress
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: https://wordpress.org/
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: https://wordpress.org/
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: Hi, this is a comment.
+To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: Hi, this is a comment.
+To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: siteurl
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: siteurl
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: http://localhost/sus
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: http://localhost/sus
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: home
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: home
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: http://localhost/sus
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: http://localhost/sus
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 3
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 3
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: blogname
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: blogname
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: StartUpSite
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: StartUpSite
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 4
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 4
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: blogdescription
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: blogdescription
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: Just another WordPress site
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: Just another WordPress site
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 5
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 5
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: users_can_register
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: users_can_register
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 6
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 6
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: admin_email
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: admin_email
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: luke.woods@outlook.com
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: luke.woods@outlook.com
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 7
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 7
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: start_of_week
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: start_of_week
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 8
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 8
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: use_balanceTags
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: use_balanceTags
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 9
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 9
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: use_smilies
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: use_smilies
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 10
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 10
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: require_name_email
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: require_name_email
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 11
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 11
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: comments_notify
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: comments_notify
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 12
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 12
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: posts_per_rss
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: posts_per_rss
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 10
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 10
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 13
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 13
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: rss_use_excerpt
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: rss_use_excerpt
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 14
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 14
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: mailserver_url
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: mailserver_url
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: mail.example.com
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: mail.example.com
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 15
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 15
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: mailserver_login
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: mailserver_login
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: login@example.com
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: login@example.com
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 16
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 16
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: mailserver_pass
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: mailserver_pass
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: password
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: password
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 17
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 17
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: mailserver_port
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: mailserver_port
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 110
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 110
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 18
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 18
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: default_category
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: default_category
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 19
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 19
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: default_comment_status
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: default_comment_status
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 20
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 20
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: default_ping_status
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: default_ping_status
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 21
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 21
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: default_pingback_flag
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: default_pingback_flag
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 22
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 22
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: posts_per_page
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: posts_per_page
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 10
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 10
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 23
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 23
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: date_format
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: date_format
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: jS F Y
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: jS F Y
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 24
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 24
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: time_format
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: time_format
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: g:i a
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: g:i a
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 25
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 25
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: links_updated_date_format
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: links_updated_date_format
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: jS F Y g:i a
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: jS F Y g:i a
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 26
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 26
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: comment_moderation
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: comment_moderation
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 27
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 27
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: moderation_notify
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: moderation_notify
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 28
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 28
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: permalink_structure
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: permalink_structure
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 29
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 29
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: gzipcompression
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: gzipcompression
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 30
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 30
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: hack_file
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: hack_file
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 31
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 31
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: blog_charset
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: blog_charset
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: UTF-8
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: UTF-8
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 32
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 32
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: moderation_keys
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: moderation_keys
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 33
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 33
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: active_plugins
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: active_plugins
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:1:{i:0;s:22:"Plugin/backupbuddy.php";}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:1:{i:0;s:22:"Plugin/backupbuddy.php";}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 34
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 34
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: category_base
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: category_base
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 35
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 35
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: ping_sites
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: ping_sites
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: http://rpc.pingomatic.com/
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: http://rpc.pingomatic.com/
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 36
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 36
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: advanced_edit
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: advanced_edit
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 37
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 37
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: comment_max_links
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: comment_max_links
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 38
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 38
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: gmt_offset
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: gmt_offset
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 39
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 39
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: default_email_category
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: default_email_category
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 40
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 40
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: recently_edited
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: recently_edited
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 41
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 41
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: template
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: template
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: twentyfifteen
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: twentyfifteen
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 42
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 42
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: stylesheet
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: stylesheet
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: twentyfifteen
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: twentyfifteen
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 43
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 43
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: comment_whitelist
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: comment_whitelist
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 44
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 44
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: blacklist_keys
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: blacklist_keys
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 45
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 45
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: comment_registration
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: comment_registration
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 46
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 46
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: html_type
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: html_type
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: text/html
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: text/html
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 47
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 47
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: use_trackback
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: use_trackback
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 48
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 48
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: default_role
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: default_role
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: subscriber
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: subscriber
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 49
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 49
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: db_version
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: db_version
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 30133
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 30133
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 50
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 50
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: uploads_use_yearmonth_folders
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: uploads_use_yearmonth_folders
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 51
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 51
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: upload_path
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: upload_path
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 52
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 52
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: blog_public
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: blog_public
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 53
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 53
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: default_link_category
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: default_link_category
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 54
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 54
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: show_on_front
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: show_on_front
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: posts
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: posts
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 55
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 55
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: tag_base
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: tag_base
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 56
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 56
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: show_avatars
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: show_avatars
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 57
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 57
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: avatar_rating
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: avatar_rating
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: G
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: G
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 58
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 58
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: upload_url_path
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: upload_url_path
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 59
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 59
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: thumbnail_size_w
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: thumbnail_size_w
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 150
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 150
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 60
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 60
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: thumbnail_size_h
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: thumbnail_size_h
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 150
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 150
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 61
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 61
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: thumbnail_crop
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: thumbnail_crop
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 62
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 62
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: medium_size_w
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: medium_size_w
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 300
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 300
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 63
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 63
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: medium_size_h
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: medium_size_h
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 300
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 300
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 64
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 64
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: avatar_default
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: avatar_default
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: mystery
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: mystery
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 65
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 65
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: large_size_w
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: large_size_w
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1024
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1024
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 66
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 66
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: large_size_h
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: large_size_h
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1024
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1024
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 67
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 67
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: image_default_link_type
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: image_default_link_type
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: file
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: file
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 68
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 68
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: image_default_size
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: image_default_size
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 69
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 69
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: image_default_align
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: image_default_align
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 70
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 70
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: close_comments_for_old_posts
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: close_comments_for_old_posts
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 71
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 71
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: close_comments_days_old
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: close_comments_days_old
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 14
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 14
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 72
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 72
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: thread_comments
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: thread_comments
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 73
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 73
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: thread_comments_depth
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: thread_comments_depth
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 5
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 5
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 74
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 74
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: page_comments
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: page_comments
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 75
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 75
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: comments_per_page
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: comments_per_page
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 50
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 50
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 76
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 76
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: default_comments_page
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: default_comments_page
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: newest
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: newest
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 77
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 77
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: comment_order
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: comment_order
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: asc
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: asc
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 78
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 78
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: sticky_posts
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: sticky_posts
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:0:{}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:0:{}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 79
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 79
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: widget_categories
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: widget_categories
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:2:{i:2;a:4:{s:5:"title";s:0:"";s:5:"count";i:0;s:12:"hierarchical";i:0;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:2:{i:2;a:4:{s:5:"title";s:0:"";s:5:"count";i:0;s:12:"hierarchical";i:0;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 80
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 80
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: widget_text
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: widget_text
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:0:{}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:0:{}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 81
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 81
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: widget_rss
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: widget_rss
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:0:{}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:0:{}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 82
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 82
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: uninstall_plugins
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: uninstall_plugins
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:0:{}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:0:{}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 83
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 83
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: timezone_string
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: timezone_string
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: Europe/London
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: Europe/London
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 84
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 84
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: page_for_posts
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: page_for_posts
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 85
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 85
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: page_on_front
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: page_on_front
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 86
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 86
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: default_post_format
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: default_post_format
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 87
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 87
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: link_manager_enabled
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: link_manager_enabled
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 88
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 88
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: initial_db_version
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: initial_db_version
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 30133
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 30133
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 89
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 89
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: wp_user_roles
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: wp_user_roles
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:5:{s:13:"administrator";a:2:{s:4:"name";s:13:"Administrator";s:12:"capabilities";a:62:{s:13:"switch_themes";b:1;s:11:"edit_themes";b:1;s:16:"activate_plugins";b:1;s:12:"edit_plugins";b:1;s:10:"edit_users";b:1;s:10:"edit_files";b:1;s:14:"manage_options";b:1;s:17:"moderate_comments";b:1;s:17:"manage_categories";b:1;s:12:"manage_links";b:1;s:12:"upload_files";b:1;s:6:"import";b:1;s:15:"unfiltered_html";b:1;s:10:"edit_posts";b:1;s:17:"edit_others_posts";b:1;s:20:"edit_published_posts";b:1;s:13:"publish_posts";b:1;s:10:"edit_pages";b:1;s:4:"read";b:1;s:8:"level_10";b:1;s:7:"level_9";b:1;s:7:"level_8";b:1;s:7:"level_7";b:1;s:7:"level_6";b:1;s:7:"level_5";b:1;s:7:"level_4";b:1;s:7:"level_3";b:1;s:7:"level_2";b:1;s:7:"level_1";b:1;s:7:"level_0";b:1;s:17:"edit_others_pages";b:1;s:20:"edit_published_pages";b:1;s:13:"publish_pages";b:1;s:12:"delete_pages";b:1;s:19:"delete_others_pages";b:1;s:22:"delete_published_pages";b:1;s:12:"delete_posts";b:1;s:19:"delete_others_posts";b:1;s:22:"delete_published_posts";b:1;s:20:"delete_private_posts";b:1;s:18:"edit_private_posts";b:1;s:18:"read_private_posts";b:1;s:20:"delete_private_pages";b:1;s:18:"edit_private_pages";b:1;s:18:"read_private_pages";b:1;s:12:"delete_users";b:1;s:12:"create_users";b:1;s:17:"unfiltered_upload";b:1;s:14:"edit_dashboard";b:1;s:14:"update_plugins";b:1;s:14:"delete_plugins";b:1;s:15:"install_plugins";b:1;s:13:"update_themes";b:1;s:14:"install_themes";b:1;s:11:"update_core";b:1;s:10:"list_users";b:1;s:12:"remove_users";b:1;s:9:"add_users";b:1;s:13:"promote_users";b:1;s:18:"edit_theme_options";b:1;s:13:"delete_themes";b:1;s:6:"export";b:1;}}s:6:"editor";a:2:{s:4:"name";s:6:"Editor";s:12:"capabilities";a:34:{s:17:"moderate_comments";b:1;s:17:"manage_categories";b:1;s:12:"manage_links";b:1;s:12:"upload_files";b:1;s:15:"unfiltered_html";b:1;s:10:"edit_posts";b:1;s:17:"edit_others_posts";b:1;s:20:"edit_published_posts";b:1;s:13:"publish_posts";b:1;s:10:"edit_pages";b:1;s:4:"read";b:1;s:7:"level_7";b:1;s:7:"level_6";b:1;s:7:"level_5";b:1;s:7:"level_4";b:1;s:7:"level_3";b:1;s:7:"level_2";b:1;s:7:"level_1";b:1;s:7:"level_0";b:1;s:17:"edit_others_pages";b:1;s:20:"edit_published_pages";b:1;s:13:"publish_pages";b:1;s:12:"delete_pages";b:1;s:19:"delete_others_pages";b:1;s:22:"delete_published_pages";b:1;s:12:"delete_posts";b:1;s:19:"delete_others_posts";b:1;s:22:"delete_published_posts";b:1;s:20:"delete_private_posts";b:1;s:18:"edit_private_posts";b:1;s:18:"read_private_posts";b:1;s:20:"delete_private_pages";b:1;s:18:"edit_private_pages";b:1;s:18:"read_private_pages";b:1;}}s:6:"author";a:2:{s:4:"name";s:6:"Author";s:12:"capabilities";a:10:{s:12:"upload_files";b:1;s:10:"edit_posts";b:1;s:20:"edit_published_posts";b:1;s:13:"publish_posts";b:1;s:4:"read";b:1;s:7:"level_2";b:1;s:7:"level_1";b:1;s:7:"level_0";b:1;s:12:"delete_posts";b:1;s:22:"delete_published_posts";b:1;}}s:11:"contributor";a:2:{s:4:"name";s:11:"Contributor";s:12:"capabilities";a:5:{s:10:"edit_posts";b:1;s:4:"read";b:1;s:7:"level_1";b:1;s:7:"level_0";b:1;s:12:"delete_posts";b:1;}}s:10:"subscriber";a:2:{s:4:"name";s:10:"Subscriber";s:12:"capabilities";a:2:{s:4:"read";b:1;s:7:"level_0";b:1;}}}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:5:{s:13:"administrator";a:2:{s:4:"name";s:13:"Administrator";s:12:"capabilities";a:62:{s:13:"switch_themes";b:1;s:11:"edit_themes";b:1;s:16:"activate_plugins";b:1;s:12:"edit_plugins";b:1;s:10:"edit_users";b:1;s:10:"edit_files";b:1;s:14:"manage_options";b:1;s:17:"moderate_comments";b:1;s:17:"manage_categories";b:1;s:12:"manage_links";b:1;s:12:"upload_files";b:1;s:6:"import";b:1;s:15:"unfiltered_html";b:1;s:10:"edit_posts";b:1;s:17:"edit_others_posts";b:1;s:20:"edit_published_posts";b:1;s:13:"publish_posts";b:1;s:10:"edit_pages";b:1;s:4:"read";b:1;s:8:"level_10";b:1;s:7:"level_9";b:1;s:7:"level_8";b:1;s:7:"level_7";b:1;s:7:"level_6";b:1;s:7:"level_5";b:1;s:7:"level_4";b:1;s:7:"level_3";b:1;s:7:"level_2";b:1;s:7:"level_1";b:1;s:7:"level_0";b:1;s:17:"edit_others_pages";b:1;s:20:"edit_published_pages";b:1;s:13:"publish_pages";b:1;s:12:"delete_pages";b:1;s:19:"delete_others_pages";b:1;s:22:"delete_published_pages";b:1;s:12:"delete_posts";b:1;s:19:"delete_others_posts";b:1;s:22:"delete_published_posts";b:1;s:20:"delete_private_posts";b:1;s:18:"edit_private_posts";b:1;s:18:"read_private_posts";b:1;s:20:"delete_private_pages";b:1;s:18:"edit_private_pages";b:1;s:18:"read_private_pages";b:1;s:12:"delete_users";b:1;s:12:"create_users";b:1;s:17:"unfiltered_upload";b:1;s:14:"edit_dashboard";b:1;s:14:"update_plugins";b:1;s:14:"delete_plugins";b:1;s:15:"install_plugins";b:1;s:13:"update_themes";b:1;s:14:"install_themes";b:1;s:11:"update_core";b:1;s:10:"list_users";b:1;s:12:"remove_users";b:1;s:9:"add_users";b:1;s:13:"promote_users";b:1;s:18:"edit_theme_options";b:1;s:13:"delete_themes";b:1;s:6:"export";b:1;}}s:6:"editor";a:2:{s:4:"name";s:6:"Editor";s:12:"capabilities";a:34:{s:17:"moderate_comments";b:1;s:17:"manage_categories";b:1;s:12:"manage_links";b:1;s:12:"upload_files";b:1;s:15:"unfiltered_html";b:1;s:10:"edit_posts";b:1;s:17:"edit_others_posts";b:1;s:20:"edit_published_posts";b:1;s:13:"publish_posts";b:1;s:10:"edit_pages";b:1;s:4:"read";b:1;s:7:"level_7";b:1;s:7:"level_6";b:1;s:7:"level_5";b:1;s:7:"level_4";b:1;s:7:"level_3";b:1;s:7:"level_2";b:1;s:7:"level_1";b:1;s:7:"level_0";b:1;s:17:"edit_others_pages";b:1;s:20:"edit_published_pages";b:1;s:13:"publish_pages";b:1;s:12:"delete_pages";b:1;s:19:"delete_others_pages";b:1;s:22:"delete_published_pages";b:1;s:12:"delete_posts";b:1;s:19:"delete_others_posts";b:1;s:22:"delete_published_posts";b:1;s:20:"delete_private_posts";b:1;s:18:"edit_private_posts";b:1;s:18:"read_private_posts";b:1;s:20:"delete_private_pages";b:1;s:18:"edit_private_pages";b:1;s:18:"read_private_pages";b:1;}}s:6:"author";a:2:{s:4:"name";s:6:"Author";s:12:"capabilities";a:10:{s:12:"upload_files";b:1;s:10:"edit_posts";b:1;s:20:"edit_published_posts";b:1;s:13:"publish_posts";b:1;s:4:"read";b:1;s:7:"level_2";b:1;s:7:"level_1";b:1;s:7:"level_0";b:1;s:12:"delete_posts";b:1;s:22:"delete_published_posts";b:1;}}s:11:"contributor";a:2:{s:4:"name";s:11:"Contributor";s:12:"capabilities";a:5:{s:10:"edit_posts";b:1;s:4:"read";b:1;s:7:"level_1";b:1;s:7:"level_0";b:1;s:12:"delete_posts";b:1;}}s:10:"subscriber";a:2:{s:4:"name";s:10:"Subscriber";s:12:"capabilities";a:2:{s:4:"read";b:1;s:7:"level_0";b:1;}}}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 90
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 90
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: WPLANG
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: WPLANG
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: en_GB
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: en_GB
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 91
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 91
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: widget_search
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: widget_search
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 92
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 92
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: widget_recent-posts
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: widget_recent-posts
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 93
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 93
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: widget_recent-comments
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: widget_recent-comments
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 94
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 94
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: widget_archives
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: widget_archives
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:2:{i:2;a:3:{s:5:"title";s:0:"";s:5:"count";i:0;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:2:{i:2;a:3:{s:5:"title";s:0:"";s:5:"count";i:0;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 95
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 95
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: widget_meta
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: widget_meta
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 96
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 96
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: sidebars_widgets
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: sidebars_widgets
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:3:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:13:"array_version";i:3;}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:3:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:13:"array_version";i:3;}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 97
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 97
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: cron
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: cron
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:6:{i:1424431509;a:1:{s:26:"upgrader_scheduled_cleanup";a:1:{s:32:"adcb9b75260590ff6058773ddcb9ddd6";a:2:{s:8:"schedule";b:0;s:4:"args";a:1:{i:0;i:4;}}}}i:1424446163;a:1:{s:42:"pluginbuddy_backupbuddy-cron_final_cleanup";a:1:{s:32:"3d903bfe6fbc9a17cde4b89251e13996";a:2:{s:8:"schedule";b:0;s:4:"args";a:1:{i:0;s:10:"40kfuvkh31";}}}}i:1424462340;a:1:{s:20:"wp_maybe_auto_update";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1424467396;a:3:{s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1424510623;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}s:7:"version";i:2;}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:6:{i:1424431509;a:1:{s:26:"upgrader_scheduled_cleanup";a:1:{s:32:"adcb9b75260590ff6058773ddcb9ddd6";a:2:{s:8:"schedule";b:0;s:4:"args";a:1:{i:0;i:4;}}}}i:1424446163;a:1:{s:42:"pluginbuddy_backupbuddy-cron_final_cleanup";a:1:{s:32:"3d903bfe6fbc9a17cde4b89251e13996";a:2:{s:8:"schedule";b:0;s:4:"args";a:1:{i:0;s:10:"40kfuvkh31";}}}}i:1424462340;a:1:{s:20:"wp_maybe_auto_update";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1424467396;a:3:{s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1424510623;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}s:7:"version";i:2;}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 102
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 102
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _site_transient_timeout_theme_roots
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _site_transient_timeout_theme_roots
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424426002
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424426002
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 103
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 103
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _site_transient_theme_roots
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _site_transient_theme_roots
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:3:{s:13:"twentyfifteen";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:14:"twentythirteen";s:7:"/themes";}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:3:{s:13:"twentyfifteen";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:14:"twentythirteen";s:7:"/themes";}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 105
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 105
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_random_seed
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_random_seed
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1791dcd5341c774d8d67e490dd22ad85
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1791dcd5341c774d8d67e490dd22ad85
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 106
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 106
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _site_transient_timeout_browser_8c6bd500ecb4268b8bc980c6a9bea261
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _site_transient_timeout_browser_8c6bd500ecb4268b8bc980c6a9bea261
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1425029008
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1425029008
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 107
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 107
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _site_transient_browser_8c6bd500ecb4268b8bc980c6a9bea261
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _site_transient_browser_8c6bd500ecb4268b8bc980c6a9bea261
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:9:{s:8:"platform";s:7:"Windows";s:4:"name";s:6:"Chrome";s:7:"version";s:13:"40.0.2214.115";s:10:"update_url";s:28:"http://www.google.com/chrome";s:7:"img_src";s:49:"http://s.wordpress.org/images/browsers/chrome.png";s:11:"img_src_ssl";s:48:"https://wordpress.org/images/browsers/chrome.png";s:15:"current_version";s:2:"18";s:7:"upgrade";b:0;s:8:"insecure";b:0;}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:9:{s:8:"platform";s:7:"Windows";s:4:"name";s:6:"Chrome";s:7:"version";s:13:"40.0.2214.115";s:10:"update_url";s:28:"http://www.google.com/chrome";s:7:"img_src";s:49:"http://s.wordpress.org/images/browsers/chrome.png";s:11:"img_src_ssl";s:48:"https://wordpress.org/images/browsers/chrome.png";s:15:"current_version";s:2:"18";s:7:"upgrade";b:0;s:8:"insecure";b:0;}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 108
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 108
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: can_compress_scripts
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: can_compress_scripts
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 109
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 109
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_timeout_feed_ac0b00fe65abe10e0c5b588f3ed8c7ca
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_timeout_feed_ac0b00fe65abe10e0c5b588f3ed8c7ca
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424467412
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424467412
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 110
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 110
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_feed_ac0b00fe65abe10e0c5b588f3ed8c7ca
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_feed_ac0b00fe65abe10e0c5b588f3ed8c7ca
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
+
+
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:49:"
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:3:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:14:"WordPress News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:26:"https://wordpress.org/news";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:14:"WordPress News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:13:"lastBuildDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 18 Feb 2015 23:40:39 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:5:"en-US";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"generator";a:1:{i:0;a:5:{s:4:"data";s:39:"http://wordpress.org/?v=4.2-alpha-31481";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:10:{i:0;a:6:{s:4:"data";s:42:"
+		
+		
+		
+		
+		
+				
+
+		
+		
+				
+			
+		
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:5:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:35:"WordPress 4.1.1 Maintenance Release";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:51:"https://wordpress.org/news/2015/02/wordpress-4-1-1/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:60:"https://wordpress.org/news/2015/02/wordpress-4-1-1/#comments";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 18 Feb 2015 23:40:39 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:8:"Releases";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"http://wordpress.org/news/?p=3436";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:345:"WordPress 4.1.1 is now available.
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
+
+
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:49:"
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:3:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:14:"WordPress News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:26:"https://wordpress.org/news";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:14:"WordPress News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:13:"lastBuildDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 18 Feb 2015 23:40:39 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:5:"en-US";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"generator";a:1:{i:0;a:5:{s:4:"data";s:39:"http://wordpress.org/?v=4.2-alpha-31481";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:10:{i:0;a:6:{s:4:"data";s:42:"
+		
+		
+		
+		
+		
+				
+
+		
+		
+				
+			
+		
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:5:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:35:"WordPress 4.1.1 Maintenance Release";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:51:"https://wordpress.org/news/2015/02/wordpress-4-1-1/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:60:"https://wordpress.org/news/2015/02/wordpress-4-1-1/#comments";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 18 Feb 2015 23:40:39 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:8:"Releases";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"http://wordpress.org/news/?p=3436";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:345:"WordPress 4.1.1 is now available.
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 111
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 111
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_timeout_feed_mod_ac0b00fe65abe10e0c5b588f3ed8c7ca
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_timeout_feed_mod_ac0b00fe65abe10e0c5b588f3ed8c7ca
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424467413
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424467413
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 112
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 112
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_feed_mod_ac0b00fe65abe10e0c5b588f3ed8c7ca
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_feed_mod_ac0b00fe65abe10e0c5b588f3ed8c7ca
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424424213
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424424213
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 113
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 113
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _site_transient_update_core
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _site_transient_update_core
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: O:8:"stdClass":4:{s:7:"updates";a:1:{i:0;O:8:"stdClass":10:{s:8:"response";s:6:"latest";s:8:"download";s:65:"https://downloads.wordpress.org/release/en_GB/wordpress-4.1.1.zip";s:6:"locale";s:5:"en_GB";s:8:"packages";O:8:"stdClass":5:{s:4:"full";s:65:"https://downloads.wordpress.org/release/en_GB/wordpress-4.1.1.zip";s:10:"no_content";b:0;s:11:"new_bundled";b:0;s:7:"partial";b:0;s:8:"rollback";b:0;}s:7:"current";s:5:"4.1.1";s:7:"version";s:5:"4.1.1";s:11:"php_version";s:5:"5.2.4";s:13:"mysql_version";s:3:"5.0";s:11:"new_bundled";s:3:"4.1";s:15:"partial_version";s:0:"";}}s:12:"last_checked";i:1424424313;s:15:"version_checked";s:5:"4.1.1";s:12:"translations";a:0:{}}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: O:8:"stdClass":4:{s:7:"updates";a:1:{i:0;O:8:"stdClass":10:{s:8:"response";s:6:"latest";s:8:"download";s:65:"https://downloads.wordpress.org/release/en_GB/wordpress-4.1.1.zip";s:6:"locale";s:5:"en_GB";s:8:"packages";O:8:"stdClass":5:{s:4:"full";s:65:"https://downloads.wordpress.org/release/en_GB/wordpress-4.1.1.zip";s:10:"no_content";b:0;s:11:"new_bundled";b:0;s:7:"partial";b:0;s:8:"rollback";b:0;}s:7:"current";s:5:"4.1.1";s:7:"version";s:5:"4.1.1";s:11:"php_version";s:5:"5.2.4";s:13:"mysql_version";s:3:"5.0";s:11:"new_bundled";s:3:"4.1";s:15:"partial_version";s:0:"";}}s:12:"last_checked";i:1424424313;s:15:"version_checked";s:5:"4.1.1";s:12:"translations";a:0:{}}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 114
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 114
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_timeout_plugin_slugs
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_timeout_plugin_slugs
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424510719
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424510719
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 115
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 115
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_plugin_slugs
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_plugin_slugs
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:3:{i:0;s:19:"akismet/akismet.php";i:1;s:22:"Plugin/backupbuddy.php";i:2;s:9:"hello.php";}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:3:{i:0;s:19:"akismet/akismet.php";i:1;s:22:"Plugin/backupbuddy.php";i:2;s:9:"hello.php";}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 116
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 116
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _site_transient_update_themes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _site_transient_update_themes
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: O:8:"stdClass":4:{s:12:"last_checked";i:1424424315;s:7:"checked";a:3:{s:13:"twentyfifteen";s:3:"1.0";s:14:"twentyfourteen";s:3:"1.3";s:14:"twentythirteen";s:3:"1.4";}s:8:"response";a:0:{}s:12:"translations";a:0:{}}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: O:8:"stdClass":4:{s:12:"last_checked";i:1424424315;s:7:"checked";a:3:{s:13:"twentyfifteen";s:3:"1.0";s:14:"twentyfourteen";s:3:"1.3";s:14:"twentythirteen";s:3:"1.4";}s:8:"response";a:0:{}s:12:"translations";a:0:{}}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 117
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 117
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: recently_activated
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: recently_activated
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:0:{}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:0:{}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 118
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 118
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_timeout_feed_d117b5738fbd35bd8c0391cda1f2b5d9
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_timeout_feed_d117b5738fbd35bd8c0391cda1f2b5d9
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424467416
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424467416
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 119
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 119
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_feed_d117b5738fbd35bd8c0391cda1f2b5d9
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_feed_d117b5738fbd35bd8c0391cda1f2b5d9
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
+
+
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:61:"
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:16:"WordPress Planet";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:28:"http://planet.wordpress.org/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:2:"en";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:47:"WordPress Planet - http://planet.wordpress.org/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:50:{i:0;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:45:"WPTavern: GravityView is Now Public on GitHub";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:28:"http://wptavern.com/?p=39249";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:55:"http://wptavern.com/gravityview-is-now-public-on-github";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3653:"<p><a href="http://i1.wp.com/wptavern.com/wp-content/uploads/2014/07/gravity-view.jpg" rel="prettyphoto[39249]"><img src="http://i1.wp.com/wptavern.com/wp-content/uploads/2014/07/gravity-view.jpg?resize=681%2C282" alt="gravity-view" class="aligncenter size-full wp-image-27113" /></a></p>
+<p>Six months ago, <a href="https://katz.co/" target="_blank">Zack Katz</a> and <a href="http://tinygod.pt/" target="_blank">Luis Godinho</a> launched <a href="http://wptavern.com/gravityview-launches-an-app-based-on-gravity-forms" target="_blank">GravityView</a>, an app based on the popular Gravity Forms plugin. It uses the <a href="http://wptavern.com/gravityforms-1-8-beta-released-introduces-api" target="_blank">Gravity Forms API</a> to display unique views of form data and entries on the frontend of WordPress.</p>
+<p>The main <a href="https://github.com/katzwebservices/GravityView" target="_blank">GravityView plugin</a> is now public on GitHub for anyone to access for free. The plugin&#8217;s repository was previously private and the code accessible only to GravityView&#8217;s paid customers, but co-founder Zack Katz recently decided to go another direction with the project.</p>
+<p>Katz told the Tavern that he was inspired by a <a href="https://mattreport.com/interview-matt-mullenweg/" target="_blank">discussion between Matt Medeiros and Matt Mullenweg</a> on ubiquity vs. scarcity in WordPress product businesses. Medeiros asked Mullenweg if he could offer any advice to WordPress startups that are looking to create a new product in this crowded space. Mullenweg replied:</p>
+<blockquote><p>The one pattern I see most right now that I think is not sustainable is, and it&#8217;s because it&#8217;s the easiest thing to do, is businesses that are built on a scarcity &#8211; the thing not being widely available. If you think about some of the coolest successes so far in WordPress, the Gravity Forms, some of the theme businesses, they are inherently predicated on the fact that you have to pay to access them. </p>
+<p>I&#8217;ve always been a fan of businesses that grow with ubiquity, that become more powerful the more ubiquitous they are, more valuable. WordPress itself is one of these. Akismet is one of these. Jetpack is certainly one of those. </p>
+<p>So if you think about turning that on its head, I think that&#8217;s what will create the sort of multi-generational businesses in the WordPress ecosystem. Even with themes, we&#8217;ve seen that themes are very cyclical. People who used to make the majority of their money from themes, like WooThemes, are now finding it&#8217;s an ever-decreasing percentage. You hear this across almost all the theme shops.</p></blockquote>
+<p>This advice runs counter to the way many WordPress product businesses have structured their revenue models. Rare exceptions like <a href="http://wptavern.com/pippin-williamson-on-building-a-community-around-your-open-source-project" target="_blank">Easy Digital Downloads</a>, <a href="http://wptavern.com/wooconf-the-first-ever-conference-dedicated-to-woocommerce-deemed-a-success" target="_blank">WooCommerce</a>, and other plugins where the base software is free, are shining examples where pushing for ubiquity instead of scarcity has truly paid off.</p>
+<p>The founders behind <a href="https://gravityview.co/" target="_blank">GravityView</a> are looking to find the same success within the Gravity Forms micro-ecosystem. With the base <a href="https://github.com/katzwebservices/GravityView" target="_blank">GravityView plugin</a> now available for free on GitHub, the company&#8217;s pricing is now only applicable to support and extensions.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 19 Feb 2015 21:47:59 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:28:"Matt: USB History and Type C";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:21:"http://ma.tt/?p=44672";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:44:"http://ma.tt/2015/02/usb-history-and-type-c/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:611:"<p>I enjoyed this Ars Technica look at <a href="http://arstechnica.com/gadgets/2015/01/usb-3-1-and-type-c-the-only-stuff-at-ces-that-everyone-is-going-to-use/">USB 3.1 and Type-C</a>, which is probably the cable/connection change people will notice the most over the next few years. (As I look with despair on my dozens of USB devices and cables.) I also dug their retrospective, <a href="http://arstechnica.com/gadgets/2014/08/a-brief-history-of-usb-what-it-replaced-and-what-has-failed-to-replace-it/">A brief history of USB, what it replaced, and what has failed to replace it</a>. Remember serial ports?</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 19 Feb 2015 21:34:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:4:"Matt";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:91:"WPTavern: WPWeekly Episode 180 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
+
+
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:61:"
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:16:"WordPress Planet";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:28:"http://planet.wordpress.org/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:2:"en";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:47:"WordPress Planet - http://planet.wordpress.org/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:50:{i:0;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:45:"WPTavern: GravityView is Now Public on GitHub";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:28:"http://wptavern.com/?p=39249";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:55:"http://wptavern.com/gravityview-is-now-public-on-github";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3653:"<p><a href="http://i1.wp.com/wptavern.com/wp-content/uploads/2014/07/gravity-view.jpg" rel="prettyphoto[39249]"><img src="http://i1.wp.com/wptavern.com/wp-content/uploads/2014/07/gravity-view.jpg?resize=681%2C282" alt="gravity-view" class="aligncenter size-full wp-image-27113" /></a></p>
+<p>Six months ago, <a href="https://katz.co/" target="_blank">Zack Katz</a> and <a href="http://tinygod.pt/" target="_blank">Luis Godinho</a> launched <a href="http://wptavern.com/gravityview-launches-an-app-based-on-gravity-forms" target="_blank">GravityView</a>, an app based on the popular Gravity Forms plugin. It uses the <a href="http://wptavern.com/gravityforms-1-8-beta-released-introduces-api" target="_blank">Gravity Forms API</a> to display unique views of form data and entries on the frontend of WordPress.</p>
+<p>The main <a href="https://github.com/katzwebservices/GravityView" target="_blank">GravityView plugin</a> is now public on GitHub for anyone to access for free. The plugin&#8217;s repository was previously private and the code accessible only to GravityView&#8217;s paid customers, but co-founder Zack Katz recently decided to go another direction with the project.</p>
+<p>Katz told the Tavern that he was inspired by a <a href="https://mattreport.com/interview-matt-mullenweg/" target="_blank">discussion between Matt Medeiros and Matt Mullenweg</a> on ubiquity vs. scarcity in WordPress product businesses. Medeiros asked Mullenweg if he could offer any advice to WordPress startups that are looking to create a new product in this crowded space. Mullenweg replied:</p>
+<blockquote><p>The one pattern I see most right now that I think is not sustainable is, and it&#8217;s because it&#8217;s the easiest thing to do, is businesses that are built on a scarcity &#8211; the thing not being widely available. If you think about some of the coolest successes so far in WordPress, the Gravity Forms, some of the theme businesses, they are inherently predicated on the fact that you have to pay to access them. </p>
+<p>I&#8217;ve always been a fan of businesses that grow with ubiquity, that become more powerful the more ubiquitous they are, more valuable. WordPress itself is one of these. Akismet is one of these. Jetpack is certainly one of those. </p>
+<p>So if you think about turning that on its head, I think that&#8217;s what will create the sort of multi-generational businesses in the WordPress ecosystem. Even with themes, we&#8217;ve seen that themes are very cyclical. People who used to make the majority of their money from themes, like WooThemes, are now finding it&#8217;s an ever-decreasing percentage. You hear this across almost all the theme shops.</p></blockquote>
+<p>This advice runs counter to the way many WordPress product businesses have structured their revenue models. Rare exceptions like <a href="http://wptavern.com/pippin-williamson-on-building-a-community-around-your-open-source-project" target="_blank">Easy Digital Downloads</a>, <a href="http://wptavern.com/wooconf-the-first-ever-conference-dedicated-to-woocommerce-deemed-a-success" target="_blank">WooCommerce</a>, and other plugins where the base software is free, are shining examples where pushing for ubiquity instead of scarcity has truly paid off.</p>
+<p>The founders behind <a href="https://gravityview.co/" target="_blank">GravityView</a> are looking to find the same success within the Gravity Forms micro-ecosystem. With the base <a href="https://github.com/katzwebservices/GravityView" target="_blank">GravityView plugin</a> now available for free on GitHub, the company&#8217;s pricing is now only applicable to support and extensions.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 19 Feb 2015 21:47:59 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:28:"Matt: USB History and Type C";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:21:"http://ma.tt/?p=44672";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:44:"http://ma.tt/2015/02/usb-history-and-type-c/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:611:"<p>I enjoyed this Ars Technica look at <a href="http://arstechnica.com/gadgets/2015/01/usb-3-1-and-type-c-the-only-stuff-at-ces-that-everyone-is-going-to-use/">USB 3.1 and Type-C</a>, which is probably the cable/connection change people will notice the most over the next few years. (As I look with despair on my dozens of USB devices and cables.) I also dug their retrospective, <a href="http://arstechnica.com/gadgets/2014/08/a-brief-history-of-usb-what-it-replaced-and-what-has-failed-to-replace-it/">A brief history of USB, what it replaced, and what has failed to replace it</a>. Remember serial ports?</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 19 Feb 2015 21:34:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:4:"Matt";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:91:"WPTavern: WPWeekly Episode 180 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 120
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 120
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_timeout_feed_mod_d117b5738fbd35bd8c0391cda1f2b5d9
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_timeout_feed_mod_d117b5738fbd35bd8c0391cda1f2b5d9
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424467418
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424467418
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 122
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 122
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_feed_mod_d117b5738fbd35bd8c0391cda1f2b5d9
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_feed_mod_d117b5738fbd35bd8c0391cda1f2b5d9
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424424218
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424424218
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 123
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 123
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_timeout_feed_b9388c83948825c1edaef0d856b7b109
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_timeout_feed_b9388c83948825c1edaef0d856b7b109
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424467420
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424467420
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 124
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 124
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_feed_b9388c83948825c1edaef0d856b7b109
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_feed_b9388c83948825c1edaef0d856b7b109
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
+	
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:72:"
+		
+		
+		
+		
+		
+		
+				
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:39:"WordPress Plugins 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
+	
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:72:"
+		
+		
+		
+		
+		
+		
+				
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:39:"WordPress Plugins 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 125
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 125
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_timeout_feed_mod_b9388c83948825c1edaef0d856b7b109
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_timeout_feed_mod_b9388c83948825c1edaef0d856b7b109
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424467420
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424467420
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 126
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 126
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_feed_mod_b9388c83948825c1edaef0d856b7b109
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_feed_mod_b9388c83948825c1edaef0d856b7b109
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424424220
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424424220
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 127
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 127
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_timeout_dash_4077549d03da2e451c8b5f002294ff51
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_timeout_dash_4077549d03da2e451c8b5f002294ff51
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424467420
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424467420
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 128
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 128
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_dash_4077549d03da2e451c8b5f002294ff51
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_dash_4077549d03da2e451c8b5f002294ff51
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: <div class="rss-widget"><ul><li><a class='rsswidget' href='https://wordpress.org/news/2015/02/wordpress-4-1-1/'>WordPress 4.1.1 Maintenance Release</a> <span class="rss-date">18th February 2015</span><div class="rssSummary">WordPress 4.1.1 is now available.
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: <div class="rss-widget"><ul><li><a class='rsswidget' href='https://wordpress.org/news/2015/02/wordpress-4-1-1/'>WordPress 4.1.1 Maintenance Release</a> <span class="rss-date">18th February 2015</span><div class="rssSummary">WordPress 4.1.1 is now available.
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 129
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 129
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _site_transient_timeout_poptags_40cd750bba9870f18aada2478b24840a
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _site_transient_timeout_poptags_40cd750bba9870f18aada2478b24840a
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424435021
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424435021
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 130
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 130
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _site_transient_poptags_40cd750bba9870f18aada2478b24840a
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _site_transient_poptags_40cd750bba9870f18aada2478b24840a
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:40:{s:6:"widget";a:3:{s:4:"name";s:6:"widget";s:4:"slug";s:6:"widget";s:5:"count";s:4:"4916";}s:4:"post";a:3:{s:4:"name";s:4:"Post";s:4:"slug";s:4:"post";s:5:"count";s:4:"3078";}s:6:"plugin";a:3:{s:4:"name";s:6:"plugin";s:4:"slug";s:6:"plugin";s:5:"count";s:4:"3022";}s:5:"admin";a:3:{s:4:"name";s:5:"admin";s:4:"slug";s:5:"admin";s:5:"count";s:4:"2529";}s:5:"posts";a:3:{s:4:"name";s:5:"posts";s:4:"slug";s:5:"posts";s:5:"count";s:4:"2346";}s:7:"sidebar";a:3:{s:4:"name";s:7:"sidebar";s:4:"slug";s:7:"sidebar";s:5:"count";s:4:"1892";}s:6:"google";a:3:{s:4:"name";s:6:"google";s:4:"slug";s:6:"google";s:5:"count";s:4:"1729";}s:7:"twitter";a:3:{s:4:"name";s:7:"twitter";s:4:"slug";s:7:"twitter";s:5:"count";s:4:"1680";}s:9:"shortcode";a:3:{s:4:"name";s:9:"shortcode";s:4:"slug";s:9:"shortcode";s:5:"count";s:4:"1678";}s:6:"images";a:3:{s:4:"name";s:6:"images";s:4:"slug";s:6:"images";s:5:"count";s:4:"1676";}s:8:"comments";a:3:{s:4:"name";s:8:"comments";s:4:"slug";s:8:"comments";s:5:"count";s:4:"1612";}s:4:"page";a:3:{s:4:"name";s:4:"page";s:4:"slug";s:4:"page";s:5:"count";s:4:"1609";}s:5:"image";a:3:{s:4:"name";s:5:"image";s:4:"slug";s:5:"image";s:5:"count";s:4:"1505";}s:8:"facebook";a:3:{s:4:"name";s:8:"Facebook";s:4:"slug";s:8:"facebook";s:5:"count";s:4:"1322";}s:3:"seo";a:3:{s:4:"name";s:3:"seo";s:4:"slug";s:3:"seo";s:5:"count";s:4:"1276";}s:9:"wordpress";a:3:{s:4:"name";s:9:"wordpress";s:4:"slug";s:9:"wordpress";s:5:"count";s:4:"1175";}s:5:"links";a:3:{s:4:"name";s:5:"links";s:4:"slug";s:5:"links";s:5:"count";s:4:"1171";}s:7:"gallery";a:3:{s:4:"name";s:7:"gallery";s:4:"slug";s:7:"gallery";s:5:"count";s:4:"1083";}s:6:"social";a:3:{s:4:"name";s:6:"social";s:4:"slug";s:6:"social";s:5:"count";s:4:"1079";}s:5:"email";a:3:{s:4:"name";s:5:"email";s:4:"slug";s:5:"email";s:5:"count";s:3:"918";}s:7:"widgets";a:3:{s:4:"name";s:7:"widgets";s:4:"slug";s:7:"widgets";s:5:"count";s:3:"905";}s:5:"pages";a:3:{s:4:"name";s:5:"pages";s:4:"slug";s:5:"pages";s:5:"count";s:3:"874";}s:6:"jquery";a:3:{s:4:"name";s:6:"jquery";s:4:"slug";s:6:"jquery";s:5:"count";s:3:"843";}s:3:"rss";a:3:{s:4:"name";s:3:"rss";s:4:"slug";s:3:"rss";s:5:"count";s:3:"837";}s:5:"media";a:3:{s:4:"name";s:5:"media";s:4:"slug";s:5:"media";s:5:"count";s:3:"794";}s:5:"video";a:3:{s:4:"name";s:5:"video";s:4:"slug";s:5:"video";s:5:"count";s:3:"758";}s:4:"ajax";a:3:{s:4:"name";s:4:"AJAX";s:4:"slug";s:4:"ajax";s:5:"count";s:3:"748";}s:7:"content";a:3:{s:4:"name";s:7:"content";s:4:"slug";s:7:"content";s:5:"count";s:3:"709";}s:11:"woocommerce";a:3:{s:4:"name";s:11:"woocommerce";s:4:"slug";s:11:"woocommerce";s:5:"count";s:3:"700";}s:10:"javascript";a:3:{s:4:"name";s:10:"javascript";s:4:"slug";s:10:"javascript";s:5:"count";s:3:"692";}s:5:"login";a:3:{s:4:"name";s:5:"login";s:4:"slug";s:5:"login";s:5:"count";s:3:"682";}s:5:"photo";a:3:{s:4:"name";s:5:"photo";s:4:"slug";s:5:"photo";s:5:"count";s:3:"657";}s:10:"buddypress";a:3:{s:4:"name";s:10:"buddypress";s:4:"slug";s:10:"buddypress";s:5:"count";s:3:"649";}s:4:"feed";a:3:{s:4:"name";s:4:"feed";s:4:"slug";s:4:"feed";s:5:"count";s:3:"642";}s:4:"link";a:3:{s:4:"name";s:4:"link";s:4:"slug";s:4:"link";s:5:"count";s:3:"642";}s:9:"ecommerce";a:3:{s:4:"name";s:9:"ecommerce";s:4:"slug";s:9:"ecommerce";s:5:"count";s:3:"623";}s:6:"photos";a:3:{s:4:"name";s:6:"photos";s:4:"slug";s:6:"photos";s:5:"count";s:3:"620";}s:7:"youtube";a:3:{s:4:"name";s:7:"youtube";s:4:"slug";s:7:"youtube";s:5:"count";s:3:"605";}s:5:"share";a:3:{s:4:"name";s:5:"Share";s:4:"slug";s:5:"share";s:5:"count";s:3:"600";}s:4:"spam";a:3:{s:4:"name";s:4:"spam";s:4:"slug";s:4:"spam";s:5:"count";s:3:"593";}}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:40:{s:6:"widget";a:3:{s:4:"name";s:6:"widget";s:4:"slug";s:6:"widget";s:5:"count";s:4:"4916";}s:4:"post";a:3:{s:4:"name";s:4:"Post";s:4:"slug";s:4:"post";s:5:"count";s:4:"3078";}s:6:"plugin";a:3:{s:4:"name";s:6:"plugin";s:4:"slug";s:6:"plugin";s:5:"count";s:4:"3022";}s:5:"admin";a:3:{s:4:"name";s:5:"admin";s:4:"slug";s:5:"admin";s:5:"count";s:4:"2529";}s:5:"posts";a:3:{s:4:"name";s:5:"posts";s:4:"slug";s:5:"posts";s:5:"count";s:4:"2346";}s:7:"sidebar";a:3:{s:4:"name";s:7:"sidebar";s:4:"slug";s:7:"sidebar";s:5:"count";s:4:"1892";}s:6:"google";a:3:{s:4:"name";s:6:"google";s:4:"slug";s:6:"google";s:5:"count";s:4:"1729";}s:7:"twitter";a:3:{s:4:"name";s:7:"twitter";s:4:"slug";s:7:"twitter";s:5:"count";s:4:"1680";}s:9:"shortcode";a:3:{s:4:"name";s:9:"shortcode";s:4:"slug";s:9:"shortcode";s:5:"count";s:4:"1678";}s:6:"images";a:3:{s:4:"name";s:6:"images";s:4:"slug";s:6:"images";s:5:"count";s:4:"1676";}s:8:"comments";a:3:{s:4:"name";s:8:"comments";s:4:"slug";s:8:"comments";s:5:"count";s:4:"1612";}s:4:"page";a:3:{s:4:"name";s:4:"page";s:4:"slug";s:4:"page";s:5:"count";s:4:"1609";}s:5:"image";a:3:{s:4:"name";s:5:"image";s:4:"slug";s:5:"image";s:5:"count";s:4:"1505";}s:8:"facebook";a:3:{s:4:"name";s:8:"Facebook";s:4:"slug";s:8:"facebook";s:5:"count";s:4:"1322";}s:3:"seo";a:3:{s:4:"name";s:3:"seo";s:4:"slug";s:3:"seo";s:5:"count";s:4:"1276";}s:9:"wordpress";a:3:{s:4:"name";s:9:"wordpress";s:4:"slug";s:9:"wordpress";s:5:"count";s:4:"1175";}s:5:"links";a:3:{s:4:"name";s:5:"links";s:4:"slug";s:5:"links";s:5:"count";s:4:"1171";}s:7:"gallery";a:3:{s:4:"name";s:7:"gallery";s:4:"slug";s:7:"gallery";s:5:"count";s:4:"1083";}s:6:"social";a:3:{s:4:"name";s:6:"social";s:4:"slug";s:6:"social";s:5:"count";s:4:"1079";}s:5:"email";a:3:{s:4:"name";s:5:"email";s:4:"slug";s:5:"email";s:5:"count";s:3:"918";}s:7:"widgets";a:3:{s:4:"name";s:7:"widgets";s:4:"slug";s:7:"widgets";s:5:"count";s:3:"905";}s:5:"pages";a:3:{s:4:"name";s:5:"pages";s:4:"slug";s:5:"pages";s:5:"count";s:3:"874";}s:6:"jquery";a:3:{s:4:"name";s:6:"jquery";s:4:"slug";s:6:"jquery";s:5:"count";s:3:"843";}s:3:"rss";a:3:{s:4:"name";s:3:"rss";s:4:"slug";s:3:"rss";s:5:"count";s:3:"837";}s:5:"media";a:3:{s:4:"name";s:5:"media";s:4:"slug";s:5:"media";s:5:"count";s:3:"794";}s:5:"video";a:3:{s:4:"name";s:5:"video";s:4:"slug";s:5:"video";s:5:"count";s:3:"758";}s:4:"ajax";a:3:{s:4:"name";s:4:"AJAX";s:4:"slug";s:4:"ajax";s:5:"count";s:3:"748";}s:7:"content";a:3:{s:4:"name";s:7:"content";s:4:"slug";s:7:"content";s:5:"count";s:3:"709";}s:11:"woocommerce";a:3:{s:4:"name";s:11:"woocommerce";s:4:"slug";s:11:"woocommerce";s:5:"count";s:3:"700";}s:10:"javascript";a:3:{s:4:"name";s:10:"javascript";s:4:"slug";s:10:"javascript";s:5:"count";s:3:"692";}s:5:"login";a:3:{s:4:"name";s:5:"login";s:4:"slug";s:5:"login";s:5:"count";s:3:"682";}s:5:"photo";a:3:{s:4:"name";s:5:"photo";s:4:"slug";s:5:"photo";s:5:"count";s:3:"657";}s:10:"buddypress";a:3:{s:4:"name";s:10:"buddypress";s:4:"slug";s:10:"buddypress";s:5:"count";s:3:"649";}s:4:"feed";a:3:{s:4:"name";s:4:"feed";s:4:"slug";s:4:"feed";s:5:"count";s:3:"642";}s:4:"link";a:3:{s:4:"name";s:4:"link";s:4:"slug";s:4:"link";s:5:"count";s:3:"642";}s:9:"ecommerce";a:3:{s:4:"name";s:9:"ecommerce";s:4:"slug";s:9:"ecommerce";s:5:"count";s:3:"623";}s:6:"photos";a:3:{s:4:"name";s:6:"photos";s:4:"slug";s:6:"photos";s:5:"count";s:3:"620";}s:7:"youtube";a:3:{s:4:"name";s:7:"youtube";s:4:"slug";s:7:"youtube";s:5:"count";s:3:"605";}s:5:"share";a:3:{s:4:"name";s:5:"Share";s:4:"slug";s:5:"share";s:5:"count";s:3:"600";}s:4:"spam";a:3:{s:4:"name";s:4:"spam";s:4:"slug";s:4:"spam";s:5:"count";s:3:"593";}}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 132
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 132
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: pluginbuddy_backupbuddy
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: pluginbuddy_backupbuddy
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:26:{s:12:"data_version";s:1:"2";s:15:"import_password";s:0:"";s:16:"backup_reminders";i:1;s:16:"edits_since_last";i:0;s:11:"last_backup";i:1424424563;s:11:"compression";i:1;s:19:"force_compatibility";i:0;s:19:"backup_nonwp_tables";i:0;s:14:"include_tables";a:0:{}s:14:"exclude_tables";a:0:{}s:15:"integrity_check";i:1;s:9:"schedules";a:0:{}s:9:"log_level";s:1:"1";s:8:"excludes";s:0:"";s:13:"high_security";i:0;s:13:"archive_limit";i:0;s:18:"archive_limit_size";i:0;s:22:"email_notify_scheduled";s:0:"";s:19:"email_notify_manual";s:0:"";s:18:"email_notify_error";s:0:"";s:7:"backups";a:1:{s:10:"40kfuvkh31";a:12:{s:6:"serial";s:10:"40kfuvkh31";s:4:"type";s:4:"full";s:10:"start_time";i:1424424563;s:12:"updated_time";i:1424424563;s:6:"status";a:0:{}s:16:"backup_directory";s:55:"C:\wamp\www\sus/wp-content/uploads/backupbuddy_backups/";s:12:"archive_file";s:101:"C:\wamp\www\sus/wp-content/uploads/backupbuddy_backups/backup-localhost_sus-2015_02_20-40kfuvkh31.zip";s:7:"trigger";s:6:"manual";s:19:"force_compatibility";b:0;s:5:"steps";a:2:{i:0;a:2:{s:8:"function";s:16:"backup_zip_files";s:4:"args";a:0:{}}i:1;a:2:{s:8:"function";s:11:"post_backup";s:4:"args";a:0:{}}}s:14:"temp_directory";s:63:"C:\wamp\www\sus/wp-content/uploads/backupbuddy_temp/40kfuvkh31/";s:23:"temporary_zip_directory";s:75:"C:\wamp\www\sus/wp-content/uploads/backupbuddy_backups/temp_zip_40kfuvkh31/";}}s:19:"remote_destinations";a:0:{}s:21:"backup_file_integrity";a:0:{}s:11:"role_access";s:13:"administrator";i:0;b:0;s:16:"backup_directory";s:55:"C:\wamp\www\sus/wp-content/uploads/backupbuddy_backups/";}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:26:{s:12:"data_version";s:1:"2";s:15:"import_password";s:0:"";s:16:"backup_reminders";i:1;s:16:"edits_since_last";i:0;s:11:"last_backup";i:1424424563;s:11:"compression";i:1;s:19:"force_compatibility";i:0;s:19:"backup_nonwp_tables";i:0;s:14:"include_tables";a:0:{}s:14:"exclude_tables";a:0:{}s:15:"integrity_check";i:1;s:9:"schedules";a:0:{}s:9:"log_level";s:1:"1";s:8:"excludes";s:0:"";s:13:"high_security";i:0;s:13:"archive_limit";i:0;s:18:"archive_limit_size";i:0;s:22:"email_notify_scheduled";s:0:"";s:19:"email_notify_manual";s:0:"";s:18:"email_notify_error";s:0:"";s:7:"backups";a:1:{s:10:"40kfuvkh31";a:12:{s:6:"serial";s:10:"40kfuvkh31";s:4:"type";s:4:"full";s:10:"start_time";i:1424424563;s:12:"updated_time";i:1424424563;s:6:"status";a:0:{}s:16:"backup_directory";s:55:"C:\wamp\www\sus/wp-content/uploads/backupbuddy_backups/";s:12:"archive_file";s:101:"C:\wamp\www\sus/wp-content/uploads/backupbuddy_backups/backup-localhost_sus-2015_02_20-40kfuvkh31.zip";s:7:"trigger";s:6:"manual";s:19:"force_compatibility";b:0;s:5:"steps";a:2:{i:0;a:2:{s:8:"function";s:16:"backup_zip_files";s:4:"args";a:0:{}}i:1;a:2:{s:8:"function";s:11:"post_backup";s:4:"args";a:0:{}}}s:14:"temp_directory";s:63:"C:\wamp\www\sus/wp-content/uploads/backupbuddy_temp/40kfuvkh31/";s:23:"temporary_zip_directory";s:75:"C:\wamp\www\sus/wp-content/uploads/backupbuddy_backups/temp_zip_40kfuvkh31/";}}s:19:"remote_destinations";a:0:{}s:21:"backup_file_integrity";a:0:{}s:11:"role_access";s:13:"administrator";i:0;b:0;s:16:"backup_directory";s:55:"C:\wamp\www\sus/wp-content/uploads/backupbuddy_backups/";}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 133
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 133
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _site_transient_update_plugins
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _site_transient_update_plugins
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: O:8:"stdClass":5:{s:12:"last_checked";i:1424424319;s:7:"checked";a:3:{s:19:"akismet/akismet.php";s:5:"3.0.4";s:22:"Plugin/backupbuddy.php";s:5:"2.0.2";s:9:"hello.php";s:3:"1.6";}s:8:"response";a:0:{}s:12:"translations";a:0:{}s:9:"no_update";a:2:{s:19:"akismet/akismet.php";O:8:"stdClass":6:{s:2:"id";s:2:"15";s:4:"slug";s:7:"akismet";s:6:"plugin";s:19:"akismet/akismet.php";s:11:"new_version";s:5:"3.0.4";s:3:"url";s:38:"https://wordpress.org/plugins/akismet/";s:7:"package";s:56:"https://downloads.wordpress.org/plugin/akismet.3.0.4.zip";}s:9:"hello.php";O:8:"stdClass":6:{s:2:"id";s:4:"3564";s:4:"slug";s:11:"hello-dolly";s:6:"plugin";s:9:"hello.php";s:11:"new_version";s:3:"1.6";s:3:"url";s:42:"https://wordpress.org/plugins/hello-dolly/";s:7:"package";s:58:"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip";}}}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: O:8:"stdClass":5:{s:12:"last_checked";i:1424424319;s:7:"checked";a:3:{s:19:"akismet/akismet.php";s:5:"3.0.4";s:22:"Plugin/backupbuddy.php";s:5:"2.0.2";s:9:"hello.php";s:3:"1.6";}s:8:"response";a:0:{}s:12:"translations";a:0:{}s:9:"no_update";a:2:{s:19:"akismet/akismet.php";O:8:"stdClass":6:{s:2:"id";s:2:"15";s:4:"slug";s:7:"akismet";s:6:"plugin";s:19:"akismet/akismet.php";s:11:"new_version";s:5:"3.0.4";s:3:"url";s:38:"https://wordpress.org/plugins/akismet/";s:7:"package";s:56:"https://downloads.wordpress.org/plugin/akismet.3.0.4.zip";}s:9:"hello.php";O:8:"stdClass":6:{s:2:"id";s:4:"3564";s:4:"slug";s:11:"hello-dolly";s:6:"plugin";s:9:"hello.php";s:11:"new_version";s:3:"1.6";s:3:"url";s:42:"https://wordpress.org/plugins/hello-dolly/";s:7:"package";s:58:"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip";}}}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 134
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 134
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_timeout_pb_backupbuddy_malwarescan
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_timeout_pb_backupbuddy_malwarescan
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424428113
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424428113
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 135
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 135
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_pb_backupbuddy_malwarescan
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_pb_backupbuddy_malwarescan
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: ERROR: Invalid web site provided.
+
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: ERROR: Invalid web site provided.
+
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: no
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 136
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 136
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _transient_doing_cron
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _transient_doing_cron
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1424424713.0000000000000000000000
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1424424713.0000000000000000000000
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: yes
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: _wp_page_template
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: _wp_page_template
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: default
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: default
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: Hello world!
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: Hello world!
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: publish
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: publish
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: hello-world
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: hello-world
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: http://localhost/sus/?p=1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: http://localhost/sus/?p=1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: post
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: post
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+
+<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</blockquote>
+
+...or something like this:
+
+<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
+
+As a new WordPress user, you should go to <a href="http://localhost/sus/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+
+<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</blockquote>
+
+...or something like this:
+
+<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
+
+As a new WordPress user, you should go to <a href="http://localhost/sus/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: Sample Page
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: Sample Page
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: publish
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: publish
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: sample-page
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: sample-page
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2015-02-20 09:23:12
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: http://localhost/sus/?page_id=2
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: http://localhost/sus/?page_id=2
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: page
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: page
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 3
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 3
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2015-02-20 09:23:29
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2015-02-20 09:23:29
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0000-00-00 00:00:00
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0000-00-00 00:00:00
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: Auto Draft
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: Auto Draft
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: auto-draft
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: auto-draft
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: open
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2015-02-20 09:23:29
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2015-02-20 09:23:29
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0000-00-00 00:00:00
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0000-00-00 00:00:00
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: http://localhost/sus/?p=3
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: http://localhost/sus/?p=3
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: post
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: post
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: category
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: category
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: Uncategorised
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: Uncategorised
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: uncategorised
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: uncategorised
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: nickname
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: nickname
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: Luke
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: Luke
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: first_name
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: first_name
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 3
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 3
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: last_name
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: last_name
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 4
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 4
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: description
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: description
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 5
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 5
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: rich_editing
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: rich_editing
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: true
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: true
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 6
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 6
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: comment_shortcuts
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: comment_shortcuts
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: false
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: false
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 7
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 7
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: admin_color
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: admin_color
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: fresh
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: fresh
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 8
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 8
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: use_ssl
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: use_ssl
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 9
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 9
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: show_admin_bar_front
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: show_admin_bar_front
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: true
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: true
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 10
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 10
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: wp_capabilities
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: wp_capabilities
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:1:{s:13:"administrator";b:1;}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:1:{s:13:"administrator";b:1;}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 11
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 11
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: wp_user_level
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: wp_user_level
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 10
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 10
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 12
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 12
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: dismissed_wp_pointers
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: dismissed_wp_pointers
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: wp360_locks,wp390_widgets
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: wp360_locks,wp390_widgets
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 13
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 13
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: show_welcome_panel
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: show_welcome_panel
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 14
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 14
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: session_tokens
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: session_tokens
+[Feb 20, 2015, 10:49AM-all] Serialized ORIGINAL data: a:1:{s:64:"3c73b5bff609d41369f2afc140cd38dd7a4fc7ece43590dfaf7ef2300ffbeff8";a:4:{s:10:"expiration";i:1424597006;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:109:"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36";s:5:"login";i:1424424206;}}
+[Feb 20, 2015, 10:49AM-all] Serialized EDITED data: a:1:{s:64:"3c73b5bff609d41369f2afc140cd38dd7a4fc7ece43590dfaf7ef2300ffbeff8";a:4:{s:10:"expiration";i:1424597006;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:109:"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36";s:5:"login";i:1424424206;}}
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 15
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 15
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: wp_dashboard_quick_press_last_post_id
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: wp_dashboard_quick_press_last_post_id
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 3
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 3
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 1
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: Luke
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: Luke
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: $P$BJFyF6Ncci3S.YMl1uHOu/u708PGeI/
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: $P$BJFyF6Ncci3S.YMl1uHOu/u708PGeI/
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: luke
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: luke
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: luke.woods@outlook.com
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: luke.woods@outlook.com
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 2015-02-20 09:23:11
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 2015-02-20 09:23:11
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: 0
+[Feb 20, 2015, 10:49AM-all] Not serialized ORIGINAL data: Luke
+[Feb 20, 2015, 10:49AM-all] Not serialized EDITED data: Luke
+[Feb 20, 2015, 10:49AM-all] Finished migration of DB.
+[Feb 20, 2015, 10:49AM-all] Finished restoring database.
+[Feb 20, 2015, 10:49AM-all] Beginning migrating wp-config
+[Feb 20, 2015, 10:49AM-all] Changed wp-config permissions to 755.
+[Feb 20, 2015, 10:49AM-all] Finished migrating wp-config
+[Feb 20, 2015, 10:49AM-all] Completed step #5.
+[Feb 20, 2015, 10:50AM-all] Initiating step #6.
+[Feb 20, 2015, 10:50AM-all] Beginning step 6 cleanup!
+[Feb 20, 2015, 10:50AM-all] Deleting backup .ZIP file (backup-localhost_sus-2015_02_20-40kfuvkh31.zip) ... 
+[Feb 20, 2015, 10:50AM-all] Finished deleting backup .ZIP file (backup-localhost_sus-2015_02_20-40kfuvkh31.zip).
+[Feb 20, 2015, 10:50AM-all] Deleting importbuddy.php (this script) ... 
+[Feb 20, 2015, 10:50AM-error] File importbuddy.php (this script) couldn't be deleted. File permissions (-rw-rw-rw-) did not allow it. You may manually delete this file if you wish. Error Code: 
+[Feb 20, 2015, 10:50AM-all] Deleting db.sql (backup database dump) ... 
+[Feb 20, 2015, 10:50AM-all] File db.sql (backup database dump) was not found to delete. Already deleted?
+[Feb 20, 2015, 10:50AM-all] Deleting db_1.sql (backup database dump) ... 
+[Feb 20, 2015, 10:50AM-all] File db_1.sql (backup database dump) was not found to delete. Already deleted?
+[Feb 20, 2015, 10:50AM-all] Deleting db_1.sql (backup database dump) ... 
+[Feb 20, 2015, 10:50AM-error] File db_1.sql (backup database dump) couldn't be deleted. File permissions (-rw-rw-rw-) did not allow it. You may manually delete this file if you wish. Error Code: 
+[Feb 20, 2015, 10:50AM-all] Deleting db.sql (backup database dump) ... 
+[Feb 20, 2015, 10:50AM-all] File db.sql (backup database dump) was not found to delete. Already deleted?
+[Feb 20, 2015, 10:50AM-all] Deleting db_1.sql (backup database dump) ... 
+[Feb 20, 2015, 10:50AM-all] File db_1.sql (backup database dump) was not found to delete. Already deleted?
+[Feb 20, 2015, 10:50AM-all] Deleting backupbuddy_dat.php (backup data file) ... 
+[Feb 20, 2015, 10:50AM-all] File backupbuddy_dat.php (backup data file) was not found to delete. Already deleted?
+[Feb 20, 2015, 10:50AM-all] Deleting backupbuddy_dat.php (backup data file) ... 
+[Feb 20, 2015, 10:50AM-error] File backupbuddy_dat.php (backup data file) couldn't be deleted. File permissions (-rw-rw-rw-) did not allow it. You may manually delete this file if you wish. Error Code: 
+[Feb 20, 2015, 10:50AM-all] Deleting backupbuddy_dat.php (backup data file) ... 
+[Feb 20, 2015, 10:50AM-all] File backupbuddy_dat.php (backup data file) was not found to delete. Already deleted?
+[Feb 20, 2015, 10:50AM-all] Finished step 6 cleanup! Kerfuffle!
+[Feb 20, 2015, 10:50AM-all] Completed step #6.

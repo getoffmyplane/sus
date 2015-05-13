@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Dashboard Widgets v1.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-01-19 18:05:27+0000\n"
+"Last-Translator: administrator <admin@vsevyazemy.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/class-widget-post-type.php:39
+#@ wp-dashboard-widgets
+msgid "Widgets"
+msgstr "Заметки"
+
+#: includes/class-widget-post-type.php:40
+#@ wp-dashboard-widgets
+msgid "Widget"
+msgstr "Заметка"
+
+#: includes/class-widget-post-type.php:41
+#@ wp-dashboard-widgets
+msgid "Add New"
+msgstr "Добавить"
+
+#: includes/class-widget-post-type.php:42
+#@ wp-dashboard-widgets
+msgid "Add New Widget"
+msgstr "Добавить"
+
+#: includes/class-widget-post-type.php:43
+#@ wp-dashboard-widgets
+msgid "Edit Widget"
+msgstr "Изменить"
+
+#: includes/class-widget-post-type.php:44
+#@ wp-dashboard-widgets
+msgid "New Widget"
+msgstr "Создать"
+
+#: includes/class-widget-post-type.php:45
+#@ wp-dashboard-widgets
+msgid "View Widget"
+msgstr "Смотреть"
+
+#: includes/class-widget-post-type.php:46
+#@ wp-dashboard-widgets
+msgid "Search Widgets"
+msgstr "Искать"
+
+#: includes/class-widget-post-type.php:47
+#@ wp-dashboard-widgets
+msgid "No Widgets"
+msgstr "Нет заметок"
+
+#: includes/class-widget-post-type.php:48
+#@ wp-dashboard-widgets
+msgid "No Widgets found in Trash"
+msgstr "В мусоре нет заметок"
+
+#: includes/class-wpdw-ajax.php:118
+#: includes/class-wpdw-ajax.php:148
+#@ wp-dashboard-widgets
+msgid "New widget"
+msgstr "Создать"
+
+#: includes/templates/widget-list.php:9
+#@ wp-dashboard-widgets
+msgid "List item"
+msgstr "Список"
+
+#: includes/templates/widget-list.php:16
+#: includes/templates/widget.php:15
+#@ wp-dashboard-widgets
+msgid "Just me"
+msgstr "Приватно"
+
+#: includes/templates/widget-list.php:20
+#: includes/templates/widget.php:19
+#@ wp-dashboard-widgets
+msgid "Everyone"
+msgstr "Общедоступно"
+
+#: includes/templates/widget-list.php:24
+#: includes/templates/widget.php:23
+#@ wp-dashboard-widgets
+msgid "Visibility:"
+msgstr "Видимость:"
+
+#: includes/templates/widget-list.php:28
+#: includes/templates/widget.php:27
+#@ wp-dashboard-widgets
+msgid "Give me a color!"
+msgstr "Выбрать цвет"
+
+#: includes/templates/widget-list.php:39
+#@ wp-dashboard-widgets
+msgid "Convert to regular widget"
+msgstr "Список > в текст"
+
+#: includes/templates/widget-list.php:43
+#: includes/templates/widget.php:42
+#@ wp-dashboard-widgets
+msgid "Add a new widget"
+msgstr "Добавить"
+
+#: includes/templates/widget-list.php:48
+#: includes/templates/widget.php:46
+#@ wp-dashboard-widgets
+msgid "Delete widget"
+msgstr "Удалить"
+
+#: includes/templates/widget.php:38
+#@ wp-dashboard-widgets
+msgid "Convert to list widget"
+msgstr "Текст > в список"
+
+#: wp-dashboard-widgets.php:249
+#@ wp-dashboard-widgets
+msgid "Add widget"
+msgstr "Добавить"
+

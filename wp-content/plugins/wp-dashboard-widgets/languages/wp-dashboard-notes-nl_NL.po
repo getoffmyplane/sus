@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-dashboard-widgets\n"
+"POT-Creation-Date: 2014-08-28 09:06+0100\n"
+"PO-Revision-Date: 2014-08-28 09:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: Jeroen Sormani <info@jeroensormani.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-dashboard-widgets.php:210
+msgid "Add widget"
+msgstr "Nieuwe notitie"
+
+#: ../includes/class-widget-post-type.php:39
+msgid "Widgets"
+msgstr "Notities"
+
+#: ../includes/class-widget-post-type.php:40
+msgid "Widget"
+msgstr "Notitie"
+
+#: ../includes/class-widget-post-type.php:41
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: ../includes/class-widget-post-type.php:42
+msgid "Add New Widget"
+msgstr "Nieuwe notitie toevoegen"
+
+#: ../includes/class-widget-post-type.php:43
+msgid "Edit Widget"
+msgstr "Notitie bewerken"
+
+#: ../includes/class-widget-post-type.php:44
+msgid "New Widget"
+msgstr "Nieuwe notitie"
+
+#: ../includes/class-widget-post-type.php:45
+msgid "View Widget"
+msgstr "Bekijk notitie"
+
+#: ../includes/class-widget-post-type.php:46
+msgid "Search Widgets"
+msgstr "Zoek in notities"
+
+#: ../includes/class-widget-post-type.php:47
+msgid "No Widgets"
+msgstr "Geen notities"
+
+#: ../includes/class-widget-post-type.php:48
+msgid "No Widgets found in Trash"
+msgstr "Geen notities gevonden in de prullenbak"
+
+#: ../includes/class-wpdw-ajax.php:108 ../includes/class-wpdw-ajax.php:128
+msgid "New widget"
+msgstr "Nieuwe notitie"
+
+#: ../includes/templates/widget-list.php:9
+msgid "List item"
+msgstr "Lijst item"
+
+#: ../includes/templates/widget-list.php:16 ../includes/templates/widget.php:15
+msgid "Just me"
+msgstr "Alleen ik"
+
+#: ../includes/templates/widget-list.php:20 ../includes/templates/widget.php:19
+msgid "Everyone"
+msgstr "Iedereen"
+
+#: ../includes/templates/widget-list.php:24 ../includes/templates/widget.php:23
+msgid "Visibility:"
+msgstr "Zichtbaarheid:"
+
+#: ../includes/templates/widget-list.php:28 ../includes/templates/widget.php:27
+msgid "Give me a color!"
+msgstr "Geef mij een kleur!"
+
+#: ../includes/templates/widget-list.php:41
+msgid "Convert to regular widget"
+msgstr "Converteer mij naar een normale notitie"
+
+#: ../includes/templates/widget-list.php:45 ../includes/templates/widget.php:44
+msgid "Add a new widget"
+msgstr "Voeg een nieuwe notitie toe"
+
+#: ../includes/templates/widget-list.php:50 ../includes/templates/widget.php:48
+msgid "Delete widget"
+msgstr "Verwijder notitie"
+
+#: ../includes/templates/widget.php:40
+msgid "Convert to list widget"
+msgstr "Converteer mij naar een lijst notitie"

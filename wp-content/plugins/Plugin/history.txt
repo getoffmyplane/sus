@@ -1,0 +1,17 @@
+Pre-2.0 - Dustin Bolton
+	See history_archived.txt for older history information.
+2.0.0 - 2010-02-12 - Dustin Bolton
+	Complete overhaul with a multitude of features & enhancements.
+2.0.1 - 2010-04-27 - Dustin Bolton
+	File permissions warning on some servers on the Server Information page.
+	Fatal error on some servers on the Server Information page.
+	Update to 2.0 handles importbuddy password migration in a more stable way.
+	Added ZIP backup serial to reported details during backup.
+	Fixed import link on Getting Started page.
+2.0.2 - 2010-04-29 - Dustin Bolton
+	Removed hover to show select destination / edit links for remote destinations.
+	Changed README.txt to readme.txt.
+	Fixed importbuddy incorrectly reporting extraction failure in fallback modes.
+	Fixed directory exclusions failing in some environments.
+	Fixed database table escaping during backups.
+	Fixed database rewrites in importbuddy.
