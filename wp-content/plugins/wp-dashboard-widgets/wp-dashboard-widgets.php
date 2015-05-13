@@ -5,7 +5,7 @@
  * Donate link:		http://www.jeroensormani.com/donate/
  * Description:		Allows users to create custom widgets to: link to resources, act as post-it widgets, act as to-do lists.
  * Version:			0.1
- * Author:			Luke Woods
+ * Author:			Luke
  * Author URI:		http://www.startupsite.com/
  * Text Domain:		wp-dashboard-widgets
 */
@@ -19,7 +19,7 @@ if ( ! is_admin() ) return; // Only load plugin when user is in admin
  * Main WPDW class initializes the plugin.
  *
  * @class		WP_Dashboard_Widgets
- * @version		1.0.0 //TODO change versions
+ * @version		1.0.0
  * @author		Jeroen Sormani
  */
 class WP_Dashboard_Widgets {
