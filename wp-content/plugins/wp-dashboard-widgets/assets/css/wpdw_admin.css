@@ -32,7 +32,7 @@ input[type=text].add-list-item:-ms-input-placeholder, input[type=text].add-resou
 .wp-dashboard-widget-options {
 	text-align: left;
 }
-.list-widget .wp-dashboard-widget-options {
+.list-widget .wp-dashboard-widget-options, .resource-widget .wp-dashboard-widget-options {
 	margin-top: 15px;
 }
 
@@ -267,33 +267,33 @@ span.wpdw-color-widget:hover .wpdw-color-palette {
 [data-color-text=black] .wpdw-add-item {
 	color: white;
 }
-[data-color-text=black] .wp-dashboard-widget .list-item .resource-item{
+[data-color-text=black] .wp-dashboard-widget .list-item, [data-color-text=black] .wp-dashboard-widget .resource-item{
 	border-color: white;
 }
 [data-color-text=black] input[type=checkbox] {
 	border: 1px solid white;
 }
-[data-color-text=black] .list-item input[type=checkbox]:checked ~ span {
+[data-color-text=black] .list-item input[type=checkbox]:checked ~ span, [data-color-text=black] .resource-item input[type=checkbox]:checked ~ span {
 	color: white;
 }
 [data-color-text=black] [id^=widget] .handlediv {
 	color: white;
 }
-[data-color-text=black] input[type=text].add-list-item {
+[data-color-text=black] input[type=text].add-list-item, [data-color-text=black] input[type=text].add-resource-item {
 	border-color: #FFF;
 	color: #FFF;
 	background: rgba(255, 255, 255, 0.3);
 }
-[data-color-text=black] input[type=text].add-list-item::-webkit-input-placeholder {
+[data-color-text=black] input[type=text].add-list-item::-webkit-input-placeholder , [data-color-text=black] input[type=text].add-resource-item::-webkit-input-placeholder{
    color: white;
 }
-[data-color-text=black] input[type=text].add-list-item:-moz-placeholder {
+[data-color-text=black] input[type=text].add-list-item:-moz-placeholder, [data-color-text=black] input[type=text].add-resource-item:-moz-placeholder {
    color: white;
 }
-[data-color-text=black] input[type=text].add-list-item::-moz-placeholder {
+[data-color-text=black] input[type=text].add-list-item::-moz-placeholder, [data-color-text=black] input[type=text].add-resource-item::-moz-placeholder {
    color: white;
 }
-[data-color-text=black] input[type=text].add-list-item:-ms-input-placeholder {
+[data-color-text=black] input[type=text].add-list-item:-ms-input-placeholder, [data-color-text=black] input[type=text].add-resource-item:-ms-input-placeholder {
    color: white;
 }
 [data-color-text=black] .saved-icon,
@@ -315,33 +315,33 @@ span.wpdw-color-widget:hover .wpdw-color-palette {
 [data-color-text=template] .wpdw-add-item {
 	color: inherit;
 }
-[data-color-text=template] .wp-dashboard-widget .list-item {
+[data-color-text=template] .wp-dashboard-widget .list-item, [data-color-text=template] .wp-dashboard-widget .resource-item {
 	border-color: inherit;
 }
 [data-color-text=template] input[type=checkbox] {
 	border: 1px solid inherit;
 }
-[data-color-text=template] .list-item input[type=checkbox]:checked ~ span {
+[data-color-text=template] .list-item input[type=checkbox]:checked ~ span, [data-color-text=template] .resource-item input[type=checkbox]:checked ~ span {
 	color: inherit;
 }
 [data-color-text=template] [id^=widget] .handlediv {
 	color: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item {
+[data-color-text=template] input[type=text].add-list-item, [data-color-text=template] input[type=text].add-resource-item {
 	border-color: inherit;
 	color: inherit;
 	background: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item::-webkit-input-placeholder {
+[data-color-text=template] input[type=text].add-list-item::-webkit-input-placeholder, [data-color-text=template] input[type=text].add-resource-item::-webkit-input-placeholder {
    color: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item:-moz-placeholder {
+[data-color-text=template] input[type=text].add-list-item:-moz-placeholder, [data-color-text=template] input[type=text].add-resource-item:-moz-placeholder {
    color: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item::-moz-placeholder {
+[data-color-text=template] input[type=text].add-list-item::-moz-placeholder, [data-color-text=template] input[type=text].add-resource-item::-moz-placeholder {
    color: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item:-ms-input-placeholder {
+[data-color-text=template] input[type=text].add-list-item:-ms-input-placeholder, [data-color-text=template] input[type=text].add-resource-item:-ms-input-placeholder {
    color: inherit;
 }
 [data-color-text=template] .saved-icon,
