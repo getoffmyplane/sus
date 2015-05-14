@@ -9,9 +9,9 @@ jQuery( document ).ready( function($) {
         if( e.keyCode == 13 && $( this ).val() != '' ) {
 
             var post_id 	= $( this ).closest( ".postbox" ).attr( 'id' );
-            var resource_item 	= '<div class="resource-item"><div class="dashicons dashicons-menu wpdw-widget-sortable"></div><ul><li><span class="resource-item-content" contenteditable="true">' + $( this ).val() + '</span><div class="delete-item dashicons dashicons-no-alt"></div></li></ul></div>';
+            var resource_item 	= '<div class="resource-item"><div class="dashicons dashicons-menu wpdw-widget-sortable"></div><span class="resource-item-content" contenteditable="true">' + $( this ).val() + '</span><div class="delete-item dashicons dashicons-no-alt"></div></div>';
 
-            $( '#' + post_id + ' div.wp-dashboard-widget' ).append( list_item );
+            $( '#' + post_id + ' div.wp-dashboard-widget' ).append( resource_item );
             $( this ).val( '' ); // Clear 'add item' field
             $( this ).trigger( 'widget-sortable' );
 
@@ -170,7 +170,7 @@ jQuery( document ).ready( function($) {
 			response = jQuery.parseJSON( response );
 			jQuery( '#postbox-container-1 #normal-sortables' ).append( response.widget );
 			jQuery('body, html').animate({ scrollTop: $( "#widget_" + response.post_id ).offset().top - 50 }, 750); // scroll down
-			jQuery( '#widget_' + response.post_id + ' .add-list-item' ).focus();
+			jQuery( '#widget_' + response.post_id + ' .add-resource-item' ).focus();
 		});
 
 
@@ -202,6 +202,19 @@ jQuery( document ).ready( function($) {
 		$( this ).trigger( 'wpdw-update', this );
 	});
 
+    // Edit/update resource widget
+    $( 'body' ).on( 'blur', '.resource-item-content, [contenteditable=true]', function() {
+        $( this ).trigger( 'wpdw-update', this );
+    });
+
+    // Save on enter (resource widget)
+    $( 'body' ).on( 'keydown', '[data-widget-type=resource], .wpdw-title, .resource-item-content', function( e ) {
+        if ( e.keyCode == 13 ) {
+            $( this ).trigger( 'wpdw-update', this );
+            $( this ).blur();
+            return false;
+        }
+    });
 
 	// Edit/update widget
 	$( 'body' ).on( 'blur', '.list-item-content, [contenteditable=true]', function() {

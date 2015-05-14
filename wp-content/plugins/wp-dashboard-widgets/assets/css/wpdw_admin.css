@@ -96,6 +96,12 @@ input[type=text].add-list-item:-ms-input-placeholder, input[type=text].add-resou
 	line-height: 1;
 }
 
+/* Undefined resources are bold and have dashed underline*/
+.resource-item-content {
+    font-weight: bold;
+    border-bottom: 2px dashed #000;
+}
+
 .wp-dashboard-widget-wrap:hover .wpdw-extra {
 	opacity: 1;
 }

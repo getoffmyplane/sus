@@ -35,7 +35,7 @@
 							<div class='dashicons dashicons-art wpdw-widget-color'></div>
 						</span>
 
-						<span title='<?php _e( 'Convert to To-Do list', 'wp-dashboard-widgets'); ?>'>
+						<span title='<?php _e( 'Add to-do(s)', 'wp-dashboard-widgets'); ?>'>
 							<div class='wpdw-widget-type dashicons dashicons-list-view'></div>
 						</span>
 

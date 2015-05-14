@@ -6,7 +6,7 @@
 
 			<div class='wp-dashboard-widget-options'>
 				<div class='dashicons dashicons-plus wpdw-add-item'></div>
-				<input type='text' name='list_item' class='add-list-item' data-id='<?php echo $widget->ID; ?>' placeholder='<?php _e( 'List item', 'wp-dashboard-widgets' ); ?>'>
+				<input type='text' name='list_item' class='add-list-item' data-id='<?php echo $widget->ID; ?>' placeholder='<?php _e( 'To Do', 'wp-dashboard-widgets' ); ?>'>
 				<span class='status'></span>
 				<div class='wpdw-extra'>
 					<span class='wpdw-option-visibility'>
@@ -36,7 +36,7 @@
 							<div class='dashicons dashicons-art wpdw-widget-color'></div>
 						</span>
 
-						<span title='<?php _e( 'Convert to Resource Widget', 'wp-dashboard-widgets'); ?>'>
+						<span title='<?php _e( 'Add resource(s)', 'wp-dashboard-widgets'); ?>'>
 							<div class='wpdw-widget-type dashicons dashicons-archive'></div>
 						</span>
 
