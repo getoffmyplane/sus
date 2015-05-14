@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name:		WP Dashboard Widgets
+ * Plugin Name:		WP Dashboard Widgets (test)
  * Plugin URI:		http://www.startupsite.com
  * Donate link:		http://www.jeroensormani.com/donate/
  * Description:		Allows users to create custom widgets to: link to resources, act as post-it widgets, act as to-do lists.
