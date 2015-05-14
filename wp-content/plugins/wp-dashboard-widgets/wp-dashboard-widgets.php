@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name:		WP Dashboard Widgets
+ * Plugin Name:		WP Dashboard Widgets (test)
  * Plugin URI:		http://www.startupsite.com
  * Donate link:		http://www.jeroensormani.com/donate/
  * Description:		Allows users to create custom widgets to: link to resources, act as post-it widgets, act as to-do lists.
@@ -267,9 +267,11 @@ class WP_Dashboard_Widgets {
 		</style><?php
 
 		if ( $widget_meta['widget_type'] == 'regular' ) :
-			require plugin_dir_path( __FILE__ ) . 'includes/templates/widget.php';
+			require plugin_dir_path( __FILE__ ) . 'includes/templates/note.php';
+        elseif ( $_POST['widget_type'] == 'resource') :
+            require plugin_dir_path( __FILE__ ) . 'templates/resource-widget.php';
 		else :
-			require plugin_dir_path( __FILE__ ) . 'includes/templates/widget-list.php';
+			require plugin_dir_path( __FILE__ ) . 'includes/templates/todo-list.php';
 		endif;
 
 	}

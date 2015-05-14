@@ -3,6 +3,35 @@ jQuery( document ).ready( function($) {
 	var loading_icon 	= '<span class="saving-icon"><img src="images/wpspin_light.gif"/> saving...</span>';
 	var saved_icon 		= '<span class="saved-icon"><div class="dashicons dashicons-yes"></div> saved!</span>';
 
+    // Add resource item
+    $( 'body, .resource-item-content' ).on( 'keydown', '.add-resource-item', function( e ) {
+
+        if( e.keyCode == 13 && $( this ).val() != '' ) {
+
+            var post_id 	= $( this ).closest( ".postbox" ).attr( 'id' );
+            var resource_item 	= '<div class="resource-item"><div class="dashicons dashicons-menu wpdw-widget-sortable"></div><span class="resource-item-content" contenteditable="true">' + $( this ).val() + '</span><div class="delete-item dashicons dashicons-no-alt"></div></div>';
+
+            $( '#' + post_id + ' div.wp-dashboard-widget' ).append( resource_item );
+            $( this ).val( '' ); // Clear 'add item' field
+            $( this ).trigger( 'widget-sortable' );
+
+            $( this ).trigger( 'wpdw-update', this );
+
+        }
+
+    });
+
+
+    // Delete resource item
+    $( 'body' ).on( 'click', '.delete-item', function() {
+
+        var post_id = $( this ).closest( ".postbox" ).attr( 'id' );
+
+        $( this ).parent( '.resource-item' ).remove();
+        $( 'body' ).trigger( 'wpdw-update', ['', post_id]  );
+
+    });
+
 
 	// Add todo item
 	$( 'body, .list-item-content' ).on( 'keydown', '.add-list-item', function( e ) {
@@ -61,14 +90,16 @@ jQuery( document ).ready( function($) {
 		var widget_type = $( this ).closest( '[data-widget-type]' ).attr( 'data-widget-type' );
 		if ( widget_type == 'regular' ) {
 			$( this ).closest( '[data-widget-type]' ).attr( 'data-widget-type', 'list' );
-		} else {
+		} else if ( widget_type == 'list' )  {
+            $( this ).closest( '[data-widget-type]' ).attr( 'data-widget-type', 'resource' );
+        } else {
 			$( this ).closest( '[data-widget-type]' ).attr( 'data-widget-type', 'regular' );
 		}
 
 		var data = {
 			action: 	'wpdw_toggle_widget',
 			post_id: 	$( this ).closest( ".postbox" ).attr( 'id' ).replace( 'widget_', '' ),
-			widget_type:	( widget_type == 'regular' ? 'list' : 'regular' )
+			widget_type:	( widget_type == 'regular' ? 'list' : widget_type == 'list' ? 'resource' : 'regular' )
 		};
 
 		$.post( ajaxurl, data, function( response ) {
@@ -120,7 +151,7 @@ jQuery( document ).ready( function($) {
 
 		var data = {
 			action: 'wpdw_delete_widget',
-			post_id: post_id.replace( 'widget_', '' ),
+			post_id: post_id.replace( 'widget_', '' )
 		};
 
 		$.post( ajaxurl, data, function( response ) {
@@ -139,7 +170,7 @@ jQuery( document ).ready( function($) {
 			response = jQuery.parseJSON( response );
 			jQuery( '#postbox-container-1 #normal-sortables' ).append( response.widget );
 			jQuery('body, html').animate({ scrollTop: $( "#widget_" + response.post_id ).offset().top - 50 }, 750); // scroll down
-			jQuery( '#widget_' + response.post_id + ' .add-list-item' ).focus();
+			jQuery( '#widget_' + response.post_id + ' .add-resource-item' ).focus();
 		});
 
 
@@ -171,6 +202,19 @@ jQuery( document ).ready( function($) {
 		$( this ).trigger( 'wpdw-update', this );
 	});
 
+    // Edit/update resource widget
+    $( 'body' ).on( 'blur', '.resource-item-content, [contenteditable=true]', function() {
+        $( this ).trigger( 'wpdw-update', this );
+    });
+
+    // Save on enter (resource widget)
+    $( 'body' ).on( 'keydown', '[data-widget-type=resource], .wpdw-title, .resource-item-content', function( e ) {
+        if ( e.keyCode == 13 ) {
+            $( this ).trigger( 'wpdw-update', this );
+            $( this ).blur();
+            return false;
+        }
+    });
 
 	// Edit/update widget
 	$( 'body' ).on( 'blur', '.list-item-content, [contenteditable=true]', function() {

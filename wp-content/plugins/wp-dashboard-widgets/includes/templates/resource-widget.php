@@ -1,4 +1,4 @@
-		<div class='wp-dashboard-widget-wrap list-widget' data-widget-type='list' data-color-text='<?php echo $widget_meta['color_text']; ?>' data-widget-color='<?php echo $widget_meta['color']; ?>'>
+		<div class='wp-dashboard-widget-wrap resource-widget' data-widget-type='resource' data-color-text='<?php echo $widget_meta['color_text']; ?>' data-widget-color='<?php echo $widget_meta['color']; ?>'>
 
 			<div class='wp-dashboard-widget'>
 				<?php echo $content; ?>
@@ -6,7 +6,7 @@
 
 			<div class='wp-dashboard-widget-options'>
 				<div class='dashicons dashicons-plus wpdw-add-item'></div>
-				<input type='text' name='list_item' class='add-list-item' data-id='<?php echo $widget->ID; ?>' placeholder='<?php _e( 'List item', 'wp-dashboard-widgets' ); ?>'>
+				<input type='text' name='resource_item' class='add-resource-item' data-id='<?php echo $widget->ID; ?>' placeholder='<?php _e( 'Resource Item', 'wp-dashboard-widgets' ); ?>'>
 				<span class='status'></span>
 				<div class='wpdw-extra'>
 					<span class='wpdw-option-visibility'>
@@ -36,7 +36,7 @@
 							<div class='dashicons dashicons-art wpdw-widget-color'></div>
 						</span>
 
-						<span title='<?php _e( 'Convert to regular widget', 'wp-dashboard-widgets'); ?>'>
+						<span title='<?php _e( 'Add note(s)', 'wp-dashboard-widgets'); ?>'>
 							<div class='wpdw-widget-type dashicons dashicons-welcome-write-blog'></div>
 						</span>
 
