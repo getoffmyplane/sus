@@ -93,9 +93,11 @@ class WPDW_Ajax {
 		</style>
 		<?php
 		if ( $_POST['widget_type'] == 'regular' ) :
-			require plugin_dir_path( __FILE__ ) . 'templates/widget.php';
+			require plugin_dir_path( __FILE__ ) . 'templates/note.php';
+        elseif ( $_POST['widget_type'] == 'resource') :
+            require plugin_dir_path( __FILE__ ) . 'templates/resource-widget.php';
 		else :
-			require plugin_dir_path( __FILE__ ) . 'templates/widget-list.php';
+			require plugin_dir_path( __FILE__ ) . 'templates/todo-list.php';
 		endif;
 
 		die();
@@ -124,7 +126,7 @@ class WPDW_Ajax {
 			'color'			=> '#ffffff',
 			'color_text'	=> 'white',
 			'visibility'	=> 'Everyone',
-			'widget_type'		=> 'list',
+			'widget_type'		=> 'resource',
 		) );
 		$content	= apply_filters( 'wpdw_content', $widget->post_content );
 		$colors		= apply_filters( 'wpdw_colors', array(
@@ -159,9 +161,11 @@ class WPDW_Ajax {
 			</style>
 
 				<?php if ( 'regular' == $widget_meta['widget_type'] ) :
-					require plugin_dir_path( __FILE__ ) . 'templates/widget.php';
+					require plugin_dir_path( __FILE__ ) . 'templates/note.php';
+                elseif ( $_POST['widget_type'] == 'resource') :
+                    require plugin_dir_path( __FILE__ ) . 'templates/resource-widget.php';
 				else :
-					require plugin_dir_path( __FILE__ ) . 'templates/widget-list.php';
+					require plugin_dir_path( __FILE__ ) . 'templates/todo-list.php';
 				endif; ?>
 
 			</div> <!-- .inside -->

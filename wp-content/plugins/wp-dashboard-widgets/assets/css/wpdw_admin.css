@@ -1,4 +1,4 @@
-input[type=text].add-list-item {
+input[type=text].add-list-item, input[type=text].add-resource-item {
 	line-height: normal;
 	border-radius: 3px;
 	height: 35px;
@@ -8,16 +8,16 @@ input[type=text].add-list-item {
 	background-color: rgba( 255, 255, 255, 0.6 );
 }
 
-input[type=text].add-list-item::-webkit-input-placeholder {
+input[type=text].add-list-item::-webkit-input-placeholder, input[type=text].add-resource-item::-webkit-input-placeholder {
    color: #555;
 }
-input[type=text].add-list-item:-moz-placeholder {
+input[type=text].add-list-item:-moz-placeholder, input[type=text].add-resource-item:-moz-placeholder {
    color: #555;
 }
-input[type=text].add-list-item::-moz-placeholder {
+input[type=text].add-list-item::-moz-placeholder, input[type=text].add-resource-item::-moz-placeholder {
    color: #555;
 }
-input[type=text].add-list-item:-ms-input-placeholder {
+input[type=text].add-list-item:-ms-input-placeholder, input[type=text].add-resource-item:-ms-input-placeholder {
    color: #555;
 }
 
@@ -36,7 +36,7 @@ input[type=text].add-list-item:-ms-input-placeholder {
 	margin-top: 15px;
 }
 
-.wp-dashboard-widget .list-item {
+.wp-dashboard-widget .list-item, .wp-dashboard-widget .resource-item {
 	min-height: 30px;
 	line-height: 30px;
 	width: 100%;
@@ -54,45 +54,45 @@ input[type=text].add-list-item:-ms-input-placeholder {
 	line-height: inherit;
 	opacity: 0;
 }
-.list-item:hover .wpdw-widget-sortable {
+.list-item:hover .wpdw-widget-sortable, .resource-item:hover .wpdw-widget-sortable {
 	opacity: 1;
 }
-.list-item .dashicons-no-alt {
+.list-item .dashicons-no-alt, .resource-item .dashicons-no-alt {
 	color: rgba( 0, 0, 0, 0.3 );
 	text-align: right;
 	float: right;
 	cursor: pointer;
 	line-height: inherit;
 }
-.list-item input[type=checkbox] {
+.list-item input[type=checkbox], .resource-item input[type=checkbox] {
 	margin-right: 15px;
 	background: transparent;
 	border-color: #555;
 }
-.list-item input[type=checkbox]:checked:before {
+.list-item input[type=checkbox]:checked:before, .resource-item input[type=checkbox]:checked:before {
 	color: #555;
 }
-.list-item input[type=checkbox]:checked ~ span {
+.list-item input[type=checkbox]:checked ~ span, .resource-item input[type=checkbox]:checked ~ span {
 	text-decoration:line-through;
 	color: #6f6f6f;
 }
-.list-item .dashicons-no-alt:hover {
+.list-item .dashicons-no-alt:hover, .resource-item .dashicons-no-alt:hover {
 	color: #999;
 }
-.list-item:hover .dashicons-no-alt {
+.list-item:hover .dashicons-no-alt, .resource-item:hover .dashicons-no-alt {
 	visibility: visible;
 }
-.list-item .dashicons-no-alt {
+.list-item .dashicons-no-alt, .resource-item .dashicons-no-alt {
 	visibility: hidden;
 }
 .wp-dashboard-widget-wrap .wpdw-add-item {
 	line-height: 2;
 }
-.list-item .wpdw-add-item {
+.list-item .wpdw-add-item, .resource-item .wpdw-add-item {
 	color: #ccc;
 	margin-right: 8px;
 }
-.list-item-content {
+.list-item-content, .resource-item-content {
 	line-height: 1;
 }
 
@@ -123,6 +123,12 @@ input[type=text].add-list-item:-ms-input-placeholder {
 .wpdw-extra .dashicons {
 	line-height: 2;
 }
+
+[data-widget-type=resource] .saved-icon .dashicons,
+.wpdw-extra .dashicons {
+    line-height: 2;
+}
+
 .wpdw-extra .dashicons {
 	margin-left: 5px;
 }
@@ -261,7 +267,7 @@ span.wpdw-color-widget:hover .wpdw-color-palette {
 [data-color-text=black] .wpdw-add-item {
 	color: white;
 }
-[data-color-text=black] .wp-dashboard-widget .list-item {
+[data-color-text=black] .wp-dashboard-widget .list-item .resource-item{
 	border-color: white;
 }
 [data-color-text=black] input[type=checkbox] {
@@ -300,10 +306,10 @@ span.wpdw-color-widget:hover .wpdw-color-palette {
 /****************************
  * Template
 ****************************/
-[data-color-text=template] {
+[data-color-text=template] {
 	color: inherit;
 }
-[data-color-text=template] .wpdw-widget-sortable {
+[data-color-text=template] .wpdw-widget-sortable {
 	color: inherit;
 }
 [data-color-text=template] .wpdw-add-item {

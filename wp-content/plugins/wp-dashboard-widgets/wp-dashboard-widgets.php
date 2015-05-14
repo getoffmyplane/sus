@@ -267,9 +267,11 @@ class WP_Dashboard_Widgets {
 		</style><?php
 
 		if ( $widget_meta['widget_type'] == 'regular' ) :
-			require plugin_dir_path( __FILE__ ) . 'includes/templates/widget.php';
+			require plugin_dir_path( __FILE__ ) . 'includes/templates/note.php';
+        elseif ( $_POST['widget_type'] == 'resource') :
+            require plugin_dir_path( __FILE__ ) . 'templates/resource-widget.php';
 		else :
-			require plugin_dir_path( __FILE__ ) . 'includes/templates/widget-list.php';
+			require plugin_dir_path( __FILE__ ) . 'includes/templates/todo-list.php';
 		endif;
 
 	}
