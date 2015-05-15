@@ -122,7 +122,7 @@ class WPDW_Ajax {
 		$post_id = wp_insert_post( $args );
 
 		$widget		= (object) array( 'ID' => $post_id, 'post_content' => '' );
-		$widget_meta	= apply_filters( 'wpdw_new_widget_meta', array(
+		$widget_meta = apply_filters( 'wpdw_new_widget_meta', array(
 			'color'			=> '#ffffff',
 			'color_text'	=> 'white',
 			'visibility'	=> 'Everyone',
@@ -160,13 +160,13 @@ class WPDW_Ajax {
 				#widget_<?php echo $post_id; ?> .hndle { border: none; }
 			</style>
 
-				<?php if ( 'regular' == $widget_meta['widget_type'] ) :
-					require plugin_dir_path( __FILE__ ) . 'templates/note.php';
-                elseif ( $_POST['widget_type'] == 'resource') :
+                <?php if ( 'regular' == $widget_meta['widget_type'] ) :
+                    require plugin_dir_path( __FILE__ ) . 'templates/note.php';
+                elseif ( $_POST['widget_type'] == 'list') :
+                    require plugin_dir_path( __FILE__ ) . 'templates/todo-list.php';
+                else :
                     require plugin_dir_path( __FILE__ ) . 'templates/resource-widget.php';
-				else :
-					require plugin_dir_path( __FILE__ ) . 'templates/todo-list.php';
-				endif; ?>
+                endif; ?>
 
 			</div> <!-- .inside -->
 		</div> <!-- .postbox -->
