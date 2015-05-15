@@ -67,7 +67,7 @@ class WPDW_Ajax {
 	/**
 	 * Toggle widget.
 	 *
-	 * Toggle widget type, from 'regular widget' to 'list widget' or vice versa.
+	 * Toggle widget type, from 'note widget' to 'list widget' or vice versa.
 	 *
 	 * @since 1.0.0
 	 */
@@ -92,7 +92,7 @@ class WPDW_Ajax {
 			#widget_<?php echo $widget->ID; ?> .hndle { border: none; }
 		</style>
 		<?php
-		if ( $_POST['widget_type'] == 'regular' ) :
+		if ( $_POST['widget_type'] == 'note' ) :
 			require plugin_dir_path( __FILE__ ) . 'templates/note.php';
         elseif ( $_POST['widget_type'] == 'resource') :
             require plugin_dir_path( __FILE__ ) . 'templates/resource-widget.php';
@@ -109,7 +109,8 @@ class WPDW_Ajax {
 	 * Add new widget.
 	 *
 	 * Create a new widget, return two variables (post ID | widget content) to jQuery through json_encode.
-	 *
+	 * To set the new widget type, make sure it is located in the ELSE part of the IF statement at the bottom of this function (since there is no assigned type, new widgets default to ELSE)
+     *
 	 * @since 1.0.0
 	 */
 	public function wpdw_add_widget() {
@@ -160,7 +161,7 @@ class WPDW_Ajax {
 				#widget_<?php echo $post_id; ?> .hndle { border: none; }
 			</style>
 
-                <?php if ( 'regular' == $widget_meta['widget_type'] ) :
+                <?php if ( 'note' == $widget_meta['widget_type'] ) :
                     require plugin_dir_path( __FILE__ ) . 'templates/note.php';
                 elseif ( $_POST['widget_type'] == 'list') :
                     require plugin_dir_path( __FILE__ ) . 'templates/todo-list.php';

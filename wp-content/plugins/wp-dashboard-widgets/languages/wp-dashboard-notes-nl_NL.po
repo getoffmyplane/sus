@@ -83,7 +83,7 @@ msgid "Give me a color!"
 msgstr "Geef mij een kleur!"
 
 #: ../includes/templates/widget-list.php:41
-msgid "Convert to regular widget"
+msgid "Convert to note widget"
 msgstr "Converteer mij naar een normale notitie"
 
 #: ../includes/templates/widget-list.php:45 ../includes/templates/widget.php:44
