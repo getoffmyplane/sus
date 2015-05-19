@@ -16,7 +16,7 @@ Working with multiple persons on a website? Want to make widgets? You can do jus
 **Features:**
 
 * Colored widgets
-* List widgets or regular widgets
+* List widgets or note widgets
 * Public or private widgets
 * Edit on dashboard
 * Add as many widgets as you like

@@ -107,7 +107,7 @@ msgstr "Выбрать цвет"
 
 #: includes/templates/widget-list.php:39
 #@ wp-dashboard-widgets
-msgid "Convert to regular widget"
+msgid "Convert to note widget"
 msgstr "Список > в текст"
 
 #: includes/templates/widget-list.php:43

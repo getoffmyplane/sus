@@ -1,23 +1,23 @@
-input[type=text].add-list-item, input[type=text].add-resource-item {
-	line-height: normal;
+input[type=text].add-list-item, input[type=text].add-resource-item, input[type=textarea].add-note-item {
+	line-height:  normal;
 	border-radius: 3px;
-	height: 35px;
+	height: 35px;*/
 	padding: 5px 10px;
 	width: 75%;
 	border-color: #555;
 	background-color: rgba( 255, 255, 255, 0.6 );
 }
 
-input[type=text].add-list-item::-webkit-input-placeholder, input[type=text].add-resource-item::-webkit-input-placeholder {
+input[type=text].add-list-item::-webkit-input-placeholder, input[type=text].add-resource-item::-webkit-input-placeholder, input[type=textarea].add-note-item::-webkit-input-placeholder {
    color: #555;
 }
-input[type=text].add-list-item:-moz-placeholder, input[type=text].add-resource-item:-moz-placeholder {
+input[type=text].add-list-item:-moz-placeholder, input[type=text].add-resource-item:-moz-placeholder, input[type=textarea].add-note-item:-moz-placeholder {
    color: #555;
 }
-input[type=text].add-list-item::-moz-placeholder, input[type=text].add-resource-item::-moz-placeholder {
+input[type=text].add-list-item::-moz-placeholder, input[type=text].add-resource-item::-moz-placeholder, input[type=textarea].add-note-item::-moz-placeholder {
    color: #555;
 }
-input[type=text].add-list-item:-ms-input-placeholder, input[type=text].add-resource-item:-ms-input-placeholder {
+input[type=text].add-list-item:-ms-input-placeholder, input[type=text].add-resource-item:-ms-input-placeholder, input[type=textarea].add-note-item:-ms-input-placeholder {
    color: #555;
 }
 
@@ -32,16 +32,26 @@ input[type=text].add-list-item:-ms-input-placeholder, input[type=text].add-resou
 .wp-dashboard-widget-options {
 	text-align: left;
 }
-.list-widget .wp-dashboard-widget-options, .resource-widget .wp-dashboard-widget-options {
+.list-widget .wp-dashboard-widget-options, .resource-widget .wp-dashboard-widget-options, .note-widget .wp-dashboard-widget-options {
 	margin-top: 15px;
 }
 
+/*widget line item formatting*/
+
+.wp-dashboard-widget .note-item {
+    margin-bottom: .5em;
+}
+
 .wp-dashboard-widget .list-item, .wp-dashboard-widget .resource-item {
+    line-height: 30px;
+}
+
+.wp-dashboard-widget .list-item, .wp-dashboard-widget .resource-item, .wp-dashboard-widget .note-item {
 	min-height: 30px;
-	line-height: 30px;
 	width: 100%;
 	display: block;
 }
+
 .wp-dashboard-widget div:last-child {
 	border-bottom: 0;
 }
@@ -54,45 +64,45 @@ input[type=text].add-list-item:-ms-input-placeholder, input[type=text].add-resou
 	line-height: inherit;
 	opacity: 0;
 }
-.list-item:hover .wpdw-widget-sortable, .resource-item:hover .wpdw-widget-sortable {
+.list-item:hover .wpdw-widget-sortable, .resource-item:hover .wpdw-widget-sortable, .note-item:hover .wpdw-widget-sortable {
 	opacity: 1;
 }
-.list-item .dashicons-no-alt, .resource-item .dashicons-no-alt {
+.list-item .dashicons-no-alt, .resource-item .dashicons-no-alt, .note-item .dashicons-no-alt {
 	color: rgba( 0, 0, 0, 0.3 );
 	text-align: right;
 	float: right;
 	cursor: pointer;
 	line-height: inherit;
 }
-.list-item input[type=checkbox], .resource-item input[type=checkbox] {
+.list-item input[type=checkbox], .resource-item input[type=checkbox], .note-item input[type=checkbox] {
 	margin-right: 15px;
 	background: transparent;
 	border-color: #555;
 }
-.list-item input[type=checkbox]:checked:before, .resource-item input[type=checkbox]:checked:before {
+.list-item input[type=checkbox]:checked:before, .resource-item input[type=checkbox]:checked:before, .note-item input[type=checkbox]:checked:before {
 	color: #555;
 }
-.list-item input[type=checkbox]:checked ~ span, .resource-item input[type=checkbox]:checked ~ span {
+.list-item input[type=checkbox]:checked ~ span, .resource-item input[type=checkbox]:checked ~ span, .note-item input[type=checkbox]:checked ~ span {
 	text-decoration:line-through;
 	color: #6f6f6f;
 }
-.list-item .dashicons-no-alt:hover, .resource-item .dashicons-no-alt:hover {
+.list-item .dashicons-no-alt:hover, .resource-item .dashicons-no-alt:hover, .note-item .dashicons-no-alt:hover {
 	color: #999;
 }
-.list-item:hover .dashicons-no-alt, .resource-item:hover .dashicons-no-alt {
+.list-item:hover .dashicons-no-alt, .resource-item:hover .dashicons-no-alt, .note-item:hover .dashicons-no-alt {
 	visibility: visible;
 }
-.list-item .dashicons-no-alt, .resource-item .dashicons-no-alt {
+.list-item .dashicons-no-alt, .resource-item .dashicons-no-alt, .note-item .dashicons-no-alt {
 	visibility: hidden;
 }
 .wp-dashboard-widget-wrap .wpdw-add-item {
 	line-height: 2;
 }
-.list-item .wpdw-add-item, .resource-item .wpdw-add-item {
+.list-item .wpdw-add-item, .resource-item .wpdw-add-item, .note-item .wpdw-add-item {
 	color: #ccc;
 	margin-right: 8px;
 }
-.list-item-content, .resource-item-content {
+.list-item-content, .resource-item-content/*, .note-item-content*/ {
 	line-height: 1;
 }
 
@@ -100,6 +110,18 @@ input[type=text].add-list-item:-ms-input-placeholder, input[type=text].add-resou
 .resource-item-content {
     font-weight: bold;
     border-bottom: 2px dashed #000;
+}
+
+/* Notes are italicised*/
+.note-item-content {
+    display: inline-block;
+    font-style: italic;
+    border: solid;
+    border-width: 1px;
+    line-height:  normal;
+    border-radius: 3px;
+    padding: 5px 10px;
+    width: 75%
 }
 
 .wp-dashboard-widget-wrap:hover .wpdw-extra {
@@ -135,12 +157,19 @@ input[type=text].add-list-item:-ms-input-placeholder, input[type=text].add-resou
     line-height: 2;
 }
 
+[data-widget-type=note] .saved-icon .dashicons,
+.wpdw-extra .dashicons {
+    line-height: 2;
+}
+
 .wpdw-extra .dashicons {
 	margin-left: 5px;
 }
-[data-widget-type=regular] .saved-icon .dashicons {
+/* Obsolete - this is from the original 'regular' type from the wp-dashboard-notes plugin - remove in next version
+[data-widget-type=note] .saved-icon .dashicons {
 	line-height: 1;
-}
+}*/
+
 .hndle span {
 	cursor: text;
 	-webkit-user-select: text;
@@ -273,33 +302,33 @@ span.wpdw-color-widget:hover .wpdw-color-palette {
 [data-color-text=black] .wpdw-add-item {
 	color: white;
 }
-[data-color-text=black] .wp-dashboard-widget .list-item, [data-color-text=black] .wp-dashboard-widget .resource-item{
+[data-color-text=black] .wp-dashboard-widget .list-item, [data-color-text=black] .wp-dashboard-widget .resource-item, [data-color-text=black] .wp-dashboard-widget .note-item{
 	border-color: white;
 }
 [data-color-text=black] input[type=checkbox] {
 	border: 1px solid white;
 }
-[data-color-text=black] .list-item input[type=checkbox]:checked ~ span, [data-color-text=black] .resource-item input[type=checkbox]:checked ~ span {
+[data-color-text=black] .list-item input[type=checkbox]:checked ~ span, [data-color-text=black] .resource-item input[type=checkbox]:checked ~ span, [data-color-text=black] .note-item input[type=checkbox]:checked ~ span {
 	color: white;
 }
 [data-color-text=black] [id^=widget] .handlediv {
 	color: white;
 }
-[data-color-text=black] input[type=text].add-list-item, [data-color-text=black] input[type=text].add-resource-item {
+[data-color-text=black] input[type=text].add-list-item, [data-color-text=black] input[type=text].add-resource-item, [data-color-text=black] input[type=textarea].add-note-item {
 	border-color: #FFF;
 	color: #FFF;
 	background: rgba(255, 255, 255, 0.3);
 }
-[data-color-text=black] input[type=text].add-list-item::-webkit-input-placeholder , [data-color-text=black] input[type=text].add-resource-item::-webkit-input-placeholder{
+[data-color-text=black] input[type=text].add-list-item::-webkit-input-placeholder , [data-color-text=black] input[type=text].add-resource-item::-webkit-input-placeholder, [data-color-text=black] input[type=textarea].add-note-item::-webkit-input-placeholder{
    color: white;
 }
-[data-color-text=black] input[type=text].add-list-item:-moz-placeholder, [data-color-text=black] input[type=text].add-resource-item:-moz-placeholder {
+[data-color-text=black] input[type=text].add-list-item:-moz-placeholder, [data-color-text=black] input[type=text].add-resource-item:-moz-placeholder, [data-color-text=black] input[type=textarea].add-note-item:-moz-placeholder {
    color: white;
 }
-[data-color-text=black] input[type=text].add-list-item::-moz-placeholder, [data-color-text=black] input[type=text].add-resource-item::-moz-placeholder {
+[data-color-text=black] input[type=text].add-list-item::-moz-placeholder, [data-color-text=black] input[type=text].add-resource-item::-moz-placeholder, [data-color-text=black] input[type=textarea].add-note-item::-moz-placeholder {
    color: white;
 }
-[data-color-text=black] input[type=text].add-list-item:-ms-input-placeholder, [data-color-text=black] input[type=text].add-resource-item:-ms-input-placeholder {
+[data-color-text=black] input[type=text].add-list-item:-ms-input-placeholder, [data-color-text=black] input[type=text].add-resource-item:-ms-input-placeholder, [data-color-text=black] input[type=textarea].add-note-item:-ms-input-placeholder {
    color: white;
 }
 [data-color-text=black] .saved-icon,
@@ -321,33 +350,33 @@ span.wpdw-color-widget:hover .wpdw-color-palette {
 [data-color-text=template] .wpdw-add-item {
 	color: inherit;
 }
-[data-color-text=template] .wp-dashboard-widget .list-item, [data-color-text=template] .wp-dashboard-widget .resource-item {
+[data-color-text=template] .wp-dashboard-widget .list-item, [data-color-text=template] .wp-dashboard-widget .resource-item, [data-color-text=template] .wp-dashboard-widget .note-item {
 	border-color: inherit;
 }
 [data-color-text=template] input[type=checkbox] {
 	border: 1px solid inherit;
 }
-[data-color-text=template] .list-item input[type=checkbox]:checked ~ span, [data-color-text=template] .resource-item input[type=checkbox]:checked ~ span {
+[data-color-text=template] .list-item input[type=checkbox]:checked ~ span, [data-color-text=template] .resource-item input[type=checkbox]:checked ~ span, [data-color-text=template] .note-item input[type=checkbox]:checked ~ span {
 	color: inherit;
 }
 [data-color-text=template] [id^=widget] .handlediv {
 	color: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item, [data-color-text=template] input[type=text].add-resource-item {
+[data-color-text=template] input[type=text].add-list-item, [data-color-text=template] input[type=text].add-resource-item, [data-color-text=template] input[type=textarea].add-note-item {
 	border-color: inherit;
 	color: inherit;
 	background: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item::-webkit-input-placeholder, [data-color-text=template] input[type=text].add-resource-item::-webkit-input-placeholder {
+[data-color-text=template] input[type=text].add-list-item::-webkit-input-placeholder, [data-color-text=template] input[type=text].add-resource-item::-webkit-input-placeholder, [data-color-text=template] input[type=textarea].add-note-item::-webkit-input-placeholder {
    color: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item:-moz-placeholder, [data-color-text=template] input[type=text].add-resource-item:-moz-placeholder {
+[data-color-text=template] input[type=text].add-list-item:-moz-placeholder, [data-color-text=template] input[type=text].add-resource-item:-moz-placeholder, [data-color-text=template] input[type=textarea].add-note-item:-moz-placeholder {
    color: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item::-moz-placeholder, [data-color-text=template] input[type=text].add-resource-item::-moz-placeholder {
+[data-color-text=template] input[type=text].add-list-item::-moz-placeholder, [data-color-text=template] input[type=text].add-resource-item::-moz-placeholder, [data-color-text=template] input[type=textarea].add-note-item::-moz-placeholder {
    color: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item:-ms-input-placeholder, [data-color-text=template] input[type=text].add-resource-item:-ms-input-placeholder {
+[data-color-text=template] input[type=text].add-list-item:-ms-input-placeholder, [data-color-text=template] input[type=text].add-resource-item:-ms-input-placeholder, [data-color-text=template] input[type=textarea].add-note-item:-ms-input-placeholder {
    color: inherit;
 }
 [data-color-text=template] .saved-icon,

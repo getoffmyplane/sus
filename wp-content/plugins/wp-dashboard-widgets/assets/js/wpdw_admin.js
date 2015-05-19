@@ -32,6 +32,50 @@ jQuery( document ).ready( function($) {
 
     });
 
+    // Add note item
+    $( 'body, .note-item-content' ).on( 'keydown', '.add-note-item', function( e ) {
+
+        if( ( e.keyCode == 13 && ( e.ctrlKey || e.metaKey ) ) && $( this ).val() != '' ) {
+
+            var post_id 	= $( this ).closest( ".postbox" ).attr( 'id' );
+            var note_item 	= '<div class="note-item"><div class="dashicons dashicons-menu wpdw-widget-sortable"></div><span class="note-item-content" contenteditable="true">' + $( this ).val() + '</span><div class="delete-item dashicons dashicons-no-alt"></div></div>';
+
+            $( '#' + post_id + ' div.wp-dashboard-widget' ).append( note_item );
+            $( this ).val( '' ); // Clear 'add item' field
+            $( this ).trigger( 'widget-sortable' );
+
+            $( this ).trigger( 'wpdw-update', this );
+
+        }
+    });
+
+    // Add line break within note items (CTRL + Enter)
+    $( 'body, .add-note-item' ).on( 'keydown', '.add-note-item', function( e ) {
+        if( e.keyCode == 13  ) {
+            var content = $( this ).val;
+            // Add line break
+            out.appendChild(content("br"));
+        }
+    });
+
+    /*DELETE ME
+     $( 'body' ).on( 'keydown', '[data-widget-type=note] .wp-dashboard-widget', function( e ) {
+     if ( e.keyCode == 13 && ( e.ctrlKey || e.metaKey ) ) {
+     $( this ).trigger( 'wpdw-update', this );
+     $( this ).blur();
+     return false;
+     */
+
+
+    // Delete note item
+    $( 'body' ).on( 'click', '.delete-item', function() {
+
+        var post_id = $( this ).closest( ".postbox" ).attr( 'id' );
+
+        $( this ).parent( '.note-item' ).remove();
+        $( 'body' ).trigger( 'wpdw-update', ['', post_id]  );
+
+    });
 
 	// Add todo item
 	$( 'body, .list-item-content' ).on( 'keydown', '.add-list-item', function( e ) {
@@ -88,18 +132,18 @@ jQuery( document ).ready( function($) {
 		$( this ).toggleClass( 'dashicons-list-view dashicons-welcome-write-blog' );
 
 		var widget_type = $( this ).closest( '[data-widget-type]' ).attr( 'data-widget-type' );
-		if ( widget_type == 'regular' ) {
+		if ( widget_type == 'note' ) {
 			$( this ).closest( '[data-widget-type]' ).attr( 'data-widget-type', 'list' );
 		} else if ( widget_type == 'list' )  {
             $( this ).closest( '[data-widget-type]' ).attr( 'data-widget-type', 'resource' );
         } else {
-			$( this ).closest( '[data-widget-type]' ).attr( 'data-widget-type', 'regular' );
+			$( this ).closest( '[data-widget-type]' ).attr( 'data-widget-type', 'note' );
 		}
 
 		var data = {
 			action: 	'wpdw_toggle_widget',
 			post_id: 	$( this ).closest( ".postbox" ).attr( 'id' ).replace( 'widget_', '' ),
-			widget_type:	( widget_type == 'regular' ? 'list' : widget_type == 'list' ? 'resource' : 'regular' )
+			widget_type:	( widget_type == 'note' ? 'list' : widget_type == 'list' ? 'resource' : 'note' )
 		};
 
 		$.post( ajaxurl, data, function( response ) {
@@ -216,7 +260,30 @@ jQuery( document ).ready( function($) {
         }
     });
 
-	// Edit/update widget
+    // Edit/update note widget
+    $( 'body' ).on( 'blur', '.note-item-content, [contenteditable=true]', function() {
+        $( this ).trigger( 'wpdw-update', this );
+    });
+
+    // Save on ctrl & s (note widget)
+    $( 'body' ).on( 'keydown', '[data-widget-type=note], .wpdw-title, .note-item-content', function( e ) {
+        if ( e.keyCode == 13 && ( e.ctrlKey || e.metaKey ) ) {
+            $( this ).trigger( 'wpdw-update', this );
+            $( this ).blur();
+            return false;
+        }
+    });
+
+    /* Save on CMD|CTRL + enter (note widget)
+    $( 'body' ).on( 'keydown', '[data-widget-type=note] .wp-dashboard-widget', function( e ) {
+        if ( e.keyCode == 13 && ( e.ctrlKey || e.metaKey ) ) {
+            $( this ).trigger( 'wpdw-update', this );
+            $( this ).blur();
+            return false;
+        }
+    });*/
+
+	// Edit/update list widget
 	$( 'body' ).on( 'blur', '.list-item-content, [contenteditable=true]', function() {
   		$( this ).trigger( 'wpdw-update', this );
 	});
@@ -229,15 +296,6 @@ jQuery( document ).ready( function($) {
 			return false;
 		}
 	});
-	// Save on CMD|CTRL + enter (regular widget)
-	$( 'body' ).on( 'keydown', '[data-widget-type=regular] .wp-dashboard-widget', function( e ) {
-		if ( e.keyCode == 13 && ( e.ctrlKey || e.metaKey ) ) {
-			$( this ).trigger( 'wpdw-update', this );
-      		$( this ).blur();
-			return false;
-		}
-	});
-
 
 	// Edit title
 	$( 'body, .postbox h3' ).on( 'click', '.wpdw-edit-title', function( e ) {
