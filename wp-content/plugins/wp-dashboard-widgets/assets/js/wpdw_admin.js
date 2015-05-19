@@ -35,7 +35,7 @@ jQuery( document ).ready( function($) {
     // Add note item
     $( 'body, .note-item-content' ).on( 'keydown', '.add-note-item', function( e ) {
 
-        if( e.keyCode == 13 && $( this ).val() != '' ) {
+        if( ( e.keyCode == 13 && ( e.ctrlKey || e.metaKey ) ) && $( this ).val() != '' ) {
 
             var post_id 	= $( this ).closest( ".postbox" ).attr( 'id' );
             var note_item 	= '<div class="note-item"><div class="dashicons dashicons-menu wpdw-widget-sortable"></div><span class="note-item-content" contenteditable="true">' + $( this ).val() + '</span><div class="delete-item dashicons dashicons-no-alt"></div></div>';
@@ -47,8 +47,24 @@ jQuery( document ).ready( function($) {
             $( this ).trigger( 'wpdw-update', this );
 
         }
-
     });
+
+    // Add line break within note items (CTRL + Enter)
+    $( 'body, .add-note-item' ).on( 'keydown', '.add-note-item', function( e ) {
+        if( e.keyCode == 13  ) {
+            var content = $( this ).val;
+            // Add line break
+            out.appendChild(content("br"));
+        }
+    });
+
+    /*DELETE ME
+     $( 'body' ).on( 'keydown', '[data-widget-type=note] .wp-dashboard-widget', function( e ) {
+     if ( e.keyCode == 13 && ( e.ctrlKey || e.metaKey ) ) {
+     $( this ).trigger( 'wpdw-update', this );
+     $( this ).blur();
+     return false;
+     */
 
 
     // Delete note item
@@ -249,9 +265,9 @@ jQuery( document ).ready( function($) {
         $( this ).trigger( 'wpdw-update', this );
     });
 
-    // Save on enter (note widget)
+    // Save on ctrl & s (note widget)
     $( 'body' ).on( 'keydown', '[data-widget-type=note], .wpdw-title, .note-item-content', function( e ) {
-        if ( e.keyCode == 13 ) {
+        if ( e.keyCode == 13 && ( e.ctrlKey || e.metaKey ) ) {
             $( this ).trigger( 'wpdw-update', this );
             $( this ).blur();
             return false;

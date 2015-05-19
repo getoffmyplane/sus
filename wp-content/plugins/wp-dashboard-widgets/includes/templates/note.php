@@ -6,7 +6,7 @@
 
     <div class='wp-dashboard-widget-options'>
         <div class='dashicons dashicons-plus wpdw-add-item'></div>
-        <input type='text' name='note_item' class='add-note-item' data-id='<?php echo $widget->ID; ?>' placeholder='<?php _e( 'Note', 'wp-dashboard-widgets' ); ?>'>
+        <input type='textarea' rows='5' cols='50' name='note_item' class='add-note-item' data-id='<?php echo $widget->ID; ?>' placeholder='<?php _e( 'Note', 'wp-dashboard-widgets' ); ?>' />
         <span class='status'></span>
         <div class='wpdw-extra'>
 					<span class='wpdw-option-visibility'>

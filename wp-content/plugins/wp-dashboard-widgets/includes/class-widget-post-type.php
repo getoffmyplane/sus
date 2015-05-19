@@ -51,8 +51,8 @@ class Widget_Post_Type {
 
 		register_post_type( 'widget', array(
 			'label'					=> 'widget',
-			'show_ui'				=> false,
-			'show_in_menu'			=> false,
+			'show_ui'				=> true,
+			'show_in_menu'			=> true,
 			'capability_type'		=> 'post',
 			'map_meta_cap'			=> true,
 			'rewrite'				=> array( 'slug' => 'widgets' ),

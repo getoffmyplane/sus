@@ -1,23 +1,23 @@
-input[type=text].add-list-item, input[type=text].add-resource-item, input[type=text].add-note-item {
+input[type=text].add-list-item, input[type=text].add-resource-item, input[type=textarea].add-note-item {
 	line-height:  normal;
 	border-radius: 3px;
-	height: 35px;
+	height: 35px;*/
 	padding: 5px 10px;
 	width: 75%;
 	border-color: #555;
 	background-color: rgba( 255, 255, 255, 0.6 );
 }
 
-input[type=text].add-list-item::-webkit-input-placeholder, input[type=text].add-resource-item::-webkit-input-placeholder, input[type=text].add-note-item::-webkit-input-placeholder {
+input[type=text].add-list-item::-webkit-input-placeholder, input[type=text].add-resource-item::-webkit-input-placeholder, input[type=textarea].add-note-item::-webkit-input-placeholder {
    color: #555;
 }
-input[type=text].add-list-item:-moz-placeholder, input[type=text].add-resource-item:-moz-placeholder, input[type=text].add-note-item:-moz-placeholder {
+input[type=text].add-list-item:-moz-placeholder, input[type=text].add-resource-item:-moz-placeholder, input[type=textarea].add-note-item:-moz-placeholder {
    color: #555;
 }
-input[type=text].add-list-item::-moz-placeholder, input[type=text].add-resource-item::-moz-placeholder, input[type=text].add-note-item::-moz-placeholder {
+input[type=text].add-list-item::-moz-placeholder, input[type=text].add-resource-item::-moz-placeholder, input[type=textarea].add-note-item::-moz-placeholder {
    color: #555;
 }
-input[type=text].add-list-item:-ms-input-placeholder, input[type=text].add-resource-item:-ms-input-placeholder, input[type=text].add-note-item:-ms-input-placeholder {
+input[type=text].add-list-item:-ms-input-placeholder, input[type=text].add-resource-item:-ms-input-placeholder, input[type=textarea].add-note-item:-ms-input-placeholder {
    color: #555;
 }
 
@@ -114,7 +114,14 @@ input[type=text].add-list-item:-ms-input-placeholder, input[type=text].add-resou
 
 /* Notes are italicised*/
 .note-item-content {
+    display: inline-block;
     font-style: italic;
+    border: solid;
+    border-width: 1px;
+    line-height:  normal;
+    border-radius: 3px;
+    padding: 5px 10px;
+    width: 75%
 }
 
 .wp-dashboard-widget-wrap:hover .wpdw-extra {
@@ -307,21 +314,21 @@ span.wpdw-color-widget:hover .wpdw-color-palette {
 [data-color-text=black] [id^=widget] .handlediv {
 	color: white;
 }
-[data-color-text=black] input[type=text].add-list-item, [data-color-text=black] input[type=text].add-resource-item, [data-color-text=black] input[type=text].add-note-item {
+[data-color-text=black] input[type=text].add-list-item, [data-color-text=black] input[type=text].add-resource-item, [data-color-text=black] input[type=textarea].add-note-item {
 	border-color: #FFF;
 	color: #FFF;
 	background: rgba(255, 255, 255, 0.3);
 }
-[data-color-text=black] input[type=text].add-list-item::-webkit-input-placeholder , [data-color-text=black] input[type=text].add-resource-item::-webkit-input-placeholder, [data-color-text=black] input[type=text].add-note-item::-webkit-input-placeholder{
+[data-color-text=black] input[type=text].add-list-item::-webkit-input-placeholder , [data-color-text=black] input[type=text].add-resource-item::-webkit-input-placeholder, [data-color-text=black] input[type=textarea].add-note-item::-webkit-input-placeholder{
    color: white;
 }
-[data-color-text=black] input[type=text].add-list-item:-moz-placeholder, [data-color-text=black] input[type=text].add-resource-item:-moz-placeholder, [data-color-text=black] input[type=text].add-note-item:-moz-placeholder {
+[data-color-text=black] input[type=text].add-list-item:-moz-placeholder, [data-color-text=black] input[type=text].add-resource-item:-moz-placeholder, [data-color-text=black] input[type=textarea].add-note-item:-moz-placeholder {
    color: white;
 }
-[data-color-text=black] input[type=text].add-list-item::-moz-placeholder, [data-color-text=black] input[type=text].add-resource-item::-moz-placeholder, [data-color-text=black] input[type=text].add-note-item::-moz-placeholder {
+[data-color-text=black] input[type=text].add-list-item::-moz-placeholder, [data-color-text=black] input[type=text].add-resource-item::-moz-placeholder, [data-color-text=black] input[type=textarea].add-note-item::-moz-placeholder {
    color: white;
 }
-[data-color-text=black] input[type=text].add-list-item:-ms-input-placeholder, [data-color-text=black] input[type=text].add-resource-item:-ms-input-placeholder, [data-color-text=black] input[type=text].add-note-item:-ms-input-placeholder {
+[data-color-text=black] input[type=text].add-list-item:-ms-input-placeholder, [data-color-text=black] input[type=text].add-resource-item:-ms-input-placeholder, [data-color-text=black] input[type=textarea].add-note-item:-ms-input-placeholder {
    color: white;
 }
 [data-color-text=black] .saved-icon,
@@ -355,21 +362,21 @@ span.wpdw-color-widget:hover .wpdw-color-palette {
 [data-color-text=template] [id^=widget] .handlediv {
 	color: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item, [data-color-text=template] input[type=text].add-resource-item, [data-color-text=template] input[type=text].add-note-item {
+[data-color-text=template] input[type=text].add-list-item, [data-color-text=template] input[type=text].add-resource-item, [data-color-text=template] input[type=textarea].add-note-item {
 	border-color: inherit;
 	color: inherit;
 	background: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item::-webkit-input-placeholder, [data-color-text=template] input[type=text].add-resource-item::-webkit-input-placeholder, [data-color-text=template] input[type=text].add-note-item::-webkit-input-placeholder {
+[data-color-text=template] input[type=text].add-list-item::-webkit-input-placeholder, [data-color-text=template] input[type=text].add-resource-item::-webkit-input-placeholder, [data-color-text=template] input[type=textarea].add-note-item::-webkit-input-placeholder {
    color: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item:-moz-placeholder, [data-color-text=template] input[type=text].add-resource-item:-moz-placeholder, [data-color-text=template] input[type=text].add-note-item:-moz-placeholder {
+[data-color-text=template] input[type=text].add-list-item:-moz-placeholder, [data-color-text=template] input[type=text].add-resource-item:-moz-placeholder, [data-color-text=template] input[type=textarea].add-note-item:-moz-placeholder {
    color: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item::-moz-placeholder, [data-color-text=template] input[type=text].add-resource-item::-moz-placeholder, [data-color-text=template] input[type=text].add-note-item::-moz-placeholder {
+[data-color-text=template] input[type=text].add-list-item::-moz-placeholder, [data-color-text=template] input[type=text].add-resource-item::-moz-placeholder, [data-color-text=template] input[type=textarea].add-note-item::-moz-placeholder {
    color: inherit;
 }
-[data-color-text=template] input[type=text].add-list-item:-ms-input-placeholder, [data-color-text=template] input[type=text].add-resource-item:-ms-input-placeholder, [data-color-text=template] input[type=text].add-note-item:-ms-input-placeholder {
+[data-color-text=template] input[type=text].add-list-item:-ms-input-placeholder, [data-color-text=template] input[type=text].add-resource-item:-ms-input-placeholder, [data-color-text=template] input[type=textarea].add-note-item:-ms-input-placeholder {
    color: inherit;
 }
 [data-color-text=template] .saved-icon,
