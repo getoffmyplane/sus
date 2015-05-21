@@ -9,9 +9,18 @@ jQuery( document ).ready( function($) {
         if( e.keyCode == 13 && $( this ).val() != '' ) {
 
             var post_id 	= $( this ).closest( ".postbox" ).attr( 'id' );
-            var resource_item 	= '<div class="resource-item"><div class="dashicons dashicons-menu wpdw-widget-sortable"></div><span class="resource-item-content" contenteditable="true">' + $( this ).val() + '</span><div class="delete-item dashicons dashicons-no-alt"></div></div>';
+            var resource_item 	= {
+                initialHTML: '<div class="resource-item"><div class="dashicons dashicons-menu wpdw-widget-sortable"></div><span class="resource-item-content" contenteditable="false">',
+                url: '<a class="wp-colorbox-iframe" href="../?page_id=118">',
+                userInput: $( this ).val(),
+                closingHTML: '</a></span><div class="delete-item dashicons dashicons-no-alt"></div></div>',
 
-            $( '#' + post_id + ' div.wp-dashboard-widget' ).append( resource_item );
+                combined: function () {
+                    return this.initialHTML + this.url + this.userInput + this.closingHTML;
+                }
+            };
+
+            $( '#' + post_id + ' div.wp-dashboard-widget' ).append( resource_item.combined() );
             $( this ).val( '' ); // Clear 'add item' field
             $( this ).trigger( 'widget-sortable' );
 
@@ -329,17 +338,43 @@ jQuery( document ).ready( function($) {
 	.trigger( 'widget-sortable' );
 
 
-	// Open link box when hovering a link
+	/* Open link box when hovering a link
 	$( '.wp-dashboard-widget-wrap a' ).hover( function() {
 
 		var url = $( this ).attr( 'href' );
-		$( this ).append( '<span class="link-hover" contenteditable="false"><a href="' + url + '" target="_blank" contenteditable="false">Open link</a></span>' );
+		$( this ).append( '<span class="link-hover" contenteditable="false"><a href="' + url + '">Link to Resource</a></span>' );
+        //<a class="wp-colorbox-iframe" href="http://localhost/sus/wp-admin/post-new.php"{"Test"}>' + $( this ).val() + '"</a>
 
 	}, function() {
 
 		$( '.link-hover' ).remove();
 
-	});
+	});*/
+
+    /*// Open link in lightbox
+    $( '.wp-dashboard-widget-wrap a' ).on('click', function() {
+        event.preventDefault();
+
+        var url = $( this ).attr( 'href' );
+        var title = 'title';
+        var type = 'iframe';
+        var hyperlink = $ ( this ).text();
+        alert('The URL is: ' + url + '. The title is: ' + title + '. The type is: ' + type + '. The hyperlink is: ' + hyperlink );
+
+        //post variables to PHP action
+        var data = {
+            action: 	'open_link_in_lightbox',
+            url: $( this ).attr( 'href' ),
+            title: 'title',
+            type: 'iframe',
+            hyperlink: $ ( this ).text()
+        };
+
+        $.post( ajaxurl, data, function( response ) {
+            alert('The server responded: ' + response);
+        });
+
+    })*/
 
 	// Prevent background color and other style from copying from one widget to the other
 	$( 'body' ).on('paste', '[contenteditable]', function (e) {
