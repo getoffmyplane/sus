@@ -137,8 +137,7 @@ class WP_Dashboard_Widgets {
 		// Load textdomain
 		load_plugin_textdomain( 'wp-dashboard-widgets', false, basename( dirname( __FILE__ ) ) . '/languages' );
 
-	}
-
+    }
 
 	/**
 	 * Enqueue scripts.
@@ -317,10 +316,7 @@ class WP_Dashboard_Widgets {
 		return $columns;
 
 	}
-
-
 }
-
 
 /**
  * The main function responsible for returning the WP_Dashboard_Widgets object.

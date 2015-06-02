@@ -1,7 +1,12 @@
 jQuery( document ).ready( function($) {
 
+    /*
+    Dashboard functions
+     */
+
 	var loading_icon 	= '<span class="saving-icon"><img src="images/wpspin_light.gif"/> saving...</span>';
 	var saved_icon 		= '<span class="saved-icon"><div class="dashicons dashicons-yes"></div> saved!</span>';
+    var new_resource_url = '../?page_id=118';
 
     // Add resource item
     $( 'body, .resource-item-content' ).on( 'keydown', '.add-resource-item', function( e ) {
@@ -11,7 +16,7 @@ jQuery( document ).ready( function($) {
             var post_id 	= $( this ).closest( ".postbox" ).attr( 'id' );
             var resource_item 	= {
                 initialHTML: '<div class="resource-item"><div class="dashicons dashicons-menu wpdw-widget-sortable"></div><span class="resource-item-content" contenteditable="false">',
-                url: '<a class="wp-colorbox-iframe" href="../?page_id=118">',
+                url: '<a class="wp-colorbox-iframe" href="'+ new_resource_url +'">',
                 userInput: $( this ).val(),
                 closingHTML: '</a></span><div class="delete-item dashicons dashicons-no-alt"></div></div>',
 
@@ -274,7 +279,7 @@ jQuery( document ).ready( function($) {
         $( this ).trigger( 'wpdw-update', this );
     });
 
-    // Save on ctrl & s (note widget)
+    // Save on ctrl & enter (note widget)
     $( 'body' ).on( 'keydown', '[data-widget-type=note], .wpdw-title, .note-item-content', function( e ) {
         if ( e.keyCode == 13 && ( e.ctrlKey || e.metaKey ) ) {
             $( this ).trigger( 'wpdw-update', this );
@@ -351,30 +356,41 @@ jQuery( document ).ready( function($) {
 
 	});*/
 
-    /*// Open link in lightbox
-    $( '.wp-dashboard-widget-wrap a' ).on('click', function() {
+    // Pass resource name from widget to resource (JQuery -> PHP)
+    $( '.wp-dashboard-widget-wrap a' ).on('click', function(event) {
+
         event.preventDefault();
 
-        var url = $( this ).attr( 'href' );
-        var title = 'title';
-        var type = 'iframe';
-        var hyperlink = $ ( this ).text();
-        alert('The URL is: ' + url + '. The title is: ' + title + '. The type is: ' + type + '. The hyperlink is: ' + hyperlink );
+        //get resource url for isexistingresource or newresource comparison test
+        var resource_url = $ (this).attr('href');
+        //get resource name that user typed
+        var resource_name = $ (this).text();
 
-        //post variables to PHP action
-        var data = {
-            action: 	'open_link_in_lightbox',
-            url: $( this ).attr( 'href' ),
-            title: 'title',
-            type: 'iframe',
-            hyperlink: $ ( this ).text()
-        };
+        //check if resource has not been linked to an existing resource already
+        if ( resource_url == new_resource_url ) {
+            //post variables to PHP action
+            var data = {
+                action: 'post_title_return_url',
+                url: 'test-tacular',
+                res_name: resource_name
+            };
 
-        $.post( ajaxurl, data, function( response ) {
-            alert('The server responded: ' + response);
-        });
+            $.post( ajaxurl, data, function( response ) {
+                alert('The server responded: ' + response);
+            });
+        }
+    })
 
-    })*/
+    // Get resource name and url from php and update widget resource name (PHP -> JQuery)
+    $(document).on('cbox_closed', function() {
+        var set_data = {
+            action: 'resource_title_and_url_to_widget'
+        }
+
+        $.post(ajaxurl, set_data, function(response) {
+            alert(response);
+        })
+    })
 
 	// Prevent background color and other style from copying from one widget to the other
 	$( 'body' ).on('paste', '[contenteditable]', function (e) {
@@ -382,5 +398,16 @@ jQuery( document ).ready( function($) {
 		var text = (e.originalEvent || e).clipboardData.getData('text/plain');
 		document.execCommand('insertText', false, text);
 	});
+
+    /*
+
+    //obsolete - replaced with filter in class-wpdw-ajax.php
+    New Resource (post-type) page
+
+    $( function () {
+        $('#post_title').val('Test');
+    })
+    //<input type="text" name="post_title" size="30" value="" id="title" spellcheck="true" autocomplete="off">
+    */
 
 });

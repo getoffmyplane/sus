@@ -85,6 +85,8 @@ if(!class_exists('WP_COLORBOX'))
 
 function action_to_short_code_for_wp_colorbox_media_handler()
 {
+    WP_COLORBOX;
+
     $url = $_POST['url'];
     $title = $_POST['title'];
     $type = $_POST['type'];
