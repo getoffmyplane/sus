@@ -242,9 +242,11 @@ class WPDW_Ajax {
     {
         $_SESSION["url"] = $_POST['url'];
         $_SESSION["resource_name"] = $_POST['res_name'];
+        $_SESSION["post_id"] = $_POST['post_id'];
+        $_SESSION["selection"] = $_POST['sel'];
 
         //die("Hello World");
-        die ("URL=".$_SESSION["url"]." Resource Name=".$_SESSION["resource_name"]);
+        die ("Selection was ".$_SESSION["selection"]." URL=".$_SESSION["url"]." Resource Name=".$_SESSION["resource_name"]." ID=".$_SESSION['post_id']);
     }
 
     /*
@@ -273,7 +275,7 @@ class WPDW_Ajax {
         $_SESSION['resource_name'] = get_the_title($ID);
         $_SESSION['url'] = get_permalink($ID);
     }
-
+/*
     function resource_title_and_url_to_widget()
     {
         $url_set = $_SESSION['url'];
@@ -281,6 +283,18 @@ class WPDW_Ajax {
         //CLEAR SESSION SHOULD GO HERE
         die("<div class='resource-item'><div class='dashicons dashicons-menu wpdw-widget-sortable'></div><span class='resource-item-content' contenteditable='false'><a class='wp-colorbox-iframe' href=".$url_set.">".$resource_name_set."</a></span><div class='delete-item dashicons dashicons-no-alt'></div></div>");
     }
+*/
+    function resource_title_and_url_to_widget()
+    {
+        $response['url'] = $_SESSION['url'];
+        $response['resource_name']= $_SESSION['resource_name'];
+        $response['post_id']= $_SESSION['post_id'];
+
+        //CLEAR SESSION SHOULD GO HERE
+        echo json_encode($response);
+        exit;
+    }
+
 }
 
 

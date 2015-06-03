@@ -365,6 +365,8 @@ jQuery( document ).ready( function($) {
         var resource_url = $ (this).attr('href');
         //get resource name that user typed
         var resource_name = $ (this).text();
+        //get widget id
+        var post_id 	= $( this ).closest( ".postbox" ).attr( 'id' );
 
         //check if resource has not been linked to an existing resource already
         if ( resource_url == new_resource_url ) {
@@ -372,7 +374,8 @@ jQuery( document ).ready( function($) {
             var data = {
                 action: 'post_title_return_url',
                 url: 'test-tacular',
-                res_name: resource_name
+                res_name: resource_name,
+                post_id: post_id
             };
 
             $.post( ajaxurl, data, function( response ) {
@@ -384,11 +387,21 @@ jQuery( document ).ready( function($) {
     // Get resource name and url from php and update widget resource name (PHP -> JQuery)
     $(document).on('cbox_closed', function() {
         var set_data = {
-            action: 'resource_title_and_url_to_widget'
+            action: 'resource_title_and_url_to_widget',
+            url: '',
+            resource_name: '',
+            post_id: ''
         }
 
         $.post(ajaxurl, set_data, function(response) {
-            alert(response);
+            var resource_att = $.parseJSON(response);
+            var url = resource_att.url;
+            var resource_name = resource_att.resource_name;
+
+            $( document.activeElement ).text(resource_name);
+            $( document.activeElement ).attr({
+                href: url
+            });
         })
     })
 
