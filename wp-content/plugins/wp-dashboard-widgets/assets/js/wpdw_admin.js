@@ -369,11 +369,11 @@ jQuery( document ).ready( function($) {
         var post_id 	= $( this ).closest( ".postbox" ).attr( 'id' );
 
         //check if resource has not been linked to an existing resource already
-        if ( resource_url == new_resource_url ) {
+        //if ( resource_url == new_resource_url ) {
             //post variables to PHP action
             var data = {
                 action: 'post_title_return_url',
-                url: 'test-tacular',
+                url: resource_url,
                 res_name: resource_name,
                 post_id: post_id
             };
@@ -381,7 +381,7 @@ jQuery( document ).ready( function($) {
             $.post( ajaxurl, data, function( response ) {
                 alert('The server responded: ' + response);
             });
-        }
+        //}
     })
 
     // Get resource name and url from php and update widget resource name (PHP -> JQuery)
