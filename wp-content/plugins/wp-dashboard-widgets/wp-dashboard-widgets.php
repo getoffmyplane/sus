@@ -189,7 +189,7 @@ class WP_Dashboard_Widgets {
 
 		$widget_meta = get_post_meta( $widget_id, '_widget', true );
 
-		if ( ! isset( $widget_meta['widget_type'] ) )	{ $widget_meta['widget_type']	= 'note'; }
+		if ( ! isset( $widget_meta['widget_type'] ) )	{ $widget_meta['widget_type']	= 'resource'; }
 		if ( ! isset( $widget_meta['color'] ) )		{ $widget_meta['color']		= '#ffffff'; }
 		if ( ! isset( $widget_meta['visibility'] ) )	{ $widget_meta['visibility']	= 'public'; }
 		if ( ! isset( $widget_meta['color_text'] ) )	{ $widget_meta['color_text']	= 'white'; }
@@ -267,8 +267,8 @@ class WP_Dashboard_Widgets {
 
 		if ( $widget_meta['widget_type'] == 'note' ) :
 			require plugin_dir_path( __FILE__ ) . 'includes/templates/note.php';
-        elseif ( $_POST['widget_type'] == 'resource') :
-            require plugin_dir_path( __FILE__ ) . 'templates/resource-widget.php';
+        elseif ( $widget_meta['widget_type'] == 'resource') :
+            require plugin_dir_path( __FILE__ ) . 'includes/templates/resource-widget.php';
 		else :
 			require plugin_dir_path( __FILE__ ) . 'includes/templates/todo-list.php';
 		endif;
