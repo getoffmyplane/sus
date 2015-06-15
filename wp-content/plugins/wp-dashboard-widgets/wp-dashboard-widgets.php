@@ -151,6 +151,9 @@ class WP_Dashboard_Widgets {
 		// Javascript
 		wp_enqueue_script( 'wpdw_admin_js', plugin_dir_url( __FILE__ ) . 'assets/js/wpdw_admin.js', array( 'jquery', 'jquery-ui-sortable' ), $this->version );
 
+        // jQuery BlockUI plugin (prevent user interaction during Ajax calls
+        wp_enqueue_script( 'jquery_block_ui', plugin_dir_url ( __FILE__) . 'assets/js/jquery.blockUI.js' );
+
 		// Stylesheet
 		wp_enqueue_style( 'wpdw_admin_css', plugin_dir_url( __FILE__ ) . 'assets/css/wpdw_admin.css', array( 'dashicons' ), $this->version );
 

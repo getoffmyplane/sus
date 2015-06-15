@@ -16,7 +16,7 @@ jQuery( document ).ready( function($) {
             var post_id 	= $( this ).closest( ".postbox" ).attr( 'id' );
             var resource_item 	= {
                 initialHTML: '<div class="resource-item"><div class="dashicons dashicons-menu wpdw-widget-sortable"></div><span class="resource-item-content" contenteditable="false">',
-                url: '<a class="wp-colorbox-iframe" href="'+ new_resource_url +'">',
+                url: '<a class="wp-colorbox-iframe unlinked" href="'+ new_resource_url +'">',
                 userInput: $( this ).val(),
                 closingHTML: '</a></span><div class="delete-item dashicons dashicons-no-alt"></div></div>',
 
@@ -26,11 +26,80 @@ jQuery( document ).ready( function($) {
             };
 
             $( '#' + post_id + ' div.wp-dashboard-widget' ).append( resource_item.combined() );
+            $(".wp-colorbox-iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+
+            // Pass resource name from widget to resource (JQuery -> PHP)
+            $( '.wp-dashboard-widget-wrap a' ).on('click', function(event) {
+
+                event.preventDefault();
+
+                //get resource url for isexistingresource or newresource comparison test
+                var resource_url = $ (this).attr('href');
+                //get resource name that user typed
+                var resource_name = $ (this).text();
+                //get widget id
+                var post_id 	= $( this ).closest( ".postbox" ).attr( 'id' );
+
+                //check if resource has not been linked to an existing resource already
+                //if ( resource_url == new_resource_url ) {
+                //post variables to PHP action
+                var data = {
+                    action: 'post_title_return_url',
+                    url: resource_url,
+                    res_name: resource_name,
+                    post_id: post_id
+                };
+
+                $.post( ajaxurl, data, function( response ) {
+                    alert('The server responded: ' + response);
+                });
+                //}
+            })
+
+            // Get resource name and url from php and update widget resource name (PHP -> JQuery)
+            $(document).on('cbox_closed', function() {
+
+                /*$( document.activeElement ).closest('div[class="postbox"]').block(
+                 {
+                 message: '<h1>processing...</h1>',
+                 css: {border: '3px solid #a00'}
+                 }
+                 );*/
+
+                var set_data = {
+                    action: 'resource_title_and_url_to_widget',
+                    url: '',
+                    resource_name: '',
+                    post_id: ''
+                }
+
+                $.post(ajaxurl, set_data, function(response) {
+                    var resource_att = $.parseJSON(response);
+                    var url = resource_att.url;
+                    var resource_name = resource_att.resource_name;
+
+                    $( document.activeElement ).text(resource_name);
+                    $( document.activeElement ).attr({
+                        href: url
+                    });
+                    if($( document.activeElement ).href != new_resource_url)
+                    {
+                        $( document.activeElement ).removeClass('unlinked');
+                        $( document.activeElement ).addClass('linked');
+                    }
+                    //$( this ).val( '' ); // Clear 'add item' field
+                    $( document.activeElement ).trigger( 'widget-sortable' );
+                    $( document.activeElement ).trigger( 'wpdw-update', this );
+                })
+
+                //$( document.activeElement ).closest('div[class="postbox"]').unblock();
+
+            })
+
             $( this ).val( '' ); // Clear 'add item' field
             $( this ).trigger( 'widget-sortable' );
 
             $( this ).trigger( 'wpdw-update', this );
-
         }
 
     });
@@ -386,6 +455,14 @@ jQuery( document ).ready( function($) {
 
     // Get resource name and url from php and update widget resource name (PHP -> JQuery)
     $(document).on('cbox_closed', function() {
+
+        /*$( document.activeElement ).closest('div[class="postbox"]').block(
+            {
+                message: '<h1>processing...</h1>',
+                css: {border: '3px solid #a00'}
+            }
+        );*/
+
         var set_data = {
             action: 'resource_title_and_url_to_widget',
             url: '',
@@ -402,7 +479,20 @@ jQuery( document ).ready( function($) {
             $( document.activeElement ).attr({
                 href: url
             });
+
+            if($( document.activeElement ).href != new_resource_url)
+            {
+                $( document.activeElement ).removeClass('unlinked');
+                $( document.activeElement ).addClass('linked');
+            }
+
+            //$( this ).val( '' ); // Clear 'add item' field
+            $( document.activeElement ).trigger( 'widget-sortable' );
+            $( document.activeElement ).trigger( 'wpdw-update', this );
         })
+
+        //$( document.activeElement ).closest('div[class="postbox"]').unblock();
+
     })
 
 	// Prevent background color and other style from copying from one widget to the other
@@ -422,5 +512,7 @@ jQuery( document ).ready( function($) {
     })
     //<input type="text" name="post_title" size="30" value="" id="title" spellcheck="true" autocomplete="off">
     */
+
+    $(document).ajaxStart($.blockUI).ajaxStop($.unblockUI);
 
 });
