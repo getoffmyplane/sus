@@ -122,6 +122,13 @@ class WP_Dashboard_Widgets {
 	 */
 	public function hooks() {
 
+		// Prevent browser from loading cached version of dashboard page
+        //add_action( 'admin_head', array( $this, 'no_cache'));
+
+        // Remove standard wordpress dashboard widgets
+        add_action( 'wp_dashboard_setup', array( $this, 'remove_standard_wp_dashboard_widgets' ) );
+        remove_action( 'welcome_panel', 'wp_welcome_panel' );
+
 		// Add dashboard widget
 		add_action( 'wp_dashboard_setup', array( $this, 'wpdw_init_dashboard_widget' ) );
 
@@ -159,6 +166,39 @@ class WP_Dashboard_Widgets {
 
 	}
 
+    /* - NOT WORKING!!!
+     * Prevent browser for caching older version of the dashboard page.
+     * This causes an issue whereby the user can create new widgets, and move on to a different page, but when they return
+     * to the dashboard using the browser's "back" button, the new widgets don't show up without a refresh.
+     */
+    public function no_cache()
+    {
+        //disable client-side caching
+        nocache_headers();
+        //disable server-side caching
+        header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
+        header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
+    }
+
+    public function remove_standard_wp_dashboard_widgets()
+    {
+        global $wp_meta_boxes;
+        unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);
+        unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_comments']);
+        unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
+        unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);
+        unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now']);
+        unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
+        remove_meta_box( 'dashboard_incoming_links', 'dashboard', 'normal' );
+        remove_meta_box( 'dashboard_plugins', 'dashboard', 'normal' );
+        remove_meta_box( 'dashboard_primary', 'dashboard', 'side' );
+        remove_meta_box( 'dashboard_secondary', 'dashboard', 'normal' );
+        remove_meta_box( 'dashboard_quick_press', 'dashboard', 'side' );
+        remove_meta_box( 'dashboard_recent_drafts', 'dashboard', 'side' );
+        remove_meta_box( 'dashboard_recent_comments',   'dashboard', 'normal' );
+        remove_meta_box( 'dashboard_right_now', 'dashboard', 'normal' );
+        remove_meta_box( 'dashboard_activity', 'dashboard', 'normal');//since 3.8
+    }
 
 	/**
 	 * Get widgets.

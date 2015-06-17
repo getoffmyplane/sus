@@ -118,7 +118,7 @@ jQuery( document ).ready( function($) {
     // Add note item
     $( 'body, .note-item-content' ).on( 'keydown', '.add-note-item', function( e ) {
 
-        if( ( e.keyCode == 13 && ( e.ctrlKey || e.metaKey ) ) && $( this ).val() != '' ) {
+        if( e.keyCode == 13 && $( this ).val() != '' ) {
 
             var post_id 	= $( this ).closest( ".postbox" ).attr( 'id' );
             var note_item 	= '<div class="note-item"><div class="dashicons dashicons-menu wpdw-widget-sortable"></div><span class="note-item-content" contenteditable="true">' + $( this ).val() + '</span><div class="delete-item dashicons dashicons-no-alt"></div></div>';
