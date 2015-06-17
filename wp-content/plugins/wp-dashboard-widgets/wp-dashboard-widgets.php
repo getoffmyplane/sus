@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name:		WP Dashboard Widgets (test)
+ * Plugin Name:		WP Dashboard Widgets
  * Plugin URI:		http://www.startupsite.com
  * Donate link:		http://www.jeroensormani.com/donate/
  * Description:		Allows users to create custom widgets to: link to resources, act as post-it widgets, act as to-do lists.
@@ -122,6 +122,13 @@ class WP_Dashboard_Widgets {
 	 */
 	public function hooks() {
 
+		// Prevent browser from loading cached version of dashboard page
+        //add_action( 'admin_head', array( $this, 'no_cache'));
+
+        // Remove standard wordpress dashboard widgets
+        add_action( 'wp_dashboard_setup', array( $this, 'remove_standard_wp_dashboard_widgets' ) );
+        remove_action( 'welcome_panel', 'wp_welcome_panel' );
+
 		// Add dashboard widget
 		add_action( 'wp_dashboard_setup', array( $this, 'wpdw_init_dashboard_widget' ) );
 
@@ -137,8 +144,7 @@ class WP_Dashboard_Widgets {
 		// Load textdomain
 		load_plugin_textdomain( 'wp-dashboard-widgets', false, basename( dirname( __FILE__ ) ) . '/languages' );
 
-	}
-
+    }
 
 	/**
 	 * Enqueue scripts.
@@ -152,11 +158,47 @@ class WP_Dashboard_Widgets {
 		// Javascript
 		wp_enqueue_script( 'wpdw_admin_js', plugin_dir_url( __FILE__ ) . 'assets/js/wpdw_admin.js', array( 'jquery', 'jquery-ui-sortable' ), $this->version );
 
+        // jQuery BlockUI plugin (prevent user interaction during Ajax calls
+        wp_enqueue_script( 'jquery_block_ui', plugin_dir_url ( __FILE__) . 'assets/js/jquery.blockUI.js' );
+
 		// Stylesheet
 		wp_enqueue_style( 'wpdw_admin_css', plugin_dir_url( __FILE__ ) . 'assets/css/wpdw_admin.css', array( 'dashicons' ), $this->version );
 
 	}
 
+    /* - NOT WORKING!!!
+     * Prevent browser for caching older version of the dashboard page.
+     * This causes an issue whereby the user can create new widgets, and move on to a different page, but when they return
+     * to the dashboard using the browser's "back" button, the new widgets don't show up without a refresh.
+     */
+    public function no_cache()
+    {
+        //disable client-side caching
+        nocache_headers();
+        //disable server-side caching
+        header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
+        header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
+    }
+
+    public function remove_standard_wp_dashboard_widgets()
+    {
+        global $wp_meta_boxes;
+        unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);
+        unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_comments']);
+        unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
+        unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);
+        unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now']);
+        unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
+        remove_meta_box( 'dashboard_incoming_links', 'dashboard', 'normal' );
+        remove_meta_box( 'dashboard_plugins', 'dashboard', 'normal' );
+        remove_meta_box( 'dashboard_primary', 'dashboard', 'side' );
+        remove_meta_box( 'dashboard_secondary', 'dashboard', 'normal' );
+        remove_meta_box( 'dashboard_quick_press', 'dashboard', 'side' );
+        remove_meta_box( 'dashboard_recent_drafts', 'dashboard', 'side' );
+        remove_meta_box( 'dashboard_recent_comments',   'dashboard', 'normal' );
+        remove_meta_box( 'dashboard_right_now', 'dashboard', 'normal' );
+        remove_meta_box( 'dashboard_activity', 'dashboard', 'normal');//since 3.8
+    }
 
 	/**
 	 * Get widgets.
@@ -190,7 +232,7 @@ class WP_Dashboard_Widgets {
 
 		$widget_meta = get_post_meta( $widget_id, '_widget', true );
 
-		if ( ! isset( $widget_meta['widget_type'] ) )	{ $widget_meta['widget_type']	= 'note'; }
+		if ( ! isset( $widget_meta['widget_type'] ) )	{ $widget_meta['widget_type']	= 'resource'; }
 		if ( ! isset( $widget_meta['color'] ) )		{ $widget_meta['color']		= '#ffffff'; }
 		if ( ! isset( $widget_meta['visibility'] ) )	{ $widget_meta['visibility']	= 'public'; }
 		if ( ! isset( $widget_meta['color_text'] ) )	{ $widget_meta['color_text']	= 'white'; }
@@ -268,8 +310,8 @@ class WP_Dashboard_Widgets {
 
 		if ( $widget_meta['widget_type'] == 'note' ) :
 			require plugin_dir_path( __FILE__ ) . 'includes/templates/note.php';
-        elseif ( $_POST['widget_type'] == 'resource') :
-            require plugin_dir_path( __FILE__ ) . 'templates/resource-widget.php';
+        elseif ( $widget_meta['widget_type'] == 'resource') :
+            require plugin_dir_path( __FILE__ ) . 'includes/templates/resource-widget.php';
 		else :
 			require plugin_dir_path( __FILE__ ) . 'includes/templates/todo-list.php';
 		endif;
@@ -317,10 +359,7 @@ class WP_Dashboard_Widgets {
 		return $columns;
 
 	}
-
-
 }
-
 
 /**
  * The main function responsible for returning the WP_Dashboard_Widgets object.

@@ -23,6 +23,11 @@ class WPDW_Ajax {
 	 */
 	public function __construct() {
 
+		// start & destroy sessions
+        add_action( 'init', array( $this, 'start_user_session'));
+        add_action( 'wp_logout', array( $this, 'end_user_session' ));
+        add_action( 'wp_login', array( $this, 'end_user_session' ));
+
 		// Update widget
 		add_action( 'wp_ajax_wpdw_update_widget', array( $this, 'wpdw_update_widget' ) );
 		add_action( 'wp_ajax_wpdw_toggle_widget', array( $this, 'wpdw_toggle_widget' ) );
@@ -31,8 +36,45 @@ class WPDW_Ajax {
 		add_action( 'wp_ajax_wpdw_add_widget', array( $this, 'wpdw_add_widget' ) );
 		add_action( 'wp_ajax_wpdw_delete_widget', array( $this, 'wpdw_delete_widget' ) );
 
-	}
+        // Pass resource name between Dashboard widget and "New [Resource]" screen
+        add_action( 'wp_ajax_post_title_return_url', array($this, 'set_session_variables_posted_from_jquery'));
+        add_filter( 'default_title', array($this, 'widget_title_to_resource'));
 
+        // Pass resource name and URL back to dashboard widget
+        add_action('publish_person', array($this, 'set_resource_title_and_url_for_widget'),10,2);
+        add_action('publish_group', array($this, 'set_resource_title_and_url_for_widget'),10,2);
+        add_action('publish_product-or-service', array($this, 'set_resource_title_and_url_for_widget'),10,2);
+        add_action('publish_channel', array($this, 'set_resource_title_and_url_for_widget'),10,2);
+        add_action('publish_market', array($this, 'set_resource_title_and_url_for_widget'),10,2);
+        add_action('publish_log', array($this, 'set_resource_title_and_url_for_widget'),10,2);
+        add_action('publish_metric', array($this, 'set_resource_title_and_url_for_widget'),10,2);
+        add_action('wp_ajax_resource_title_and_url_to_widget', array($this,'resource_title_and_url_to_widget'));
+    }
+
+    /*
+     * start_user_session
+     *
+     * This will create a session to store the resource name and url so that they can be passed between the admin pages and the dashboard.
+     * It hooks into an action that takes place after WordPress is loaded, but before your code needs the session
+     */
+
+    function start_user_session() {
+        if (!session_id()) {
+            session_start();
+        }
+    }
+
+    /*
+     * end_user_session
+     *
+     * The data stored in the session doesn't go away when the user logs out or logs into a different account.
+     * For that, you need to destroy the session, and, of course, that requires a couple more hooks.
+     * The following code will destroy the session in these cases
+     */
+
+    function end_user_session() {
+        session_destroy();
+    }
 
 	/**
 	 * Update widget.
@@ -67,7 +109,7 @@ class WPDW_Ajax {
 	/**
 	 * Toggle widget.
 	 *
-	 * Toggle widget type, from 'note widget' to 'list widget' or vice versa.
+	 * Toggle widget type, from 'note widget' to 'resource' to 'to do list widget' or vice versa.
 	 *
 	 * @since 1.0.0
 	 */
@@ -186,7 +228,7 @@ class WPDW_Ajax {
 	/**
 	 * Delete widget.
 	 *
-	 * Post is trashed and not permanently deleted.
+	 * Post is binned and not permanently deleted.
 	 *
 	 * @since 1.0.0
 	 */
@@ -198,5 +240,67 @@ class WPDW_Ajax {
 
 	}
 
+    /*
+     * Set session variables to pass between "New [Resource]" page and Dashboard widget (e.g. resource name, url, etc.)
+     */
+
+    public function set_session_variables_posted_from_jquery()
+    {
+        $_SESSION["url"] = $_POST['url'];
+        $_SESSION["resource_name"] = $_POST['res_name'];
+        $_SESSION["post_id"] = $_POST['post_id'];
+        $_SESSION["selection"] = $_POST['sel'];
+
+        //die("Hello World");
+        die ("Selection was ".$_SESSION["selection"]." URL=".$_SESSION["url"]." Resource Name=".$_SESSION["resource_name"]." ID=".$_SESSION['post_id']);
+    }
+
+    /*
+     * Progress:
+     * Name resource
+     * Post resource name
+     * Click link
+     * Select resource to create
+     * New resource name == post resource name
+     * Populate resource details
+     * Save
+     * Post resource url
+     * Close lightbox
+     * Widget resource link == post resource url <-- YOU ARE HERE
+     * Clear session
+
+     */
+
+    function widget_title_to_resource()
+    {
+        return $_SESSION["resource_name"];
+    }
+
+    function set_resource_title_and_url_for_widget($ID, $post)
+    {
+        $_SESSION['resource_name'] = get_the_title($ID);
+        $_SESSION['url'] = get_permalink($ID);
+    }
+/*
+    function resource_title_and_url_to_widget()
+    {
+        $url_set = $_SESSION['url'];
+        $resource_name_set = $_SESSION['resource_name'];
+        //CLEAR SESSION SHOULD GO HERE
+        die("<div class='resource-item'><div class='dashicons dashicons-menu wpdw-widget-sortable'></div><span class='resource-item-content' contenteditable='false'><a class='wp-colorbox-iframe' href=".$url_set.">".$resource_name_set."</a></span><div class='delete-item dashicons dashicons-no-alt'></div></div>");
+    }
+*/
+    function resource_title_and_url_to_widget()
+    {
+        $response['url'] = $_SESSION['url'];
+        $response['resource_name']= $_SESSION['resource_name'];
+        $response['post_id']= $_SESSION['post_id'];
+
+        //CLEAR SESSION SHOULD GO HERE
+        echo json_encode($response);
+        exit;
+    }
 
 }
+
+

@@ -6,7 +6,7 @@
 
 			<div class='wp-dashboard-widget-options'>
 				<div class='dashicons dashicons-plus wpdw-add-item'></div>
-				<input type='text' name='resource_item' class='add-resource-item' data-id='<?php echo $widget->ID; ?>' placeholder='<?php _e( 'Resource Item', 'wp-dashboard-widgets' ); ?>'>
+				<input type='text' name='resource_item' id='add-resource-item' class='add-resource-item ui-autocomplete-input' data-id='<?php echo $widget->ID; ?>' placeholder='<?php _e( 'Resource Item', 'wp-dashboard-widgets' ); ?>'>
 				<span class='status'></span>
 				<div class='wpdw-extra'>
 					<span class='wpdw-option-visibility'>

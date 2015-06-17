@@ -106,10 +106,19 @@ input[type=text].add-list-item:-ms-input-placeholder, input[type=text].add-resou
 	line-height: 1;
 }
 
-/* Undefined resources are bold and have dashed underline*/
-.resource-item-content {
+/* Unlinked resources are bold red and have dashed underline (inspired by unwritten Wikipedia articles)*/
+a.unlinked
+{
     font-weight: bold;
     border-bottom: 2px dashed #000;
+    color: red!important;
+}
+
+/* Linked resources are standard WP blue*/
+a.linked
+{
+    border-bottom: none;
+    color: dodgerblue;
 }
 
 /* Notes are italicised*/

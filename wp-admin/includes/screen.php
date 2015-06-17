@@ -952,7 +952,7 @@ final class WP_Screen {
 		<?php endif;
 		if ( $this->show_screen_options() ) : ?>
 			<div id="screen-options-link-wrap" class="hide-if-no-js screen-meta-toggle">
-			<a href="#screen-options-wrap" id="show-settings-link" class="show-settings" aria-controls="screen-options-wrap" aria-expanded="false"><?php _e( 'Screen Options' ); ?></a>
+			<a href="#screen-options-wrap" id="show-settings-link" class="show-settings" aria-controls="screen-options-wrap" aria-expanded="false"><?php _e( 'Manage Widgets' ); ?></a>
 			</div>
 		<?php endif; ?>
 		</div>
@@ -1028,7 +1028,7 @@ final class WP_Screen {
 		<div id="screen-options-wrap" class="hidden" tabindex="-1" aria-label="<?php esc_attr_e('Screen Options Tab'); ?>">
 		<form id="adv-settings" method="post">
 		<?php if ( isset( $wp_meta_boxes[ $this->id ] ) || $this->get_option( 'per_page' ) || ( $columns && empty( $columns['_title'] ) ) ) : ?>
-			<h5><?php _e( 'Show on screen' ); ?></h5>
+			<h5><?php _e( 'Toggle Visibility' ); ?></h5>
 		<?php
 		endif;
 
