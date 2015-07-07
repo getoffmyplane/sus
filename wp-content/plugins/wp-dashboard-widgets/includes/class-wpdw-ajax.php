@@ -292,7 +292,7 @@ class WPDW_Ajax {
 */
     function resource_title_and_url_to_widget()
     {
-        $response['url'] = $_SESSION['url'];
+        $response['url'] = $_SESSION['url'].'&action=edit';
         $response['resource_name']= $_SESSION['resource_name'];
         $response['post_id']= $_SESSION['post_id'];
 
