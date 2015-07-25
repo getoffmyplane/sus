@@ -13,7 +13,7 @@ Locked: true
 
 <p>
   
-  <h4><?php _e('Help with Piklist is just a click away.')?></h4>
+  <h4><?php _e('Help with Piklist is just one click away.')?></h4>
 
   <ol>
     <li><a href="http://piklist.com/user-guide/tutorials?#utm_source=wpadmin&utm_medium=piklistdemos&utm_campaign=piklistplugin" target="_blank"><?php _e('Tutorials'); ?></a></li>

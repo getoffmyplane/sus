@@ -49,6 +49,9 @@ class WPDW_Ajax {
         add_action('publish_log', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('publish_metric', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('wp_ajax_resource_title_and_url_to_widget', array($this,'resource_title_and_url_to_widget'));
+
+        // Strategy pane function hooks
+        add_action('wp_ajax_log_current_activity_step_to_user_meta', array($this,'log_current_activity_step_to_user_meta'));
     }
 
     /*
@@ -279,7 +282,8 @@ class WPDW_Ajax {
     function set_resource_title_and_url_for_widget($ID, $post)
     {
         $_SESSION['resource_name'] = get_the_title($ID);
-        $_SESSION['url'] = get_permalink($ID);
+        //$_SESSION['url'] = get_permalink($ID);
+        $_SESSION['url'] = get_edit_post_link($ID,'');
     }
 /*
     function resource_title_and_url_to_widget()
@@ -299,6 +303,18 @@ class WPDW_Ajax {
         //CLEAR SESSION SHOULD GO HERE
         echo json_encode($response);
         exit;
+    }
+
+    function log_current_activity_step_to_user_meta()
+    {
+        //get current user's id
+        $user_id = get_current_user_id();
+        //key = column name in user_meta table to check
+        $key = 'current_activity_step_id';
+        //get currently running activity step
+        $current_activity_step = $_POST['current_activity_step'];
+        //set user meta data (for persistent running strategy) in database
+        update_user_meta($user_id, $key, $current_activity_step);
     }
 
 }

@@ -3,7 +3,7 @@
 Post Type: piklist_demo
 Order: 100
 Lock: true
-Meta box: false
+Meta box: true
 */
 
   piklist('field', array(

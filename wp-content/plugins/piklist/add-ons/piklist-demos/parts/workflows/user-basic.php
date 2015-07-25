@@ -1,7 +1,7 @@
 <?php
 /*
 Title: Basic
-Order: 30
+Order: 10
 Flow: User Test
 */
 
