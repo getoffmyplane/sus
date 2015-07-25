@@ -11,7 +11,8 @@ piklist('include_user_profile_fields', array(
         'Name',
         'Contact Info',
         'Beliefs & Values',
-        'Skills'
+        'Skills',
+        'Strategy Pane'
     )
 ));
 

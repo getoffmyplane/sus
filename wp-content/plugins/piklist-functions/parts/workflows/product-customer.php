@@ -14,7 +14,8 @@ Default: true
 <?php
 
 piklist('include_meta_boxes', array(
-    'piklist_meta_product_who_personas'
+    'piklist_meta_product_who_personas',
+    'piklist_meta_strategy_pane'
 ));
 
 piklist('shared/code-locater', array(

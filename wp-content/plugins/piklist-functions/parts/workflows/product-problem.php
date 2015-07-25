@@ -17,7 +17,8 @@ Flow: Product
 
 //Problem Insights
 piklist('include_meta_boxes', array(
-    'piklist_meta_product_problem_insights'
+    'piklist_meta_product_problem_insights',
+    'piklist_meta_strategy_pane'
 ));
 
 piklist('shared/code-locater', array(
