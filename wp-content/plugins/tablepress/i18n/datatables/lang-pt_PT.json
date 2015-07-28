@@ -1,0 +1,18 @@
+{
+	"info":			"Mostrando de _START_ até _END_ de _TOTAL_ registos",
+	"infoEmpty":	"Mostrando de 0 até 0 de 0 registros",
+	"infoFiltered":	"(filtrado de _MAX_ registos no total)",
+	"infoPostFix":	"",
+	"lengthMenu":	"Mostrar _MENU_ registos",
+	"processing":	"A processar...",
+	"search":		"Procurar:",
+	"zeroRecords":	"Não foram encontrados resultados",
+	"paginate": {
+		"first":	"Primeiro",
+		"previous":	"Anterior",
+		"next":		"Seguinte",
+		"last":		"Último"
+	},
+	"decimal":		",",
+	"thousands":	"."
+}
