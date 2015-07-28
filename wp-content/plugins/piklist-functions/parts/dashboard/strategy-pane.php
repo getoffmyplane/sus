@@ -1,7 +1,9 @@
 <?php
 /*
 Title: Strategy Pane
-Capability: manage_options
+Capability: read
+Context: side
+Priority: high
 */
 
 /*

@@ -26,5 +26,3 @@ function my_remove_post_type_support()
     remove_post_type_support('persona', 'editor');
     remove_post_type_support('product-or-service', 'editor');
 }
-
-?>
