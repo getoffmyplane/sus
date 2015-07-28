@@ -41,13 +41,12 @@ class WPDW_Ajax {
         add_filter( 'default_title', array($this, 'widget_title_to_resource'));
 
         // Pass resource name and URL back to dashboard widget
-        add_action('publish_person', array($this, 'set_resource_title_and_url_for_widget'),10,2);
+        add_action('publish_persona', array($this, 'set_resource_title_and_url_for_widget'),10,2);
+        add_action('publish_people', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('publish_group', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('publish_product-or-service', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('publish_channel', array($this, 'set_resource_title_and_url_for_widget'),10,2);
-        add_action('publish_market', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('publish_log', array($this, 'set_resource_title_and_url_for_widget'),10,2);
-        add_action('publish_metric', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('wp_ajax_resource_title_and_url_to_widget', array($this,'resource_title_and_url_to_widget'));
 
         // Strategy pane function hooks
