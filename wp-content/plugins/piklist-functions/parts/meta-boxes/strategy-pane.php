@@ -1,9 +1,10 @@
 <?php
 /*
  * Title: Strategy Pane
- * Post Type: person, group, product-or-service, channel, persona
+ * Post Type: person, group, product-or-service, channel, persona, log
  * Order: 1
  * Context: side
+ * Priority: high
 */
 
 /*
