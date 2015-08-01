@@ -123,7 +123,8 @@ class SearchAutocomplete {
 	public function acCallback() {
 		global $wpdb,
 		       $query,
-				$wp_query;
+				$wp_query,
+                $user_ID;
 		$resultsPosts = array();
 		$resultsTerms = array();
 		$term         = sanitize_text_field( $_GET['term'] );
@@ -142,9 +143,11 @@ class SearchAutocomplete {
 					'suppress_filters' => false,
 					's'                => $term,
 					'numberposts'      => $this->options['autocomplete_numrows'],
+                    'author'           => $user_ID,
 					'post_type'        => $this->options['autocomplete_posttypes'],
 				) );
-			}
+                unset($user_ID);
+            }
 			foreach ( $tempPosts as $post ) {
 				$tempObject = array(
 					'id'       => $post->ID,
@@ -166,6 +169,7 @@ class SearchAutocomplete {
 					'url'   => $linkURL,
 				);
 			}
+
 		}
 		if ( count( $this->options['autocomplete_taxonomies'] ) > 0 ) {
 			$taxonomyTypes         = "AND ( tax.taxonomy = '" . implode( "' OR tax.taxonomy = '", $this->options['autocomplete_taxonomies'] ) . "') ";

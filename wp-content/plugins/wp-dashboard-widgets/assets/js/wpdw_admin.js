@@ -573,6 +573,34 @@ jQuery( document ).ready( function($) {
         });
     });
 
+    // If page opened in cbox, don't show admin bar and left-menu
+    $(document).on('cbox_complete', function () {
+        //hide toolbar
+        $("iframe").contents().find("#wpadminbar").css("display","none");
+        //hide left-menu
+        $("iframe").contents().find("#adminmenuback").css("display","none");
+        $("iframe").contents().find("#adminmenuwrap").css("display","none");
+        //move content left & up to fill gaps left by menus
+        $("iframe").contents().find("html.wp-toolbar").css("padding-top","0px");
+        $("iframe").contents().find("#wpcontent").css("margin-left","0px");
+
+        //add id to colorbox for frameready to check against
+        //cboxName = ($("iframe").attr('name'));
+        //window.iframe_name = window.frameElement;
+    })
+
+    $(document).ready(function(){
+        if (self != top) {
+            //hide toolbar
+            $("#wpadminbar").css("display","none");
+            //hide left-menu
+            $("#adminmenuback").css("display","none");
+            $("#adminmenuwrap").css("display","none");
+            //move content left & up to fill gaps left by menus
+            $("html.wp-toolbar").css("padding-top","0px");
+            $("#wpcontent").css("margin-left","0px");
+        }
+    });
 
 });
 //

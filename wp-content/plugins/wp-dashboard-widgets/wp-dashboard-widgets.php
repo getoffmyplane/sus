@@ -161,7 +161,7 @@ class WP_Dashboard_Widgets {
         // jQuery BlockUI plugin (prevent user interaction during Ajax calls
         wp_enqueue_script( 'jquery_block_ui', plugin_dir_url ( __FILE__) . 'assets/js/jquery.blockUI.js' );
 
-		// Stylesheet
+ 		// Stylesheet
 		wp_enqueue_style( 'wpdw_admin_css', plugin_dir_url( __FILE__ ) . 'assets/css/wpdw_admin.css', array( 'dashicons' ), $this->version );
 
 	}
