@@ -61,3 +61,78 @@ function if_opened_in_cbox_hide_admin_bar_and_menu($query)
 
     }
 }
+
+//allow checkbox tag past WP KSES & TinyMCE
+// They currently get stripped for authors which breaks the to-do list widget
+
+add_action( 'init', function () {
+    global $allowedtags;
+
+    $allowedtags['input'] = array(
+        'type' => array()
+    );
+});
+
+/**
+ * Add to extended_valid_elements for TinyMCE
+ *
+ * @param $init assoc. array of TinyMCE options
+ * @return $init the changed assoc. array
+ */
+function my_change_mce_options( $init ) {
+    // Command separated string of extended elements
+    $ext = '*[*]';
+
+    // Add to extended_valid_elements if it alreay exists
+    if ( isset( $init['extended_valid_elements'] ) ) {
+        $init['extended_valid_elements'] .= ',' . $ext;
+    } else {
+        $init['extended_valid_elements'] = $ext;
+    }
+
+    // Super important: return $init!
+    return $init;
+}
+
+add_filter('tiny_mce_before_init', 'my_change_mce_options');
+
+add_action( 'init', function() {
+    kses_remove_filters();
+    //echo allowed_tags();
+});
+
+//add_action( 'init', 'allow_checkboxes_for_authors' );
+//
+//function allow_checkboxes_for_authors()
+//{
+//    global $allowedposttags;
+//
+//    $tags = array( 'input' );
+//    $new_attributes = array( 'contenteditable' => array() );
+//
+//    foreach ( $tags as $tag )
+//    {
+//        if ( isset( $allowedposttags[ $tag ] ) && is_array( $allowedposttags[ $tag ] ) )
+//            $allowedposttags[ $tag ] = array_merge( $allowedposttags[ $tag ], $new_attributes );
+//    }
+//}
+//
+//add_filter('tiny_mce_before_init', 'allow_checkboxes_for_authors_filter_tiny_mce_before_init');
+//function allow_checkboxes_for_authors_filter_tiny_mce_before_init( $options ) {
+//
+//    if ( ! isset( $options['extended_valid_elements'] ) ) {
+//        $options['extended_valid_elements'] = '';
+//    } else {
+//        $options['extended_valid_elements'] .= ',';
+//    }
+//
+//    if ( ! isset( $options['custom_elements'] ) ) {
+//        $options['custom_elements'] = '';
+//    } else {
+//        $options['custom_elements'] .= ',';
+//    }
+//
+//    $options['extended_valid_elements'] .= 'input';
+//    $options['custom_elements']         .= 'input';
+//    return $options;
+//}
