@@ -41,14 +41,16 @@ class WPDW_Ajax {
         add_filter( 'default_title', array($this, 'widget_title_to_resource'));
 
         // Pass resource name and URL back to dashboard widget
-        add_action('publish_person', array($this, 'set_resource_title_and_url_for_widget'),10,2);
+        add_action('publish_persona', array($this, 'set_resource_title_and_url_for_widget'),10,2);
+        add_action('publish_people', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('publish_group', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('publish_product-or-service', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('publish_channel', array($this, 'set_resource_title_and_url_for_widget'),10,2);
-        add_action('publish_market', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('publish_log', array($this, 'set_resource_title_and_url_for_widget'),10,2);
-        add_action('publish_metric', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('wp_ajax_resource_title_and_url_to_widget', array($this,'resource_title_and_url_to_widget'));
+
+        // Pages opened in colourbox hooks
+        add_action('wp_ajax_set_opened_in_cb_session_variable_to_true', array($this, 'set_opened_in_cb_session_variable_to_true'));
 
         // Strategy pane function hooks
         add_action('wp_ajax_log_current_activity_step_to_user_meta', array($this,'log_current_activity_step_to_user_meta'));
@@ -255,7 +257,7 @@ class WPDW_Ajax {
         $_SESSION["selection"] = $_POST['sel'];
 
         //die("Hello World");
-        die ("Selection was ".$_SESSION["selection"]." URL=".$_SESSION["url"]." Resource Name=".$_SESSION["resource_name"]." ID=".$_SESSION['post_id']);
+        //die ("Selection was ".$_SESSION["selection"]." URL=".$_SESSION["url"]." Resource Name=".$_SESSION["resource_name"]." ID=".$_SESSION['post_id']);
     }
 
     /*
@@ -304,6 +306,20 @@ class WPDW_Ajax {
         echo json_encode($response);
         exit;
     }
+
+    /*
+     * Catcher function for if page opened in cbox, don't show admin bar and left-menu (in wpdw_admin.js)
+     */
+
+    function set_opened_in_cb_session_variable_to_true()
+    {
+        //set session variable to true if opening in colorbox. A wp filter is in the security settings plugin to listen for this (and unset the session variable when done)
+        $_SESSION['open_in_cb'] = 1;
+    }
+
+    /*
+     * Strategy pane - remember which strategy step the user is on regardless of what page they're on
+     */
 
     function log_current_activity_step_to_user_meta()
     {
