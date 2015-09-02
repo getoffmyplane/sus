@@ -104,7 +104,8 @@ function list_activities($sid)
                 'terms'    => $sid
             ),
         ),
-        'orderby'          => 'activity_step',
+        'meta_key'         => 'activity_step',
+        'orderby'          => 'meta_value meta_value_num',
         'order'            => 'ASC',
         'post_type'        => 'activity',
         'post_status'      => 'publish',

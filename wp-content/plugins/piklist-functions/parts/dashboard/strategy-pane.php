@@ -22,7 +22,8 @@ function select_another_strategy()
     }
     else // show [select another strategy link]
     {
-        echo '<div class="select_another_strategy"><a href="?sas=true">[Select another strategy]</a></div>';
+        echo '<div class="activity-header-container">';
+        echo '<div class="select-another-strategy"><a href="?sas=true"><img src="'.wp_get_attachment_url('726').'"/></a></div>';
     }
 };
 
@@ -55,7 +56,8 @@ function check_if_strategy_running()
 
             //echo out the strategy name
             $currently_running_strategy = $currently_running_strategy_array->name;
-            echo "The currently running strategy is: ".$currently_running_strategy;
+            echo '<div class="currently-running-strategy">'.$currently_running_strategy.'</div>';
+            echo '</div>';
             list_activities($sid);
         }
         //check if the user is currently running a strategy
@@ -84,14 +86,23 @@ function list_strategies()
     //list strategies
     $terms = get_terms( 'strategy' );
     if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
-        echo '<ul>';
         foreach ( $terms as $term ) {
-
+            echo '<div class="strategy-container">';
             // We successfully got a link. Print it out.
-            echo '<li><div class="strategy-list-item"><a href="?sid='.$term->term_id.'">' . $term->name . '</a></div></li>';
+            // Strategy Title
+            echo '<div class="strategy-list-item"><a href="?sid='.$term->term_id.'">' . $term->name . '</a></div>';
+            // Strategy Icon
+            echo '<div class="strategy-icon">';
+            $image_ids = get_term_meta($term->term_id,$key = 'strategy_icon');
+            foreach ($image_ids as $image_id)
+            {
+                echo '<a href="?sid='.$term->term_id.'"><img src="'.wp_get_attachment_url($image_id).'"/></a>';
+            }
+            echo '</div>';
+            // Strategy Description
             echo '<div class="strategy-list-item-description">'.$term->description.'</div>';
+            echo '</div>';
         }
-        echo '</ul>';
     }
 }
 
@@ -121,7 +132,6 @@ function list_activities($sid)
         //get currently running strategy
         $casid = get_user_meta($user_id, $key, true);
 
-        echo '<ul>';
         foreach ( $activities as $activity ) : setup_postdata( $activity );
             //check if currently running activity step in user meta == div id. if yes, show. if no, hide.
             if($casid == 'activity_step_'.$activity->activity_step)
@@ -133,11 +143,21 @@ function list_activities($sid)
                 $display_toggle = 'style="display: none;"';
             }
             // We successfully got an activity. Print it out.
-            echo '<li><div class="activity-title" id="activity_step_'.$activity->activity_step.'">'.$activity->activity_step.' - '.$activity->post_title.'</div>';
+            echo '<div class="activity-container">';
+            // Activity Icon
+            echo '<div class="activity-icon">';
+            $image_ids = get_post_meta($activity->ID,$key = 'activity_icon');
+            foreach ($image_ids as $image_id)
+            {
+                echo '<a href="?sid='.$activity->post_id.'"><img src="'.wp_get_attachment_url($image_id).'"/></a>';
+            }
+            echo '</div>';
+
+            // Activity name
+            echo '<div class="activity-title" id="activity_step_'.$activity->activity_step.'">'.$activity->post_title.'</div>';
             echo '<div class="activity-content" '.$display_toggle.' >'.$activity->post_content.'</div></li>';
-            //print_r($activity);
+            echo '</div>';
         endforeach;
-        echo '</ul>';
         wp_reset_postdata();
     }
 };

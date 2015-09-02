@@ -1,7 +1,111 @@
+/* Strategy pane*/
+
+#piklist-functions-strategy-pane
+{
+    font-family: 'Segoe UI Regular', 'Segoe UI';
+}
+
+div.strategy-container
+{
+    display: inline-block;
+    clear: left;
+    margin-top: 5px;
+    width: 100%;
+    border-bottom: 1px solid #EEE
+}
+
+div.strategy-list-item
+{
+    display: inline-block;
+    float: left;
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+div.strategy-icon
+{
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    max-width: 25%;
+    clear: left;
+}
+
+div.strategy-list-item-description
+{
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 10px;
+    text-wrap: normal;
+    max-width: 70%;
+    font-size: 18px;
+}
+
+/* Strategy pane -> Activities*/
+div.activity-header-container
+{
+    display: inline-block;
+    clear: left;
+    margin-top: 5px;
+    width: 100%;
+    border-bottom: 1px solid #EEE
+}
+
+div.select-another-strategy
+{
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    max-width: 25%;
+    clear: left;
+}
+
+div.currently-running-strategy
+{
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 41px;
+    text-wrap: normal;
+    max-width: 70%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.activity-container
+{
+    display: inline-block;
+    clear: left;
+    margin-top: 5px;
+    width: 100%;
+    border-bottom: 1px solid #EEE
+}
+
+div.activity-icon
+{
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    max-width: 25%;
+    clear: left;
+}
+
+div.activity-title
+{
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 41px;
+    text-wrap: normal;
+    max-width: 70%;
+    font-size: 18px;
+}
+
+/* Dashboard widgets */
+
 input[type=text].add-list-item, input[type=text].add-resource-item, input[type=textarea].add-note-item {
 	line-height:  normal;
 	border-radius: 3px;
-	height: 35px;*/
+	height: 35px;
 	padding: 5px 10px;
 	width: 75%;
 	border-color: #555;
