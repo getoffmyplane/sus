@@ -136,7 +136,9 @@ function list_activities($sid)
             //check if currently running activity step in user meta == div id. if yes, show. if no, hide.
             if($casid == 'activity_step_'.$activity->activity_step)
             {
-                $display_toggle = '';
+                //set as none - there is a bug here.
+                //$display_toggle = '';
+                $display_toggle = 'style="display: none;"';
             }
             else
             {
@@ -144,18 +146,62 @@ function list_activities($sid)
             }
             // We successfully got an activity. Print it out.
             echo '<div class="activity-container">';
+
+            echo '<div class="activity-header-container">';
             // Activity Icon
             echo '<div class="activity-icon">';
             $image_ids = get_post_meta($activity->ID,$key = 'activity_icon');
             foreach ($image_ids as $image_id)
             {
-                echo '<a href="?sid='.$activity->post_id.'"><img src="'.wp_get_attachment_url($image_id).'"/></a>';
+                //echo '<a href="?sid='.$activity->post_id.'"><img src="'.wp_get_attachment_url($image_id).'"/></a>';
+                echo '<img src="'.wp_get_attachment_url($image_id).'"/>';
             }
             echo '</div>';
 
             // Activity name
             echo '<div class="activity-title" id="activity_step_'.$activity->activity_step.'">'.$activity->post_title.'</div>';
-            echo '<div class="activity-content" '.$display_toggle.' >'.$activity->post_content.'</div></li>';
+            echo '</div>';
+            // Count number of paginated pages
+            $num_pages = substr_count($activity->post_content, '<!--nextpage-->') + 1;
+            //print_r($num_pages);
+
+            // If pagination exists, add the page content with selectors at the bottom
+            if ($num_pages > 1) {
+                // break out each page of content into $pages array
+                $pages = explode('<!--nextpage-->', $activity->post_content);
+                //print_r($pages);
+                echo '<div class="activity-content-container">';
+                foreach ($pages as $key => $page)
+                {
+                    $page_num = $key + 1;
+                    if($page_num == 1)
+                    {
+                        $display_toggle = '';
+                    }
+                    else
+                    {
+                        $display_toggle = 'style="display: none;"';
+                    }
+                    // echo page content
+                    echo '<div class="activity-content" '.$display_toggle.' >'.$page;
+
+                    // pagination buttons
+                    // page x of y
+                    echo '<div class="pagination"'.$display_toggle.'><span>Page '.$page_num.' of '.$num_pages.'</span>';
+                    // first - to be implemented - see http://sgwordpress.com/teaches/how-to-add-wordpress-pagination-without-a-plugin/?utm_source=twitterfeed&utm_medium=twitter
+                    // previous
+                    if( $page_num > 1) echo '<span class="previous-page">Previous</span>';
+                    // page numbers - to be implemented - see first
+                    // next
+                    if ($page_num != $num_pages) echo '<span class="next-page">Next</span>';
+                    // last  - to be implemented - see first
+                    echo '</div></div>';
+                }
+                echo '</div>';
+            } else { // else just add content with no pagination
+                echo '<div class="activity-content" '.$display_toggle.' >'.$activity->post_content.'</div>';
+            }
+
             echo '</div>';
         endforeach;
         wp_reset_postdata();

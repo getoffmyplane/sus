@@ -1,3 +1,8 @@
+/* html */
+html, body
+{
+    font-family: 'Segoe UI Regular', 'Segoe UI';
+}
 /* Strategy pane*/
 
 #piklist-functions-strategy-pane
@@ -100,7 +105,55 @@ div.activity-title
     font-size: 18px;
 }
 
+/* Strategy pane -> Activities -> Activity Content*/
+
+div.activity-content-container
+{
+    display: none;
+}
+
+div.activity-content
+{
+    /*display: block;*/
+    clear: both;
+}
+
+.pagination {
+    clear:both;
+    padding:5px 0;
+    position:relative;
+    font-size:11px;
+    line-height:13px;
+}
+
+.pagination span, .pagination a {
+    /*display: block;*/
+    float:left;
+    margin: 2px 2px 2px 0;
+    padding:6px 9px 5px 9px;
+    text-decoration:none;
+    width:auto;
+    color:#fff;
+    background: #555;
+}
+
+.pagination a:hover{
+    color:#fff;
+    background: #3279BB;
+}
+
+.pagination .current{
+    padding:6px 9px 5px 9px;
+    background: #3279BB;
+    color:#fff;
+}
+
 /* Dashboard widgets */
+
+/* hide "widget visibility icon until sharing features are added to the site*/
+.wpdw-toggle-visibility{
+    display: none;
+}
 
 input[type=text].add-list-item, input[type=text].add-resource-item, input[type=textarea].add-note-item {
 	line-height:  normal;
