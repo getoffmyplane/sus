@@ -51,7 +51,7 @@ jQuery( document ).ready( function($) {
                 };
 
                 $.post(ajaxurl, data, function (response) {
-                    alert('The server responded: ' + response);
+                    //alert('The server responded: ' + response);
                 });
                 //}
             })
@@ -458,7 +458,7 @@ jQuery( document ).ready( function($) {
         };
 
         $.post(ajaxurl, data, function (response) {
-            alert('The server responded: ' + response);
+            //alert('The server responded: ' + response);
         });
         //}
     })

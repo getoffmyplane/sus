@@ -22,7 +22,7 @@ function select_another_strategy()
     }
     else // show [select another strategy link]
     {
-        echo '<div class="activity-header-container">';
+        echo '<div class="act-header-container">';
         echo '<div class="select-another-strategy"><a href="?sas=true"><img src="'.wp_get_attachment_url('726').'"/></a></div>';
     }
 };
@@ -66,7 +66,7 @@ function check_if_strategy_running()
             $currently_running_strategy_array = get_term_by('id', absint($crsid), 'strategy');
             //echo out the strategy name
             $currently_running_strategy = $currently_running_strategy_array->name;
-            echo "The currently running strategy is: ".$currently_running_strategy;
+            echo '<div class="currently-running-strategy">'.$currently_running_strategy.'</div>';
             list_activities($crsid);
         }
         else

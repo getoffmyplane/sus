@@ -2,6 +2,9 @@
 /*
  * Title: Activity Feed
  * Post Type: person
+ * Context: normal
+ * Priority: high
+ * Order: 1
  */
 
 piklist('field', array(
