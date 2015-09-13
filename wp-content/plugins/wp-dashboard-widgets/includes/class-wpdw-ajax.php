@@ -174,7 +174,7 @@ class WPDW_Ajax {
 			'color'			=> '#ffffff',
 			'color_text'	=> 'white',
 			'visibility'	=> 'Everyone',
-			'widget_type'		=> 'resource',
+			'widget_type'		=> 'note',
 		) );
 		$content	= apply_filters( 'wpdw_content', $widget->post_content );
 		$colors		= apply_filters( 'wpdw_colors', array(
