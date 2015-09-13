@@ -13,14 +13,6 @@ Order: 30
 // NOTE: If the post_status of an attachment is anything but inherit or private it will NOT be
 // shown on the Media page in the admin, but it is in the database and can be found using query_posts
 // or get_posts or get_post etc....
-?>
-
-    <h3 class="demo-highlight">
-        <?php _e('Piklist comes standard with two upload fields: Basic and Media. The Media field works just like the standard WordPress media field, while the Basic uploader is great for simple forms.','piklist-demo');?>
-        <?php _e('The metabox "look" can be removed to provide a different look.','piklist-demo');?>
-    </h3>
-
-<?php
 
 /*
  * Triggers field

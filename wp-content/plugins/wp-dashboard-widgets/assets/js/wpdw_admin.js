@@ -51,7 +51,7 @@ jQuery( document ).ready( function($) {
                 };
 
                 $.post(ajaxurl, data, function (response) {
-                    alert('The server responded: ' + response);
+                    //alert('The server responded: ' + response);
                 });
                 //}
             })
@@ -458,7 +458,7 @@ jQuery( document ).ready( function($) {
         };
 
         $.post(ajaxurl, data, function (response) {
-            alert('The server responded: ' + response);
+            //alert('The server responded: ' + response);
         });
         //}
     })
@@ -554,16 +554,59 @@ jQuery( document ).ready( function($) {
      */
 
     $(document).ready(function(){
-        $('.activity-title').click(function(){
+        $('.activity-header-container').click(function(){
             //show / hide element after activity-title (activity-content)
-            $(this).next().animate(
-                {
-                    height: 'toggle'
-                }
-            );
+            $(this).next().toggle();
 
             //pass clicked activity-step to php to store as user meta (so that it's persistently shown)
             var c_a_s = $(this).attr('id');
+
+            //toggle display of other activities and change icon to back arrow
+            if($(this).next().is(':visible'))
+            {
+                //bold activity title text
+                $(this).css(
+                    {
+                        'font-weight': 'bold'
+                    }
+                );
+
+                //hide other activities (non-running)
+                $(this).parent().siblings().css(
+                    {
+                        display: 'none'
+                    }
+                );
+                //get original activity url (so that you can restore it on activity close)
+                original_image_url = $(this).find('.activity-icon').find('img').attr('src');
+                $(this).find('.activity-icon').find('img').attr('src', 'http://192.168.0.11/sus/wp-content/uploads/2015/09/34141513-back-modern-flat-icon-with-long-shadow-e1441082124992.jpg');
+
+                //show pagination
+                $(this).next().child().find('.pagination').css(
+                    {
+                        display: 'none'
+                    }
+                )
+            } else {
+                //unbold activity title text
+                $(this).css(
+                    {
+                        'font-weight': 'normal'
+                    }
+                );
+                $(this).parent().siblings().css(
+                    {
+                        display: 'inline-block'
+                    }
+                );
+                $(this).find('.activity-icon').find('img').attr('src', original_image_url);
+
+                $(this).nextAll().css(
+                    {
+                        display: 'none'
+                    }
+                )
+            }
 
             //alert(c_a_s);
 
@@ -578,6 +621,99 @@ jQuery( document ).ready( function($) {
 
         });
     });
+
+    /*
+    Pagination controls
+    */
+
+    $(document).ready(function(){
+        $('.previous-page').click(function(){
+            //show previous page hide current page
+            $(this).parent().parent().prev().css(
+                {
+                    display: 'block'
+                }
+            );
+            $(this).parent().parent().prev().find('div').css(
+                {
+                    display: 'block'
+                }
+            )
+
+            // hide current page
+            $(this).parent().parent().css(
+                {
+                    display: 'none'
+                }
+            );
+            $(this).parent().parent().find('div').css(
+                {
+                    display: 'none'
+                }
+            )
+
+            ////pass clicked activity-step to php to store as user meta (so that it's persistently shown)
+            //var c_a_s = $(this).attr('id');
+            //
+            ////alert(c_a_s);
+            //
+            //var data = {
+            //    action: 'log_current_activity_step_to_user_meta',
+            //    current_activity_step: c_a_s
+            //};
+            //
+            //$.post(ajaxurl, data, function (response) {
+            //    var resp = response;
+            //});
+
+        });
+    });
+
+    $(document).ready(function(){
+        $('.next-page').click(function(){
+            //show next page
+            $(this).parent().parent().next().css(
+                {
+                    display: 'block'
+                }
+            );
+            $(this).parent().parent().next().find('div').css(
+                {
+                    display: 'block'
+                }
+            )
+
+            // hide current page
+            $(this).parent().parent().css(
+                {
+                    display: 'none'
+                }
+            );
+            $(this).parent().parent().find('div').animate(
+                {
+                    display: 'none'
+                }
+            )
+
+
+            ////pass clicked activity-step to php to store as user meta (so that it's persistently shown)
+            //var c_a_s = $(this).attr('id');
+            //
+            ////alert(c_a_s);
+            //
+            //var data = {
+            //    action: 'log_current_activity_step_to_user_meta',
+            //    current_activity_step: c_a_s
+            //};
+            //
+            //$.post(ajaxurl, data, function (response) {
+            //    var resp = response;
+            //});
+
+        });
+    });
+
+
 
     // If page opened in cbox, don't show admin bar and left-menu
     $(document).on('cbox_complete', function () {
