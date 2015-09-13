@@ -74,7 +74,7 @@ jQuery( document ).ready( function($) {
                 }
 
                 $.post(ajaxurl, set_data, function (response) {
-                    var resource_att = $.parseJSON(response);
+                    var resource_att = $.parseJSON(response); 
                     var url = resource_att.url;
                     var resource_name = resource_att.resource_name;
 
