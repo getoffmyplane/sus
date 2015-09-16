@@ -579,7 +579,8 @@ jQuery( document ).ready( function($) {
                 );
                 //get original activity url (so that you can restore it on activity close)
                 original_image_url = $(this).find('.activity-icon').find('img').attr('src');
-                $(this).find('.activity-icon').find('img').attr('src','http://startupsite.duckdns.org/wp-content/uploads/2015/09/34141513-back-modern-flat-icon-with-long-shadow-e1441082124992.jpg');
+                //$(this).find('.activity-icon').find('img').attr('src','http://startupsite.duckdns.org/wp-content/uploads/2015/09/34141513-back-modern-flat-icon-with-long-shadow-e1441082124992.jpg');
+                $(this).find('.activity-icon').find('img').attr('src','http://192.168.0.11/sus/wp-content/uploads/2015/09/34141513-back-modern-flat-icon-with-long-shadow-e1441082124992.jpg');
 
                 //show pagination
                 $(this).next().child().find('.pagination').css(

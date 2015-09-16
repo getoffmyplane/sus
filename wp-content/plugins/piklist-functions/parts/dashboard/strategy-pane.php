@@ -71,7 +71,7 @@ function check_if_strategy_running()
         }
         else
         {
-            echo "No currently running strategy - please select a strategy from the list below:";
+            //echo "No currently running strategy - please select a strategy from the list below:";
             //list strategies
             list_strategies();
         }

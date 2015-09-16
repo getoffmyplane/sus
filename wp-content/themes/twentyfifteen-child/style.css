@@ -1,0 +1,11 @@
+/*
+Theme Name: TwentyFifteenChild
+Theme URI: http://www.wordpress.org
+Description: This is a child theme for Twenty Fifteen
+Author: Luke Woods
+Author URI: startupsite.duckdns.org
+Template: twentyfifteen
+Version: 0.1
+*/
+
+.site-title a, .site-description { color: pink; }
