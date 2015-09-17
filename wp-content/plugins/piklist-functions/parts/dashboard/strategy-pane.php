@@ -67,12 +67,14 @@ function check_if_strategy_running()
             //echo out the strategy name
             $currently_running_strategy = $currently_running_strategy_array->name;
             echo '<div class="currently-running-strategy">'.$currently_running_strategy.'</div>';
+            echo '</div>';
             list_activities($crsid);
         }
         else
         {
             //echo "No currently running strategy - please select a strategy from the list below:";
             //list strategies
+            echo '</div>';
             list_strategies();
         }
     }

@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list id="2b7b203f-eff4-42e0-a66c-a22a63d6421a" name="Default" comment="" />
-    <list default="true" id="8320761d-21b2-41c2-b998-958bb4bd6860" name="Default task" comment="0.1.0.3:&#10;* fixed url to back button in strategy pane">
+    <list default="true" id="8320761d-21b2-41c2-b998-958bb4bd6860" name="Default task" comment="0.1.1.2:&#10;* fixed widget move bug on dashboard caused by unclosed div in strategy pane">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/piklist-functions/parts/dashboard/strategy-pane.php" afterPath="$PROJECT_DIR$/wp-content/plugins/piklist-functions/parts/dashboard/strategy-pane.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sus.iws" />
@@ -34,8 +35,8 @@
       <file leaf-file-name="strategy-pane.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/piklist-functions/parts/dashboard/strategy-pane.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0015924" vertical-offset="663" max-vertical-offset="5525">
-              <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.78503186" vertical-offset="816" max-vertical-offset="5559">
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
                 <element signature="e#6#78#0#PHP" expanded="true" />
               </folding>
@@ -756,7 +757,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442445724888</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="0.1.1.2:&#10;* fixed widget move bug on dashboard caused by unclosed div in strategy pane">
+      <created>1442511918137</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1442511918137</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <option name="closeIssue" value="false" />
     <servers>
       <GitHub shared="false" url="https://github.com">
@@ -798,6 +805,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2570806" sideWeight="0.5011905" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -813,7 +821,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17973857" sideWeight="0.50357145" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.291939" sideWeight="0.8297619" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2570806" sideWeight="0.5011905" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18300654" sideWeight="0.6589286" order="5" side_tool="false" content_ui="tabs" />
@@ -857,7 +864,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="0.03 complete - see comment in issue #01" />
     <MESSAGE value="0.1 complete - see comment in issue #09" />
     <MESSAGE value="0.2 complete - see comment in issue #09" />
     <MESSAGE value="0.3 complete - see comment in issue #09" />
@@ -882,7 +888,8 @@
     <MESSAGE value="0.1.0.1:&#10;* Cleaned up Piklist metaboxes&#10;* Fixed GitHub upload error&#10;* Updated &quot;back arrow&quot; image url on strategy pane (it's hardcoded at the moment)" />
     <MESSAGE value="0.1.0.2:&#10;* Added twentyfifteen-child theme to display homepage and select resource pages properly" />
     <MESSAGE value="0.1.0.3:&#10;* fixed url to back button in strategy pane" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.1.0.3:&#10;* fixed url to back button in strategy pane" />
+    <MESSAGE value="0.1.1.2:&#10;* fixed widget move bug on dashboard caused by unclosed div in strategy pane" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1.1.2:&#10;* fixed widget move bug on dashboard caused by unclosed div in strategy pane" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\wamp\www\sus</wordpressPath>
@@ -1275,8 +1282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/piklist-functions/parts/dashboard/strategy-pane.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0015924" vertical-offset="663" max-vertical-offset="5525">
-          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.78503186" vertical-offset="816" max-vertical-offset="5559">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
             <element signature="e#6#78#0#PHP" expanded="true" />
           </folding>
