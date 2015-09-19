@@ -1,8 +1,9 @@
 <?php
 /*
  * Title: Strategy Pane
- * Post Type: post
+ * Post Type: person, group, product-or-service, channel, persona, log
  * Context: side
+ * Priority: default
 */
 
 // move back up to post type when you've fixed it
@@ -25,7 +26,7 @@ function select_another_strategy()
     else // show [select another strategy link]
     {
         echo '<div class="act-header-container">';
-        echo '<div class="select-another-strategy"><a href="?sas=true"><img src="'.wp_get_attachment_url('726').'"/></a></div>';
+        //echo '<div class="select-another-strategy"><a href="?sas=true"><img src="'.wp_get_attachment_url('726').'"/></a></div>';
     }
 };
 
@@ -69,12 +70,14 @@ function check_if_strategy_running()
             //echo out the strategy name
             $currently_running_strategy = $currently_running_strategy_array->name;
             echo '<div class="currently-running-strategy">'.$currently_running_strategy.'</div>';
+            echo '</div>';
             list_activities($crsid);
         }
         else
         {
-            echo "No currently running strategy - please select a strategy from the list below:";
+            //echo "No currently running strategy - please select a strategy from the list below:";
             //list strategies
+            echo '</div>';
             list_strategies();
         }
     }

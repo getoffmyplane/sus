@@ -3,6 +3,7 @@
 Title: Contact Details
 Order: 20
 Flow: Person
+Default: true
 */
 
 piklist('include_meta_boxes', array(

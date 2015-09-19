@@ -3,7 +3,6 @@
 Title: Activity Feed
 Order: 10
 Flow: Person
-Default: true
 */
 
 piklist('include_meta_boxes', array(
