@@ -57,43 +57,45 @@ jQuery( document ).ready( function($) {
             })
 
             // Get resource name and url from php and update widget resource name (PHP -> JQuery)
-            $(document).on('cbox_closed', function () {
-
-                /*$( document.activeElement ).closest('div[class="postbox"]').block(
-                 {
-                 message: '<h1>processing...</h1>',
-                 css: {border: '3px solid #a00'}
-                 }
-                 );*/
-
-                var set_data = {
-                    action: 'resource_title_and_url_to_widget',
-                    url: '',
-                    resource_name: '',
-                    post_id: ''
-                }
-
-                $.post(ajaxurl, set_data, function (response) {
-                    var resource_att = $.parseJSON(response); 
-                    var url = resource_att.url;
-                    var resource_name = resource_att.resource_name;
-
-                    $(document.activeElement).text(resource_name);
-                    $(document.activeElement).attr({
-                        href: url
-                    });
-                    if ($(document.activeElement).href != new_resource_url) {
-                        $(document.activeElement).removeClass('unlinked');
-                        $(document.activeElement).addClass('linked');
-                    }
-                    //$( this ).val( '' ); // Clear 'add item' field
-                    $(document.activeElement).trigger('widget-sortable');
-                    $(document.activeElement).trigger('wpdw-update', this);
-                })
-
-                //$( document.activeElement ).closest('div[class="postbox"]').unblock();
-
-            })
+            //$(document).on('cbox_closed', function () {
+            //
+            //    /*$( document.activeElement ).closest('div[class="postbox"]').block(
+            //     {
+            //     message: '<h1>processing...</h1>',
+            //     css: {border: '3px solid #a00'}
+            //     }
+            //     );*/
+            //
+            //    var set_data = {
+            //        action: 'resource_title_and_url_to_widget',
+            //        url: '',
+            //        resource_name: '',
+            //        post_id: ''
+            //    }
+            //
+            //    $.post(ajaxurl, set_data, function (response) {
+            //        var resource_att = $.parseJSON(response);
+            //        var url = resource_att.url;
+            //        var resource_name = resource_att.resource_name;
+            //
+            //        alert(resource_name + ' ' + url)
+            //
+            //        $(document.activeElement).text(resource_name);
+            //        $(document.activeElement).attr({
+            //            href: url
+            //        });
+            //        if ($(document.activeElement).href != new_resource_url) {
+            //            $(document.activeElement).removeClass('unlinked');
+            //            $(document.activeElement).addClass('linked');
+            //        }
+            //        //$( this ).val( '' ); // Clear 'add item' field
+            //        $(document.activeElement).trigger('widget-sortable');
+            //        $(document.activeElement).trigger('wpdw-update', this);
+            //    })
+            //
+            //    //$( document.activeElement ).closest('div[class="postbox"]').unblock();
+            //
+            //})
 
             $(this).val(''); // Clear 'add item' field
             $(this).trigger('widget-sortable');
@@ -464,45 +466,41 @@ jQuery( document ).ready( function($) {
     })
 
     // Get resource name and url from php and update widget resource name (PHP -> JQuery)
-    //$(document).on('cbox_closed', function () {
-    //
-    //    /*$( document.activeElement ).closest('div[class="postbox"]').block(
-    //     {
-    //     message: '<h1>processing...</h1>',
-    //     css: {border: '3px solid #a00'}
-    //     }
-    //     );*/
-    //
-    //    var set_data = {
-    //        action: 'resource_title_and_url_to_widget',
-    //        url: '',
-    //        resource_name: '',
-    //        post_id: ''
-    //    }
-    //
-    //    $.post(ajaxurl, set_data, function (response) {
-    //        var resource_att = $.parseJSON(response);
-    //        var url = resource_att.url;
-    //        var resource_name = resource_att.resource_name;
-    //
-    //        $(document.activeElement).text(resource_name);
-    //        $(document.activeElement).attr({
-    //            href: url
-    //        });
-    //
-    //        if ($(document.activeElement).href != new_resource_url) {
-    //            $(document.activeElement).removeClass('unlinked');
-    //            $(document.activeElement).addClass('linked');
-    //        }
-    //
-    //        //$( this ).val( '' ); // Clear 'add item' field
-    //        $(document.activeElement).trigger('widget-sortable');
-    //        $(document.activeElement).trigger('wpdw-update', this);
-    //    })
-    //
-    //    //$( document.activeElement ).closest('div[class="postbox"]').unblock();
-    //
-    //})
+    $(document).on('cbox_closed', function () {
+
+        var set_data = {
+            action: 'resource_title_and_url_to_widget',
+            url: '',
+            resource_name: '',
+            post_id: ''
+        }
+
+        $.post(ajaxurl, set_data, function (response) {
+            var resource_att = $.parseJSON(response);
+            var url = resource_att.url;
+            var resource_name = resource_att.resource_name;
+
+            //don't update the widget unless the user has saved their post && the cbox_closed trigger came from a new resource request and not somewhere else
+            if(url != new_resource_url && $(document.activeElement).parents('.wp-dashboard-widget').length) {
+                //alert('update widget after cbox close fired');
+
+                $(document.activeElement).text(resource_name);
+                $(document.activeElement).attr({
+                    href: url
+                });
+
+                if ($(document.activeElement).href != new_resource_url) {
+                    $(document.activeElement).removeClass('unlinked');
+                    $(document.activeElement).addClass('linked');
+                }
+
+                //$( this ).val( '' ); // Clear 'add item' field
+                $(document.activeElement).trigger('widget-sortable');
+                $(document.activeElement).trigger('wpdw-update', this);
+            }
+        })
+
+    })
 
     // Prevent background color and other style from copying from one widget to the other
     $('body').on('paste', '[contenteditable]', function (e) {

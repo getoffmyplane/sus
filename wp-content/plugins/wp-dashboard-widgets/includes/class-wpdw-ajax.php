@@ -42,7 +42,7 @@ class WPDW_Ajax {
 
         // Pass resource name and URL back to dashboard widget
         add_action('publish_persona', array($this, 'set_resource_title_and_url_for_widget'),10,2);
-        add_action('publish_people', array($this, 'set_resource_title_and_url_for_widget'),10,2);
+        add_action('publish_person', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('publish_group', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('publish_product-or-service', array($this, 'set_resource_title_and_url_for_widget'),10,2);
         add_action('publish_channel', array($this, 'set_resource_title_and_url_for_widget'),10,2);
@@ -286,6 +286,7 @@ class WPDW_Ajax {
         $_SESSION['resource_name'] = get_the_title($ID);
         //$_SESSION['url'] = get_permalink($ID);
         $_SESSION['url'] = get_edit_post_link($ID,'');
+        //die (" URL=".$_SESSION["url"]." Resource Name=".$_SESSION["resource_name"]);
     }
 /*
     function resource_title_and_url_to_widget()
