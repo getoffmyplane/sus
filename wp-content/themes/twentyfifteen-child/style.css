@@ -5,7 +5,9 @@ Description: This is a child theme for Twenty Fifteen
 Author: Luke Woods
 Author URI: startupsite.duckdns.org
 Template: twentyfifteen
-Version: 0.1
+Version: 2
 */
 
-.site-title a, .site-description { color: pink; }
+/* Import Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
