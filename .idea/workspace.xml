@@ -692,7 +692,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448914295837</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="0.1.1.5: added fail2ban to prevent brute force attacks (this is happening according to logs)">
+      <created>1448914379469</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1448914379469</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <option name="closeIssue" value="false" />
     <servers>
       <GitHub shared="false" url="https://github.com">
