@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list id="2b7b203f-eff4-42e0-a66c-a22a63d6421a" name="Default" comment="" />
-    <list default="true" id="8320761d-21b2-41c2-b998-958bb4bd6860" name="Default task" comment="0.1.1.4: update fonts to Roboto &amp; Roboto Slab&#10;                                                - Added admin-style.css to twentyfifteen-child&#10;                                                - Added function to admin_enqueue_scripts to child functions.php&#10;                                                - From now on, modify all CSS in the child theme">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/fail2ban/fail2ban.php" />
+    <list default="true" id="8320761d-21b2-41c2-b998-958bb4bd6860" name="Default task" comment="0.1.1.5: added fail2ban to prevent brute force attacks (this is happening according to logs)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sus.iws" />
@@ -66,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/fail2ban/fail2ban.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.3655914" vertical-offset="0" max-vertical-offset="558">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -687,7 +686,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444398293155</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="0.1.1.5: added fail2ban to prevent brute force attacks (this is happening according to logs)">
+      <created>1448914295837</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1448914295837</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <option name="closeIssue" value="false" />
     <servers>
       <GitHub shared="false" url="https://github.com">
@@ -729,6 +734,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2570806" sideWeight="0.5011905" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -737,14 +743,13 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19107144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21568628" sideWeight="0.5017857" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17973857" sideWeight="0.50357145" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.291939" sideWeight="0.8297619" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2570806" sideWeight="0.5011905" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18300654" sideWeight="0.6589286" order="5" side_tool="false" content_ui="tabs" />
@@ -788,7 +793,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="0.3 complete - see comment in issue #09" />
     <MESSAGE value="0.1 complete - see comment in issue #02" />
     <MESSAGE value="Issue #02&#10;* Added: New resource page for user to create new resources." />
     <MESSAGE value="Added js-cookie" />
@@ -813,7 +817,8 @@
     <MESSAGE value="0.1.1.2:&#10;* fixed widget move bug on dashboard caused by unclosed div in strategy pane" />
     <MESSAGE value="0.1.1.3: bug fixes&#10;- Set &quot;Contact Details&quot; as the default tab in the &quot;People&quot; app&#10;- Fix resource linkback function&#10;- Show strategy pane in post edit screens (with ability to change strategy disabled as it bugs out WordPress)&#10;" />
     <MESSAGE value="0.1.1.4: update fonts to Roboto &amp; Roboto Slab&#10;- Added admin-style.css to twentyfifteen-child&#10;- Added function to admin_enqueue_scripts to child functions.php&#10;- From now on, modify all CSS in the child theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.1.1.4: update fonts to Roboto &amp; Roboto Slab&#10;- Added admin-style.css to twentyfifteen-child&#10;- Added function to admin_enqueue_scripts to child functions.php&#10;- From now on, modify all CSS in the child theme" />
+    <MESSAGE value="0.1.1.5: added fail2ban to prevent brute force attacks (this is happening according to logs)" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1.1.5: added fail2ban to prevent brute force attacks (this is happening according to logs)" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\wamp\www\sus</wordpressPath>
@@ -1191,7 +1196,7 @@
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/fail2ban/fail2ban.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3655914" vertical-offset="0" max-vertical-offset="558">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
           <folding />
         </state>
       </provider>
