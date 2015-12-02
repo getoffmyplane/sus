@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list id="2b7b203f-eff4-42e0-a66c-a22a63d6421a" name="Default" comment="" />
-    <list default="true" id="8320761d-21b2-41c2-b998-958bb4bd6860" name="Default task" comment="0.1.1.5: added fail2ban to prevent brute force attacks (this is happening according to logs)">
+    <list default="true" id="8320761d-21b2-41c2-b998-958bb4bd6860" name="Default task" comment="0.1.1.6: updated db password for new server">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
     </list>
@@ -35,9 +35,11 @@
       <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.5483871" vertical-offset="102" max-vertical-offset="1462">
+              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+              <folding>
+                <element signature="e#6#581#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -633,7 +635,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448914577693</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="0.1.1.6: updated db password for new server">
+      <created>1449077526476</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1449077526476</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <option name="closeIssue" value="false" />
     <servers>
       <GitHub shared="false" url="https://github.com">
@@ -675,6 +683,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2570806" sideWeight="0.5011905" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -690,7 +699,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17973857" sideWeight="0.50357145" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.291939" sideWeight="0.8297619" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2570806" sideWeight="0.5011905" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18300654" sideWeight="0.6589286" order="5" side_tool="false" content_ui="tabs" />
@@ -734,7 +742,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="0.1 complete - see comment in issue #02" />
     <MESSAGE value="Issue #02&#10;* Added: New resource page for user to create new resources." />
     <MESSAGE value="Added js-cookie" />
     <MESSAGE value="Functions added to pass the resource title and url back from the WordPress post to the dashboard widget. It does not yet update the original name." />
@@ -759,7 +766,8 @@
     <MESSAGE value="0.1.1.3: bug fixes&#10;- Set &quot;Contact Details&quot; as the default tab in the &quot;People&quot; app&#10;- Fix resource linkback function&#10;- Show strategy pane in post edit screens (with ability to change strategy disabled as it bugs out WordPress)&#10;" />
     <MESSAGE value="0.1.1.4: update fonts to Roboto &amp; Roboto Slab&#10;- Added admin-style.css to twentyfifteen-child&#10;- Added function to admin_enqueue_scripts to child functions.php&#10;- From now on, modify all CSS in the child theme" />
     <MESSAGE value="0.1.1.5: added fail2ban to prevent brute force attacks (this is happening according to logs)" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.1.1.5: added fail2ban to prevent brute force attacks (this is happening according to logs)" />
+    <MESSAGE value="0.1.1.6: updated db password for new server" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1.1.6: updated db password for new server" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\wamp\www\sus</wordpressPath>
@@ -1137,9 +1145,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.5483871" vertical-offset="102" max-vertical-offset="1462">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="e#6#581#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
